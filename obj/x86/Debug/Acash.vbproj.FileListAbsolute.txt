@@ -1,0 +1,10 @@
+C:\Users\ahmad\Documents\Visual Studio 2013\Projects\Cash\Cash\bin\Debug\ConsoleApplication.exe.config
+C:\Users\ahmad\Documents\Visual Studio 2013\Projects\Cash\Cash\obj\x86\Debug\Acash.check.resources
+C:\Users\ahmad\Documents\Visual Studio 2013\Projects\Cash\Cash\obj\x86\Debug\Acash.currency.resources
+C:\Users\ahmad\Documents\Visual Studio 2013\Projects\Cash\Cash\obj\x86\Debug\Acash.del.resources
+C:\Users\ahmad\Documents\Visual Studio 2013\Projects\Cash\Cash\obj\x86\Debug\Acash.Form1.resources
+C:\Users\ahmad\Documents\Visual Studio 2013\Projects\Cash\Cash\obj\x86\Debug\Acash.idshow.resources
+C:\Users\ahmad\Documents\Visual Studio 2013\Projects\Cash\Cash\obj\x86\Debug\Acash.idss.resources
+C:\Users\ahmad\Documents\Visual Studio 2013\Projects\Cash\Cash\obj\x86\Debug\Acash.scanner.resources
+C:\Users\ahmad\Documents\Visual Studio 2013\Projects\Cash\Cash\obj\x86\Debug\Acash.textbox.resources
+C:\Users\ahmad\Documents\Visual Studio 2013\Projects\Cash\Cash\obj\x86\Debug\Acash.vbproj.GenerateResource.Cache

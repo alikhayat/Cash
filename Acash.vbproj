@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{1F03F44D-DD1E-4D6D-B169-DC49D0A2B0DD}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <StartupObject>
+    </StartupObject>
+    <RootNamespace>Acash</RootNamespace>
+    <AssemblyName>ConsoleApplication</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Console</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="Cash_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="check.Designer.vb">
+      <DependentUpon>check.vb</DependentUpon>
+    </Compile>
+    <Compile Include="check.vb" />
+    <Compile Include="currency.Designer.vb">
+      <DependentUpon>currency.vb</DependentUpon>
+    </Compile>
+    <Compile Include="currency.vb" />
+    <Compile Include="del.Designer.vb">
+      <DependentUpon>del.vb</DependentUpon>
+    </Compile>
+    <Compile Include="del.vb" />
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.vb" />
+    <Compile Include="idshow.Designer.vb">
+      <DependentUpon>idshow.vb</DependentUpon>
+    </Compile>
+    <Compile Include="idshow.vb" />
+    <Compile Include="idss.Designer.vb">
+      <DependentUpon>idss.vb</DependentUpon>
+    </Compile>
+    <Compile Include="idss.vb" />
+    <Compile Include="textbox.Designer.vb">
+      <DependentUpon>textbox.vb</DependentUpon>
+    </Compile>
+    <Compile Include="textbox.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="cash.ico" />
+    <Content Include="reports\24-01-2017.txt" />
+    <Content Include="reports\25-01-2017.txt" />
+    <Content Include="Resources\1.jpeg" />
+    <Content Include="Resources\10.jpeg" />
+    <Content Include="Resources\1000.jpeg" />
+    <Content Include="Resources\10000.jpeg" />
+    <Content Include="Resources\100000.jpeg" />
+    <Content Include="Resources\20000.jpeg" />
+    <Content Include="Resources\5.jpeg" />
+    <Content Include="Resources\5000.jpeg" />
+    <Content Include="Resources\50000.jpeg" />
+    <Content Include="Resources\download %281%29.jpeg" />
+    <Content Include="Resources\download %282%29.jpeg" />
+    <Content Include="Resources\download.jpeg" />
+    <Content Include="XMLFile1.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="check.resx">
+      <DependentUpon>check.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="currency.resx">
+      <DependentUpon>currency.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="del.resx">
+      <DependentUpon>del.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="idshow.resx">
+      <DependentUpon>idshow.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="idss.resx">
+      <DependentUpon>idss.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="scanner.resx" />
+    <EmbeddedResource Include="textbox.resx">
+      <DependentUpon>textbox.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="My Project\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,14 @@
+C:\Users\ahmad\documents\visual studio 2013\Projects\Cash\Cash\bin\ali\Cash.exe.config
+C:\Users\ahmad\documents\visual studio 2013\Projects\Cash\Cash\obj\ali\Cash.check.resources
+C:\Users\ahmad\documents\visual studio 2013\Projects\Cash\Cash\obj\ali\Cash.currency.resources
+C:\Users\ahmad\documents\visual studio 2013\Projects\Cash\Cash\obj\ali\Cash.del.resources
+C:\Users\ahmad\documents\visual studio 2013\Projects\Cash\Cash\obj\ali\Cash.Form1.resources
+C:\Users\ahmad\documents\visual studio 2013\Projects\Cash\Cash\obj\ali\Cash.idshow.resources
+C:\Users\ahmad\documents\visual studio 2013\Projects\Cash\Cash\obj\ali\Cash.idss.resources
+C:\Users\ahmad\documents\visual studio 2013\Projects\Cash\Cash\obj\ali\Cash.Resources.resources
+C:\Users\ahmad\documents\visual studio 2013\Projects\Cash\Cash\obj\ali\Cash.security.resources
+C:\Users\ahmad\documents\visual studio 2013\Projects\Cash\Cash\obj\ali\Cash.textbox.resources
+C:\Users\ahmad\documents\visual studio 2013\Projects\Cash\Cash\obj\ali\Cash.vbproj.GenerateResource.Cache
+C:\Users\ahmad\documents\visual studio 2013\Projects\Cash\Cash\obj\ali\Cash.TrustInfo.xml
+C:\Users\ahmad\documents\visual studio 2013\Projects\Cash\Cash\obj\ali\Cash.exe.manifest
+C:\Users\ahmad\documents\visual studio 2013\Projects\Cash\Cash\obj\ali\Cash.exe

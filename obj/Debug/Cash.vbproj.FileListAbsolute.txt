@@ -1,0 +1,59 @@
+C:\Users\ahmad\documents\visual studio 2013\Projects\Cash\Cash\bin\Debug\ids.mdb
+C:\Users\ahmad\documents\visual studio 2013\Projects\Cash\Cash\bin\Debug\idsDataSet.Designer.vb
+C:\Users\ahmad\documents\visual studio 2013\Projects\Cash\Cash\bin\Debug\idsDataSet.xsc
+C:\Users\ahmad\documents\visual studio 2013\Projects\Cash\Cash\bin\Debug\idsDataSet.xsd
+C:\Users\ahmad\documents\visual studio 2013\Projects\Cash\Cash\bin\Debug\idsDataSet.xss
+C:\Users\ahmad\documents\visual studio 2013\Projects\Cash\Cash\bin\Debug\Cash.exe.config
+C:\Users\ahmad\documents\visual studio 2013\Projects\Cash\Cash\bin\Debug\Cash.exe
+C:\Users\ahmad\documents\visual studio 2013\Projects\Cash\Cash\bin\Debug\Cash.pdb
+C:\Users\ahmad\documents\visual studio 2013\Projects\Cash\Cash\bin\Debug\Cash.xml
+C:\Users\ahmad\documents\visual studio 2013\Projects\Cash\Cash\bin\Debug\twainlib.dll
+C:\Users\ahmad\documents\visual studio 2013\Projects\Cash\Cash\bin\Debug\twainlib.pdb
+C:\Users\ahmad\documents\visual studio 2013\Projects\Cash\Cash\bin\Debug\twainlib.xml
+C:\Users\ahmad\documents\visual studio 2013\Projects\Cash\Cash\obj\Debug\Cash.check.resources
+C:\Users\ahmad\documents\visual studio 2013\Projects\Cash\Cash\obj\Debug\Cash.currency.resources
+C:\Users\ahmad\documents\visual studio 2013\Projects\Cash\Cash\obj\Debug\Cash.del.resources
+C:\Users\ahmad\documents\visual studio 2013\Projects\Cash\Cash\obj\Debug\Cash.Form1.resources
+C:\Users\ahmad\documents\visual studio 2013\Projects\Cash\Cash\obj\Debug\Cash.idshow.resources
+C:\Users\ahmad\documents\visual studio 2013\Projects\Cash\Cash\obj\Debug\Cash.idss.resources
+C:\Users\ahmad\documents\visual studio 2013\Projects\Cash\Cash\obj\Debug\Cash.Resources.resources
+C:\Users\ahmad\documents\visual studio 2013\Projects\Cash\Cash\obj\Debug\Cash.security.resources
+C:\Users\ahmad\documents\visual studio 2013\Projects\Cash\Cash\obj\Debug\Cash.sure.resources
+C:\Users\ahmad\documents\visual studio 2013\Projects\Cash\Cash\obj\Debug\Cash.textbox.resources
+C:\Users\ahmad\documents\visual studio 2013\Projects\Cash\Cash\obj\Debug\Cash.vbproj.GenerateResource.Cache
+C:\Users\ahmad\documents\visual studio 2013\Projects\Cash\Cash\obj\Debug\Cash.exe
+C:\Users\ahmad\documents\visual studio 2013\Projects\Cash\Cash\obj\Debug\Cash.xml
+C:\Users\ahmad\documents\visual studio 2013\Projects\Cash\Cash\obj\Debug\Cash.pdb
+D:\VB Projects\Cash\Cash\bin\Debug\Database2.mdb
+D:\VB Projects\Cash\Cash\bin\Debug\debit.mdb
+D:\VB Projects\Cash\Cash\bin\Debug\idss.mdb
+D:\VB Projects\Cash\Cash\bin\Debug\Cash.exe.config
+D:\VB Projects\Cash\Cash\bin\Debug\Cash.exe
+D:\VB Projects\Cash\Cash\bin\Debug\Cash.pdb
+D:\VB Projects\Cash\Cash\bin\Debug\Cash.xml
+D:\VB Projects\Cash\Cash\bin\Debug\Newtonsoft.Json.dll
+D:\VB Projects\Cash\Cash\bin\Debug\twainlib.dll
+D:\VB Projects\Cash\Cash\bin\Debug\Newtonsoft.Json.xml
+D:\VB Projects\Cash\Cash\bin\Debug\twainlib.pdb
+D:\VB Projects\Cash\Cash\bin\Debug\twainlib.xml
+D:\VB Projects\Cash\Cash\obj\Debug\Cash.Authenticate.resources
+D:\VB Projects\Cash\Cash\obj\Debug\Cash.check.resources
+D:\VB Projects\Cash\Cash\obj\Debug\Cash.currency.resources
+D:\VB Projects\Cash\Cash\obj\Debug\Cash.debitform.resources
+D:\VB Projects\Cash\Cash\obj\Debug\Cash.debitin.resources
+D:\VB Projects\Cash\Cash\obj\Debug\Cash.debits.resources
+D:\VB Projects\Cash\Cash\obj\Debug\Cash.del.resources
+D:\VB Projects\Cash\Cash\obj\Debug\Cash.Form1.resources
+D:\VB Projects\Cash\Cash\obj\Debug\Cash.idshow.resources
+D:\VB Projects\Cash\Cash\obj\Debug\Cash.idss.resources
+D:\VB Projects\Cash\Cash\obj\Debug\Cash.InventorySelection.resources
+D:\VB Projects\Cash\Cash\obj\Debug\Cash.Resources.resources
+D:\VB Projects\Cash\Cash\obj\Debug\Cash.security.resources
+D:\VB Projects\Cash\Cash\obj\Debug\Cash.Inventory.resources
+D:\VB Projects\Cash\Cash\obj\Debug\Cash.sure.resources
+D:\VB Projects\Cash\Cash\obj\Debug\Cash.textbox.resources
+D:\VB Projects\Cash\Cash\obj\Debug\Cash.vbproj.GenerateResource.Cache
+D:\VB Projects\Cash\Cash\obj\Debug\Cash.exe
+D:\VB Projects\Cash\Cash\obj\Debug\Cash.xml
+D:\VB Projects\Cash\Cash\obj\Debug\Cash.pdb
+D:\VB Projects\Cash\Cash\obj\Debug\Cash.vbprojResolveAssemblyReference.cache
