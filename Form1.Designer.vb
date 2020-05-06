@@ -299,6 +299,7 @@ Partial Class Form1
         Me.Button5 = New System.Windows.Forms.Button()
         Me.Button15 = New System.Windows.Forms.Button()
         Me.Button16 = New System.Windows.Forms.Button()
+        Me.Button17 = New System.Windows.Forms.Button()
         Me.FlowLayoutPanel1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -2476,11 +2477,20 @@ Partial Class Form1
         Me.Button16.Name = "Button16"
         Me.Button16.UseVisualStyleBackColor = False
         '
+        'Button17
+        '
+        Me.Button17.BackColor = System.Drawing.Color.DarkGray
+        resources.ApplyResources(Me.Button17, "Button17")
+        Me.Button17.ForeColor = System.Drawing.Color.Black
+        Me.Button17.Name = "Button17"
+        Me.Button17.UseVisualStyleBackColor = False
+        '
         'Form1
         '
         resources.ApplyResources(Me, "$this")
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ActiveBorder
+        Me.Controls.Add(Me.Button17)
         Me.Controls.Add(Me.Button16)
         Me.Controls.Add(Me.Button15)
         Me.Controls.Add(Me.Button14)
@@ -2788,5 +2798,6 @@ Partial Class Form1
     Friend WithEvents Button14 As System.Windows.Forms.Button
     Friend WithEvents Button15 As System.Windows.Forms.Button
     Friend WithEvents Button16 As System.Windows.Forms.Button
+    Friend WithEvents Button17 As System.Windows.Forms.Button
 
 End Class
