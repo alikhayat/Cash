@@ -1,4 +1,4 @@
-﻿Public Class InternetSale
+﻿Public Class InternetSales
 
     Private Sub CheckBox3_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBox3.CheckedChanged
         Try

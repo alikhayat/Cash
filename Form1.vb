@@ -2234,5 +2234,15 @@ Public Class Form1
         Dim txtbox As New textbox
 
     End Sub
+
+    Private Sub Button18_Click(sender As Object, e As EventArgs) Handles Button18.Click
+        Dim pas As String
+        pas = InputBox("Enter password")
+        If pas = My.Settings.Pass Then
+            InternetSettings.ShowDialog()
+        Else
+            MsgBox("Wrong Password")
+        End If
+    End Sub
 End Class
 

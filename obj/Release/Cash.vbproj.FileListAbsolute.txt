@@ -91,3 +91,6 @@ D:\VB Projects\Cash\Cash\obj\Release\Cash.xml
 D:\VB Projects\Cash\Cash\obj\Release\Cash.pdb
 D:\VB Projects\Cash\Cash\obj\Release\Cash.vbprojResolveAssemblyReference.cache
 D:\VB Projects\Cash\Cash\obj\Release\Cash.Authenticate.resources
+D:\VB Projects\Cash\Cash\obj\Release\Cash.InternetSales.resources
+D:\VB Projects\Cash\Cash\obj\Release\Cash.InternetSettings.resources
+D:\VB Projects\Cash\Cash\bin\Release\Bundles.mdb

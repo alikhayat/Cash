@@ -151,6 +151,16 @@
     <Compile Include="Authenticate.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="BundlesDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BundlesDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BundlesDataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BundlesDataSet1.xsd</DependentUpon>
+    </Compile>
     <Compile Include="check.Designer.vb">
       <DependentUpon>check.vb</DependentUpon>
     </Compile>
@@ -214,6 +224,18 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>idssDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="InternetSales.Designer.vb">
+      <DependentUpon>InternetSales.vb</DependentUpon>
+    </Compile>
+    <Compile Include="InternetSales.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InternetSettings.Designer.vb">
+      <DependentUpon>InternetSettings.vb</DependentUpon>
+    </Compile>
+    <Compile Include="InternetSettings.vb">
+      <SubType>Form</SubType>
     </Compile>
     <Compile Include="InventorySelection.Designer.vb">
       <DependentUpon>InventorySelection.vb</DependentUpon>
@@ -292,6 +314,12 @@
     <EmbeddedResource Include="idss.resx">
       <DependentUpon>idss.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="InternetSales.resx">
+      <DependentUpon>InternetSales.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InternetSettings.resx">
+      <DependentUpon>InternetSettings.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="InventorySelection.resx">
       <DependentUpon>InventorySelection.vb</DependentUpon>
     </EmbeddedResource>
@@ -317,6 +345,28 @@
   <ItemGroup>
     <None Include="app.manifest">
       <SubType>Designer</SubType>
+    </None>
+    <None Include="BundlesDataSet.xsc">
+      <DependentUpon>BundlesDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="BundlesDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BundlesDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BundlesDataSet.xss">
+      <DependentUpon>BundlesDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="BundlesDataSet1.xsc">
+      <DependentUpon>BundlesDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="BundlesDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BundlesDataSet1.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BundlesDataSet1.xss">
+      <DependentUpon>BundlesDataSet1.xsd</DependentUpon>
     </None>
     <None Include="Cash_TemporaryKey.pfx" />
     <None Include="debitDataSet.xsc">
@@ -386,6 +436,9 @@
     <None Include="Resources\100000.jpeg" />
     <None Include="Resources\download %281%29.jpeg" />
     <None Include="Resources\download %282%29.jpeg" />
+    <Content Include="Bundles.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="cash.ico" />
     <None Include="Resources\alfa.png" />
     <None Include="Resources\ogero.png" />
@@ -401,7 +454,6 @@
     <Content Include="idss.mdb">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="XMLFile1.xml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="reports\" />

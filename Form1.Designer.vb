@@ -293,13 +293,14 @@ Partial Class Form1
         Me.Button12 = New System.Windows.Forms.Button()
         Me.Button14 = New System.Windows.Forms.Button()
         Me.Button13 = New System.Windows.Forms.Button()
+        Me.Button15 = New System.Windows.Forms.Button()
+        Me.Button16 = New System.Windows.Forms.Button()
+        Me.Button17 = New System.Windows.Forms.Button()
+        Me.Button18 = New System.Windows.Forms.Button()
         Me.Button8 = New System.Windows.Forms.Button()
         Me.Button7 = New System.Windows.Forms.Button()
         Me.Button6 = New System.Windows.Forms.Button()
         Me.Button5 = New System.Windows.Forms.Button()
-        Me.Button15 = New System.Windows.Forms.Button()
-        Me.Button16 = New System.Windows.Forms.Button()
-        Me.Button17 = New System.Windows.Forms.Button()
         Me.FlowLayoutPanel1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -2431,6 +2432,35 @@ Partial Class Form1
         Me.Button13.Name = "Button13"
         Me.Button13.UseVisualStyleBackColor = False
         '
+        'Button15
+        '
+        Me.Button15.BackColor = System.Drawing.SystemColors.ButtonHighlight
+        resources.ApplyResources(Me.Button15, "Button15")
+        Me.Button15.Name = "Button15"
+        Me.Button15.UseVisualStyleBackColor = False
+        '
+        'Button16
+        '
+        Me.Button16.BackColor = System.Drawing.SystemColors.ButtonHighlight
+        resources.ApplyResources(Me.Button16, "Button16")
+        Me.Button16.Name = "Button16"
+        Me.Button16.UseVisualStyleBackColor = False
+        '
+        'Button17
+        '
+        Me.Button17.BackColor = System.Drawing.Color.DarkGray
+        resources.ApplyResources(Me.Button17, "Button17")
+        Me.Button17.ForeColor = System.Drawing.Color.Black
+        Me.Button17.Name = "Button17"
+        Me.Button17.UseVisualStyleBackColor = False
+        '
+        'Button18
+        '
+        Me.Button18.BackColor = System.Drawing.SystemColors.ButtonHighlight
+        resources.ApplyResources(Me.Button18, "Button18")
+        Me.Button18.Name = "Button18"
+        Me.Button18.UseVisualStyleBackColor = False
+        '
         'Button8
         '
         Me.Button8.BackColor = System.Drawing.Color.Fuchsia
@@ -2463,33 +2493,12 @@ Partial Class Form1
         Me.Button5.Name = "Button5"
         Me.Button5.UseVisualStyleBackColor = False
         '
-        'Button15
-        '
-        Me.Button15.BackColor = System.Drawing.SystemColors.ButtonHighlight
-        resources.ApplyResources(Me.Button15, "Button15")
-        Me.Button15.Name = "Button15"
-        Me.Button15.UseVisualStyleBackColor = False
-        '
-        'Button16
-        '
-        Me.Button16.BackColor = System.Drawing.SystemColors.ButtonHighlight
-        resources.ApplyResources(Me.Button16, "Button16")
-        Me.Button16.Name = "Button16"
-        Me.Button16.UseVisualStyleBackColor = False
-        '
-        'Button17
-        '
-        Me.Button17.BackColor = System.Drawing.Color.DarkGray
-        resources.ApplyResources(Me.Button17, "Button17")
-        Me.Button17.ForeColor = System.Drawing.Color.Black
-        Me.Button17.Name = "Button17"
-        Me.Button17.UseVisualStyleBackColor = False
-        '
         'Form1
         '
         resources.ApplyResources(Me, "$this")
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ActiveBorder
+        Me.Controls.Add(Me.Button18)
         Me.Controls.Add(Me.Button17)
         Me.Controls.Add(Me.Button16)
         Me.Controls.Add(Me.Button15)
@@ -2799,5 +2808,6 @@ Partial Class Form1
     Friend WithEvents Button15 As System.Windows.Forms.Button
     Friend WithEvents Button16 As System.Windows.Forms.Button
     Friend WithEvents Button17 As System.Windows.Forms.Button
+    Friend WithEvents Button18 As System.Windows.Forms.Button
 
 End Class
