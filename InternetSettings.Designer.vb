@@ -25,6 +25,15 @@ Partial Class InternetSettings
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(InternetSettings))
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
+        Me.IDDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DescriptionDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.BandwidthDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.LimitDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.CostDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.SalesPriceDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.ActiveDataGridViewCheckBoxColumn = New System.Windows.Forms.DataGridViewCheckBoxColumn()
+        Me.BundlesBindingSource = New System.Windows.Forms.BindingSource(Me.components)
+        Me.BundlesDataSet1 = New Cash.BundlesDataSet1()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Label7 = New System.Windows.Forms.Label()
@@ -41,21 +50,12 @@ Partial Class InternetSettings
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.BundleCount = New System.Windows.Forms.Label()
-        Me.BundlesDataSet1 = New Cash.BundlesDataSet1()
-        Me.BundlesBindingSource = New System.Windows.Forms.BindingSource(Me.components)
         Me.BundlesTableAdapter = New Cash.BundlesDataSet1TableAdapters.BundlesTableAdapter()
-        Me.IDDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.DescriptionDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.BandwidthDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.LimitDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.CostDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.SalesPriceDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.ActiveDataGridViewCheckBoxColumn = New System.Windows.Forms.DataGridViewCheckBoxColumn()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.GroupBox1.SuspendLayout()
-        CType(Me.BundlesDataSet1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.BundlesBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.BundlesDataSet1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -71,9 +71,73 @@ Partial Class InternetSettings
         Me.DataGridView1.DataSource = Me.BundlesBindingSource
         Me.DataGridView1.Location = New System.Drawing.Point(9, 21)
         Me.DataGridView1.Margin = New System.Windows.Forms.Padding(0)
+        Me.DataGridView1.MultiSelect = False
         Me.DataGridView1.Name = "DataGridView1"
         Me.DataGridView1.Size = New System.Drawing.Size(663, 189)
         Me.DataGridView1.TabIndex = 34
+        '
+        'IDDataGridViewTextBoxColumn
+        '
+        Me.IDDataGridViewTextBoxColumn.DataPropertyName = "ID"
+        Me.IDDataGridViewTextBoxColumn.HeaderText = "ID"
+        Me.IDDataGridViewTextBoxColumn.MaxInputLength = 3
+        Me.IDDataGridViewTextBoxColumn.Name = "IDDataGridViewTextBoxColumn"
+        Me.IDDataGridViewTextBoxColumn.Width = 30
+        '
+        'DescriptionDataGridViewTextBoxColumn
+        '
+        Me.DescriptionDataGridViewTextBoxColumn.DataPropertyName = "Description"
+        Me.DescriptionDataGridViewTextBoxColumn.HeaderText = "Description"
+        Me.DescriptionDataGridViewTextBoxColumn.MaxInputLength = 25
+        Me.DescriptionDataGridViewTextBoxColumn.Name = "DescriptionDataGridViewTextBoxColumn"
+        Me.DescriptionDataGridViewTextBoxColumn.Width = 200
+        '
+        'BandwidthDataGridViewTextBoxColumn
+        '
+        Me.BandwidthDataGridViewTextBoxColumn.DataPropertyName = "Bandwidth"
+        Me.BandwidthDataGridViewTextBoxColumn.HeaderText = "Bandwidth"
+        Me.BandwidthDataGridViewTextBoxColumn.MaxInputLength = 3
+        Me.BandwidthDataGridViewTextBoxColumn.Name = "BandwidthDataGridViewTextBoxColumn"
+        Me.BandwidthDataGridViewTextBoxColumn.Width = 70
+        '
+        'LimitDataGridViewTextBoxColumn
+        '
+        Me.LimitDataGridViewTextBoxColumn.DataPropertyName = "Limit"
+        Me.LimitDataGridViewTextBoxColumn.HeaderText = "Limit"
+        Me.LimitDataGridViewTextBoxColumn.MaxInputLength = 13
+        Me.LimitDataGridViewTextBoxColumn.Name = "LimitDataGridViewTextBoxColumn"
+        Me.LimitDataGridViewTextBoxColumn.Width = 70
+        '
+        'CostDataGridViewTextBoxColumn
+        '
+        Me.CostDataGridViewTextBoxColumn.DataPropertyName = "Cost"
+        Me.CostDataGridViewTextBoxColumn.HeaderText = "Cost"
+        Me.CostDataGridViewTextBoxColumn.MaxInputLength = 20
+        Me.CostDataGridViewTextBoxColumn.Name = "CostDataGridViewTextBoxColumn"
+        '
+        'SalesPriceDataGridViewTextBoxColumn
+        '
+        Me.SalesPriceDataGridViewTextBoxColumn.DataPropertyName = "Sales Price"
+        Me.SalesPriceDataGridViewTextBoxColumn.HeaderText = "Sales Price"
+        Me.SalesPriceDataGridViewTextBoxColumn.MaxInputLength = 20
+        Me.SalesPriceDataGridViewTextBoxColumn.Name = "SalesPriceDataGridViewTextBoxColumn"
+        '
+        'ActiveDataGridViewCheckBoxColumn
+        '
+        Me.ActiveDataGridViewCheckBoxColumn.DataPropertyName = "Active"
+        Me.ActiveDataGridViewCheckBoxColumn.HeaderText = "Active"
+        Me.ActiveDataGridViewCheckBoxColumn.Name = "ActiveDataGridViewCheckBoxColumn"
+        Me.ActiveDataGridViewCheckBoxColumn.Width = 50
+        '
+        'BundlesBindingSource
+        '
+        Me.BundlesBindingSource.DataMember = "Bundles"
+        Me.BundlesBindingSource.DataSource = Me.BundlesDataSet1
+        '
+        'BundlesDataSet1
+        '
+        Me.BundlesDataSet1.DataSetName = "BundlesDataSet1"
+        Me.BundlesDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
         '
         'GroupBox1
         '
@@ -243,70 +307,12 @@ Partial Class InternetSettings
         Me.BundleCount.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BundleCount.Location = New System.Drawing.Point(5, 213)
         Me.BundleCount.Name = "BundleCount"
-        Me.BundleCount.Size = New System.Drawing.Size(40, 24)
+        Me.BundleCount.Size = New System.Drawing.Size(0, 24)
         Me.BundleCount.TabIndex = 47
-        Me.BundleCount.Text = "L.L."
-        '
-        'BundlesDataSet1
-        '
-        Me.BundlesDataSet1.DataSetName = "BundlesDataSet1"
-        Me.BundlesDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
-        '
-        'BundlesBindingSource
-        '
-        Me.BundlesBindingSource.DataMember = "Bundles"
-        Me.BundlesBindingSource.DataSource = Me.BundlesDataSet1
         '
         'BundlesTableAdapter
         '
         Me.BundlesTableAdapter.ClearBeforeFill = True
-        '
-        'IDDataGridViewTextBoxColumn
-        '
-        Me.IDDataGridViewTextBoxColumn.DataPropertyName = "ID"
-        Me.IDDataGridViewTextBoxColumn.HeaderText = "ID"
-        Me.IDDataGridViewTextBoxColumn.Name = "IDDataGridViewTextBoxColumn"
-        Me.IDDataGridViewTextBoxColumn.Width = 30
-        '
-        'DescriptionDataGridViewTextBoxColumn
-        '
-        Me.DescriptionDataGridViewTextBoxColumn.DataPropertyName = "Description"
-        Me.DescriptionDataGridViewTextBoxColumn.HeaderText = "Description"
-        Me.DescriptionDataGridViewTextBoxColumn.Name = "DescriptionDataGridViewTextBoxColumn"
-        Me.DescriptionDataGridViewTextBoxColumn.Width = 200
-        '
-        'BandwidthDataGridViewTextBoxColumn
-        '
-        Me.BandwidthDataGridViewTextBoxColumn.DataPropertyName = "Bandwidth"
-        Me.BandwidthDataGridViewTextBoxColumn.HeaderText = "Bandwidth"
-        Me.BandwidthDataGridViewTextBoxColumn.Name = "BandwidthDataGridViewTextBoxColumn"
-        Me.BandwidthDataGridViewTextBoxColumn.Width = 70
-        '
-        'LimitDataGridViewTextBoxColumn
-        '
-        Me.LimitDataGridViewTextBoxColumn.DataPropertyName = "Limit"
-        Me.LimitDataGridViewTextBoxColumn.HeaderText = "Limit"
-        Me.LimitDataGridViewTextBoxColumn.Name = "LimitDataGridViewTextBoxColumn"
-        Me.LimitDataGridViewTextBoxColumn.Width = 70
-        '
-        'CostDataGridViewTextBoxColumn
-        '
-        Me.CostDataGridViewTextBoxColumn.DataPropertyName = "Cost"
-        Me.CostDataGridViewTextBoxColumn.HeaderText = "Cost"
-        Me.CostDataGridViewTextBoxColumn.Name = "CostDataGridViewTextBoxColumn"
-        '
-        'SalesPriceDataGridViewTextBoxColumn
-        '
-        Me.SalesPriceDataGridViewTextBoxColumn.DataPropertyName = "Sales Price"
-        Me.SalesPriceDataGridViewTextBoxColumn.HeaderText = "Sales Price"
-        Me.SalesPriceDataGridViewTextBoxColumn.Name = "SalesPriceDataGridViewTextBoxColumn"
-        '
-        'ActiveDataGridViewCheckBoxColumn
-        '
-        Me.ActiveDataGridViewCheckBoxColumn.DataPropertyName = "Active"
-        Me.ActiveDataGridViewCheckBoxColumn.HeaderText = "Active"
-        Me.ActiveDataGridViewCheckBoxColumn.Name = "ActiveDataGridViewCheckBoxColumn"
-        Me.ActiveDataGridViewCheckBoxColumn.Width = 50
         '
         'GroupBox2
         '
@@ -339,10 +345,10 @@ Partial Class InternetSettings
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Internet Settings"
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.BundlesBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.BundlesDataSet1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
-        CType(Me.BundlesDataSet1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.BundlesBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
         Me.GroupBox2.ResumeLayout(False)
         Me.GroupBox2.PerformLayout()
         Me.ResumeLayout(False)
@@ -368,6 +374,7 @@ Partial Class InternetSettings
     Friend WithEvents BundlesDataSet1 As Cash.BundlesDataSet1
     Friend WithEvents BundlesBindingSource As System.Windows.Forms.BindingSource
     Friend WithEvents BundlesTableAdapter As Cash.BundlesDataSet1TableAdapters.BundlesTableAdapter
+    Friend WithEvents GroupBox2 As System.Windows.Forms.GroupBox
     Friend WithEvents IDDataGridViewTextBoxColumn As System.Windows.Forms.DataGridViewTextBoxColumn
     Friend WithEvents DescriptionDataGridViewTextBoxColumn As System.Windows.Forms.DataGridViewTextBoxColumn
     Friend WithEvents BandwidthDataGridViewTextBoxColumn As System.Windows.Forms.DataGridViewTextBoxColumn
@@ -375,5 +382,4 @@ Partial Class InternetSettings
     Friend WithEvents CostDataGridViewTextBoxColumn As System.Windows.Forms.DataGridViewTextBoxColumn
     Friend WithEvents SalesPriceDataGridViewTextBoxColumn As System.Windows.Forms.DataGridViewTextBoxColumn
     Friend WithEvents ActiveDataGridViewCheckBoxColumn As System.Windows.Forms.DataGridViewCheckBoxColumn
-    Friend WithEvents GroupBox2 As System.Windows.Forms.GroupBox
 End Class

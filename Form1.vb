@@ -46,6 +46,7 @@ Public Class Form1
     Public profitt(249) As Decimal
     Public omtt As Decimal
     Public omtc As Integer
+    Public InternetAcc As Decimal
     Private streamToPrint As StreamReader
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
@@ -72,6 +73,7 @@ Public Class Form1
         ogc = My.Settings.ogeroc
         omtt = My.Settings.omtt
         omtc = My.Settings.omtc
+        InternetAcc = Get_InternetAccount()
 
         retc()
         updlist()
@@ -83,11 +85,54 @@ Public Class Form1
         retrieve()
 
         FlowLayoutPanel1.ScrollControlIntoView(lbl)
-
-
     End Sub
-
-
+    Private Function Get_InternetAccount() As Decimal
+        Dim con As New OleDb.OleDbConnection(My.Settings.BundlesConnectionString)
+        Try
+            If Not con.State = ConnectionState.Open Then
+                con.Open()
+            End If
+            Dim myadapter As New OleDb.OleDbDataAdapter("SELECT [Account Balance] FROM [InternetSettings]", con)
+            Dim ds As New DataSet
+            myadapter.Fill(ds, "InternetSettings")
+            If ds.Tables("InternetSettings").Rows.Count <> 0 Then
+                If ds.Tables("InternetSettings").Rows(0)(0) <> Nothing Then
+                    Return ds.Tables("InternetSettings").Rows(0)(0)
+                Else
+                    Return 0
+                End If
+            Else
+                Return 0
+            End If
+        Catch ex As Exception
+            Return 0
+        Finally
+            If con.State = ConnectionState.Open Then
+                con.Close()
+            End If
+            Finalize()
+        End Try
+    End Function
+    Private Function UpdateInternetAcc(ByVal Val As Decimal) As Boolean
+        Dim con As New OleDb.OleDbConnection(My.Settings.BundlesConnectionString)
+        Try
+            Dim NewVal As Decimal = InternetAcc - Val
+            Dim sql As OleDb.OleDbCommand = New OleDb.OleDbCommand(String.Format("UPDATE InternetSettings SET [Account Balance] = {0}", NewVal), con)
+            If con.State = ConnectionState.Closed Then
+                con.Open()
+            End If
+            sql.ExecuteNonQuery()
+            InternetAcc = NewVal
+            Return True
+        Catch ex As Exception
+            Return False
+        Finally
+            If con.State = ConnectionState.Open Then
+                con.Close()
+            End If
+            Finalize()
+        End Try
+    End Function
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
 
@@ -2102,9 +2147,6 @@ Public Class Form1
             Catch ex As Exception
 
             End Try
-            
-
-
         Next
     End Sub
 
@@ -2187,7 +2229,104 @@ Public Class Form1
             closingg()
         End If
     End Sub
-    
+    Private Sub Button17_Click(sender As Object, e As EventArgs) Handles Button17.Click
+        count += 1
+        If lbl.Text = "" Then
+            lbl = labelarray(count - 1)
+        Else
+            lbl = labelarray(count - 1)
+
+        End If
+        InternetAccount()
+    End Sub
+    Private Sub InternetAccount()
+        ''textbox.Label3.Text = "Service"
+        ''textbox.Label3.Font = New Font("Microsoft Sans Serif", 14, FontStyle.Regular)
+        ''textbox.TextBox1.Location = New Point(114, 179)
+        ''textbox.Label3.Visible = True
+        ''textbox.CheckBox1.Visible = True
+        ''textbox.CheckBox2.Visible = True
+        ''textbox.CheckBox1.Checked = False
+        ''textbox.CheckBox2.Checked = False
+        ''textbox.TextBox1.Visible = True
+        ''textbox.CheckBox4.Visible = False
+        ''textbox.CheckBox4.Checked = False
+        ''textbox.CheckBox3.Visible = False
+        ''textbox.Label4.Visible = False
+        ''textbox.Label2.Text = ""
+        ''textbox.clicked = False
+        ''textbox.ShowDialog()
+        ''textbox.input.Focus()
+        Dim InternetSale As New InternetSales
+        Dim DialogResult = InternetSale.ShowDialog()
+        If DialogResult = Windows.Forms.DialogResult.Cancel Then
+            count -= 1
+            Exit Sub
+        ElseIf DialogResult = Windows.Forms.DialogResult.OK Then
+            Dim Val As Decimal = CDec(InternetSale.input.Text)
+            If InternetAcc - val < 0 Then
+                MsgBox("Not enought credits in internet account")
+                Exit Sub
+            Else
+                If Not UpdateInternetAcc(Val) Then
+                    MsgBox("Error updating Internet Account")
+                    Exit Sub
+                End If
+            End If
+
+            lbl.Text = count & " )   " & String.Format("{0,-40}{1,-15}", val.ToString & " $", "(" & textbox.numb & ")") & "  " & TimeOfDay
+            lblval(count) = val
+            chkus(count) = True
+            chk(count) = False
+            sum = sum + val
+        End If
+
+        'If textbox.clicked = True Then
+        '    count -= 1
+        '    Exit Sub
+        'ElseIf ((textbox.valu = 0) Or (textbox.valu.ToString = "") Or (textbox.numb.Length = 0) Or (textbox.numb.Length > 12)) Then
+        '    MsgBox("invalid data")
+        '    count -= 1
+        '    Exit Sub
+        'ElseIf textbox.CheckBox1.Checked = False And textbox.CheckBox2.Checked = False Then
+        '    MsgBox("please choose balance")
+        '    omt()
+        'Else
+        '    If textbox.CheckBox1.Checked = True Then
+        '        Dim a As Decimal = textbox.valu
+
+
+        '        lbl.Text = count & " )   " & String.Format("{0,-20}{1,-20}{2,-15}", Decimal.Round(textbox.valu / ratee, 2, MidpointRounding.AwayFromZero) & " $", a.ToString & " L.L", "(" & textbox.numb & ")") & "  " & TimeOfDay
+
+        '        LBP -= a
+        '        chk(count) = True
+        '        chkus(count) = False
+        '        lblval(count) = textbox.valu / ratee
+        '        omtt += Decimal.Round(textbox.valu / ratee, 2, MidpointRounding.AwayFromZero)
+        '        sum = sum + textbox.valu / ratee
+        '    ElseIf textbox.CheckBox2.Checked = True Then
+        '        lbl.Text = count & " )   " & String.Format("{0,-40}{1,-15}", textbox.valu & " $", "(" & textbox.numb & ")") & "  " & TimeOfDay
+        '        usd -= textbox.valu
+        '        chkus(count) = True
+        '        chk(count) = False
+        '        lblval(count) = textbox.valu
+        '        omtt += textbox.valu
+        '        sum = sum + textbox.valu
+        '    End If
+
+
+
+        '    lbl.BackColor = Color.Gold
+
+        '    lbtotal.Text = Decimal.Round(sum, 2, MidpointRounding.AwayFromZero).ToString + " $"
+
+        '    omtc += 1
+
+        '    updlist()
+        '    FlowLayoutPanel1.ScrollControlIntoView(lbl)
+        '    closingg()
+        'End If
+    End Sub
 
     Private Sub Button14_Click(sender As Object, e As EventArgs) Handles Button14.Click
         debits.Visible = True

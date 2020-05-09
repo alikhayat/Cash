@@ -1,5 +1,5 @@
 ﻿Public Class InternetSettings
-    Dim con As New OleDb.OleDbConnection("PROVIDER=Microsoft.ACE.OLEDB.12.0;DATA SOURCE=" & Application.StartupPath() & "\Bundles.mdb;Jet OLEDB:Database Password=janitani")
+    Dim con As New OleDb.OleDbConnection(My.Settings.BundlesConnectionString)
     Dim dt As New DataTable
     Private Sub InternetSettings_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         'TODO: This line of code loads data into the 'BundlesDataSet1.Bundles' table. You can move, or remove it, as needed.
@@ -15,10 +15,9 @@
             If Not con.State = ConnectionState.Open Then
                 con.Open()
             End If
-            Dim myadapter As New OleDb.OleDbDataAdapter("select * from [InternetSettings]", con)
+            Dim myadapter As New OleDb.OleDbDataAdapter("SELECT * FROM [InternetSettings]", con)
             Dim ds As New DataSet
-            myadapter.Fill(ds, "InternetSettings")
-            dt = ds.Tables("InternetSettings")
+            myadapter.Fill(dt, "InternetSettings")
         Catch ex As Exception
             MsgBox("Unable to reach database,closing...")
             Me.Close()
@@ -38,8 +37,9 @@
     End Sub
     Private Function Get_ActiveBundlesCount() As String
         Dim Count As Integer = 0
+        Me.BundlesTableAdapter.Fill(Me.BundlesDataSet1.Bundles)
         For i As Integer = 0 To BundlesDataSet1.Tables(0).Rows.Count - 1
-            If BundlesDataSet1.Tables(0).Rows(i)(5) = True Then
+            If BundlesDataSet1.Tables(0).Rows(i)(6) = True Then
                 Count += 1
             End If
         Next
@@ -67,7 +67,11 @@
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         Try
             Dim sql As OleDb.OleDbCommand = New OleDb.OleDbCommand(String.Format("UPDATE InternetSettings SET [Account Balance] = {0},[VAT] = {1},[tabe3] = {2},[rate] = {3}", TextBox1.Text.Trim, TextBox2.Text.Trim, TextBox3.Text.Trim, TextBox4.Text.Trim), con)
+            If con.State = ConnectionState.Closed Then
+                con.Open()
+            End If
             sql.ExecuteNonQuery()
+            Form1.InternetAcc = CDec(TextBox1.Text.Trim)
             MsgBox("Updated")
         Catch ex As Exception
             MsgBox("Validation Error")
