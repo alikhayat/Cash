@@ -22,6 +22,7 @@ Partial Class currency
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(currency))
         Me.BackgroundWorker1 = New System.ComponentModel.BackgroundWorker()
         Me.WebBrowser1 = New System.Windows.Forms.WebBrowser()
         Me.Label1 = New System.Windows.Forms.Label()
@@ -45,7 +46,7 @@ Partial Class currency
         'WebBrowser1
         '
         Me.WebBrowser1.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.WebBrowser1.Location = New System.Drawing.Point(272, 12)
+        Me.WebBrowser1.Location = New System.Drawing.Point(264, 12)
         Me.WebBrowser1.MinimumSize = New System.Drawing.Size(20, 20)
         Me.WebBrowser1.Name = "WebBrowser1"
         Me.WebBrowser1.Size = New System.Drawing.Size(739, 465)
@@ -113,7 +114,7 @@ Partial Class currency
         Me.ourate.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.ourate.Location = New System.Drawing.Point(81, 138)
         Me.ourate.Name = "ourate"
-        Me.ourate.Size = New System.Drawing.Size(100, 23)
+        Me.ourate.Size = New System.Drawing.Size(112, 23)
         Me.ourate.TabIndex = 8
         Me.ourate.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
@@ -121,7 +122,7 @@ Partial Class currency
         '
         Me.NumericUpDown1.DecimalPlaces = 2
         Me.NumericUpDown1.Increment = New Decimal(New Integer() {1, 0, 0, 65536})
-        Me.NumericUpDown1.Location = New System.Drawing.Point(117, 112)
+        Me.NumericUpDown1.Location = New System.Drawing.Point(145, 112)
         Me.NumericUpDown1.Name = "NumericUpDown1"
         Me.NumericUpDown1.Size = New System.Drawing.Size(48, 20)
         Me.NumericUpDown1.TabIndex = 10
@@ -198,7 +199,7 @@ Partial Class currency
         Me.AcceptButton = Me.Button1
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1082, 461)
+        Me.ClientSize = New System.Drawing.Size(1067, 461)
         Me.Controls.Add(Me.RichTextBox1)
         Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.Button2)
@@ -215,7 +216,11 @@ Partial Class currency
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.WebBrowser1)
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
+        Me.MaximizeBox = False
+        Me.MinimizeBox = False
         Me.Name = "currency"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent
         Me.Text = "currency"
         CType(Me.NumericUpDown1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)

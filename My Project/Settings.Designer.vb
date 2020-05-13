@@ -917,6 +917,30 @@ Namespace My
                 Return CType(Me("BundlesConnectionString"),String)
             End Get
         End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("0")>  _
+        Public Property InternetSales() As Decimal
+            Get
+                Return CType(Me("InternetSales"),Decimal)
+            End Get
+            Set
+                Me("InternetSales") = value
+            End Set
+        End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("0")>  _
+        Public Property InternetSalesCount() As Integer
+            Get
+                Return CType(Me("InternetSalesCount"),Integer)
+            End Get
+            Set
+                Me("InternetSalesCount") = value
+            End Set
+        End Property
     End Class
 End Namespace
 

@@ -8,8 +8,7 @@
         Fill_Dataset()
         Fill_Form(dt)
         BundleCount.Text = Get_ActiveBundlesCount()
-    End Sub
-    
+    End Sub    
     Private Sub Fill_Dataset()
         Try
             If Not con.State = ConnectionState.Open Then
@@ -61,7 +60,6 @@
         Finally
             BundleCount.Text = Get_ActiveBundlesCount()
         End Try
-        
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click

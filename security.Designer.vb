@@ -34,21 +34,21 @@ Partial Class security
         '
         'TextBox1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(108, 12)
+        Me.TextBox1.Location = New System.Drawing.Point(97, 6)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(100, 20)
         Me.TextBox1.TabIndex = 0
         '
         'TextBox2
         '
-        Me.TextBox2.Location = New System.Drawing.Point(108, 65)
+        Me.TextBox2.Location = New System.Drawing.Point(97, 51)
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.Size = New System.Drawing.Size(137, 20)
         Me.TextBox2.TabIndex = 1
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(170, 91)
+        Me.Button1.Location = New System.Drawing.Point(293, 91)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(75, 23)
         Me.Button1.TabIndex = 2
@@ -58,7 +58,7 @@ Partial Class security
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(48, 15)
+        Me.Label1.Location = New System.Drawing.Point(12, 9)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(56, 13)
         Me.Label1.TabIndex = 3
@@ -67,7 +67,7 @@ Partial Class security
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(23, 70)
+        Me.Label2.Location = New System.Drawing.Point(12, 56)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(81, 13)
         Me.Label2.TabIndex = 4
@@ -85,7 +85,7 @@ Partial Class security
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(29, 91)
+        Me.Button2.Location = New System.Drawing.Point(12, 91)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(75, 23)
         Me.Button2.TabIndex = 7
@@ -104,9 +104,13 @@ Partial Class security
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.TextBox2)
         Me.Controls.Add(Me.TextBox1)
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
+        Me.MaximizeBox = False
         Me.MaximumSize = New System.Drawing.Size(396, 245)
+        Me.MinimizeBox = False
         Me.MinimumSize = New System.Drawing.Size(362, 245)
         Me.Name = "security"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent
         Me.Text = "Activation"
         Me.ResumeLayout(False)
         Me.PerformLayout()

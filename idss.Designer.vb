@@ -23,6 +23,7 @@ Partial Class idss
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(idss))
         Me.fname = New System.Windows.Forms.Label()
         Me.lname = New System.Windows.Forms.Label()
         Me.type = New System.Windows.Forms.Label()
@@ -53,17 +54,6 @@ Partial Class idss
         Me.Label11 = New System.Windows.Forms.Label()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.btnSelectSource = New System.Windows.Forms.Button()
-        Me.Label12 = New System.Windows.Forms.Label()
-        Me.TextBox4 = New System.Windows.Forms.TextBox()
-        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
-        Me.scan = New System.Windows.Forms.Label()
-        Me.Label13 = New System.Windows.Forms.Label()
-        Me.scan2 = New System.Windows.Forms.Label()
-        Me.IdssDataSet = New Cash.idssDataSet()
-        Me.IdssBindingSource = New System.Windows.Forms.BindingSource(Me.components)
-        Me.IdssTableAdapter = New Cash.idssDataSetTableAdapters.idssTableAdapter()
         Me.DataGridViewTextBoxColumn11 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.DataGridViewTextBoxColumn12 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.DataGridViewTextBoxColumn13 = New System.Windows.Forms.DataGridViewTextBoxColumn()
@@ -75,11 +65,22 @@ Partial Class idss
         Me.DataGridViewTextBoxColumn19 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.DataGridViewTextBoxColumn20 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.ScanNumb2DataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.IdssBindingSource = New System.Windows.Forms.BindingSource(Me.components)
+        Me.IdssDataSet = New Cash.idssDataSet()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.btnSelectSource = New System.Windows.Forms.Button()
+        Me.Label12 = New System.Windows.Forms.Label()
+        Me.TextBox4 = New System.Windows.Forms.TextBox()
+        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
+        Me.scan = New System.Windows.Forms.Label()
+        Me.Label13 = New System.Windows.Forms.Label()
+        Me.scan2 = New System.Windows.Forms.Label()
+        Me.IdssTableAdapter = New Cash.idssDataSetTableAdapters.idssTableAdapter()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.IdssBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.IdssDataSet, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.IdssDataSet, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.IdssBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'fname
@@ -343,88 +344,6 @@ Partial Class idss
         Me.DataGridView1.Size = New System.Drawing.Size(1016, 194)
         Me.DataGridView1.TabIndex = 29
         '
-        'PictureBox1
-        '
-        Me.PictureBox1.Location = New System.Drawing.Point(202, 9)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(270, 234)
-        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-        Me.PictureBox1.TabIndex = 30
-        Me.PictureBox1.TabStop = False
-        '
-        'btnSelectSource
-        '
-        Me.btnSelectSource.Location = New System.Drawing.Point(456, 255)
-        Me.btnSelectSource.Name = "btnSelectSource"
-        Me.btnSelectSource.Size = New System.Drawing.Size(75, 23)
-        Me.btnSelectSource.TabIndex = 32
-        Me.btnSelectSource.Text = "2nd scan"
-        Me.btnSelectSource.UseVisualStyleBackColor = True
-        '
-        'Label12
-        '
-        Me.Label12.AutoSize = True
-        Me.Label12.Location = New System.Drawing.Point(795, 234)
-        Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(69, 13)
-        Me.Label12.TabIndex = 33
-        Me.Label12.Text = "phone numb:"
-        '
-        'TextBox4
-        '
-        Me.TextBox4.Location = New System.Drawing.Point(875, 230)
-        Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox4.TabIndex = 23
-        '
-        'PictureBox2
-        '
-        Me.PictureBox2.Location = New System.Drawing.Point(489, 9)
-        Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(284, 234)
-        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-        Me.PictureBox2.TabIndex = 34
-        Me.PictureBox2.TabStop = False
-        '
-        'scan
-        '
-        Me.scan.AutoSize = True
-        Me.scan.Location = New System.Drawing.Point(74, 260)
-        Me.scan.Name = "scan"
-        Me.scan.Size = New System.Drawing.Size(0, 13)
-        Me.scan.TabIndex = 35
-        '
-        'Label13
-        '
-        Me.Label13.AutoSize = True
-        Me.Label13.Location = New System.Drawing.Point(3, 283)
-        Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(71, 13)
-        Me.Label13.TabIndex = 36
-        Me.Label13.Text = "scan number:"
-        '
-        'scan2
-        '
-        Me.scan2.AutoSize = True
-        Me.scan2.Location = New System.Drawing.Point(74, 283)
-        Me.scan2.Name = "scan2"
-        Me.scan2.Size = New System.Drawing.Size(0, 13)
-        Me.scan2.TabIndex = 37
-        '
-        'IdssDataSet
-        '
-        Me.IdssDataSet.DataSetName = "idssDataSet"
-        Me.IdssDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
-        '
-        'IdssBindingSource
-        '
-        Me.IdssBindingSource.DataMember = "idss"
-        Me.IdssBindingSource.DataSource = Me.IdssDataSet
-        '
-        'IdssTableAdapter
-        '
-        Me.IdssTableAdapter.ClearBeforeFill = True
-        '
         'DataGridViewTextBoxColumn11
         '
         Me.DataGridViewTextBoxColumn11.DataPropertyName = "name"
@@ -502,6 +421,88 @@ Partial Class idss
         Me.ScanNumb2DataGridViewTextBoxColumn.Name = "ScanNumb2DataGridViewTextBoxColumn"
         Me.ScanNumb2DataGridViewTextBoxColumn.ReadOnly = True
         '
+        'IdssBindingSource
+        '
+        Me.IdssBindingSource.DataMember = "idss"
+        Me.IdssBindingSource.DataSource = Me.IdssDataSet
+        '
+        'IdssDataSet
+        '
+        Me.IdssDataSet.DataSetName = "idssDataSet"
+        Me.IdssDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
+        '
+        'PictureBox1
+        '
+        Me.PictureBox1.Location = New System.Drawing.Point(202, 9)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(270, 234)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.PictureBox1.TabIndex = 30
+        Me.PictureBox1.TabStop = False
+        '
+        'btnSelectSource
+        '
+        Me.btnSelectSource.Location = New System.Drawing.Point(456, 255)
+        Me.btnSelectSource.Name = "btnSelectSource"
+        Me.btnSelectSource.Size = New System.Drawing.Size(75, 23)
+        Me.btnSelectSource.TabIndex = 32
+        Me.btnSelectSource.Text = "2nd scan"
+        Me.btnSelectSource.UseVisualStyleBackColor = True
+        '
+        'Label12
+        '
+        Me.Label12.AutoSize = True
+        Me.Label12.Location = New System.Drawing.Point(795, 234)
+        Me.Label12.Name = "Label12"
+        Me.Label12.Size = New System.Drawing.Size(69, 13)
+        Me.Label12.TabIndex = 33
+        Me.Label12.Text = "phone numb:"
+        '
+        'TextBox4
+        '
+        Me.TextBox4.Location = New System.Drawing.Point(875, 230)
+        Me.TextBox4.Name = "TextBox4"
+        Me.TextBox4.Size = New System.Drawing.Size(100, 20)
+        Me.TextBox4.TabIndex = 23
+        '
+        'PictureBox2
+        '
+        Me.PictureBox2.Location = New System.Drawing.Point(489, 9)
+        Me.PictureBox2.Name = "PictureBox2"
+        Me.PictureBox2.Size = New System.Drawing.Size(284, 234)
+        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.PictureBox2.TabIndex = 34
+        Me.PictureBox2.TabStop = False
+        '
+        'scan
+        '
+        Me.scan.AutoSize = True
+        Me.scan.Location = New System.Drawing.Point(74, 260)
+        Me.scan.Name = "scan"
+        Me.scan.Size = New System.Drawing.Size(0, 13)
+        Me.scan.TabIndex = 35
+        '
+        'Label13
+        '
+        Me.Label13.AutoSize = True
+        Me.Label13.Location = New System.Drawing.Point(3, 283)
+        Me.Label13.Name = "Label13"
+        Me.Label13.Size = New System.Drawing.Size(71, 13)
+        Me.Label13.TabIndex = 36
+        Me.Label13.Text = "scan number:"
+        '
+        'scan2
+        '
+        Me.scan2.AutoSize = True
+        Me.scan2.Location = New System.Drawing.Point(74, 283)
+        Me.scan2.Name = "scan2"
+        Me.scan2.Size = New System.Drawing.Size(0, 13)
+        Me.scan2.TabIndex = 37
+        '
+        'IdssTableAdapter
+        '
+        Me.IdssTableAdapter.ClearBeforeFill = True
+        '
         'idss
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -546,14 +547,17 @@ Partial Class idss
         Me.Controls.Add(Me.type)
         Me.Controls.Add(Me.lname)
         Me.Controls.Add(Me.fname)
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
+        Me.MaximizeBox = False
+        Me.MinimizeBox = False
         Me.Name = "idss"
         Me.Text = "ids"
         Me.TransparencyKey = System.Drawing.Color.Silver
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.IdssBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.IdssDataSet, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.IdssDataSet, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.IdssBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
