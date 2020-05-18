@@ -187,7 +187,7 @@ Partial Class InternetSettings
         '
         Me.TextBox4.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox4.Location = New System.Drawing.Point(141, 139)
-        Me.TextBox4.MaxLength = 3
+        Me.TextBox4.MaxLength = 6
         Me.TextBox4.Multiline = True
         Me.TextBox4.Name = "TextBox4"
         Me.TextBox4.Size = New System.Drawing.Size(111, 30)
@@ -209,9 +209,9 @@ Partial Class InternetSettings
         Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label6.Location = New System.Drawing.Point(258, 105)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(40, 24)
+        Me.Label6.Size = New System.Drawing.Size(20, 24)
         Me.Label6.TabIndex = 43
-        Me.Label6.Text = "L.L."
+        Me.Label6.Text = "$"
         '
         'TextBox3
         '

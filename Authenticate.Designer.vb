@@ -91,6 +91,7 @@ Partial Class Authenticate
         Me.MaximumSize = New System.Drawing.Size(434, 174)
         Me.MinimumSize = New System.Drawing.Size(434, 174)
         Me.Name = "Authenticate"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent
         Me.Text = "Authenticate"
         Me.ResumeLayout(False)
         Me.PerformLayout()

@@ -16,7 +16,8 @@
             End If
             Dim myadapter As New OleDb.OleDbDataAdapter("SELECT * FROM [InternetSettings]", con)
             Dim ds As New DataSet
-            myadapter.Fill(dt, "InternetSettings")
+            myadapter.Fill(ds, "InternetSettings")
+            dt = ds.Tables("InternetSettings")
         Catch ex As Exception
             MsgBox("Unable to reach database,closing...")
             Me.Close()

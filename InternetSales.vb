@@ -1,27 +1,27 @@
 ﻿Public Class InternetSales
     Dim dt As New DataTable
     Private Sub InternetSales_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        Me.Bundles.DisplayMember = "Key"
+        Me.Bundles.ValueMember = "Value"
         FillBundles()
     End Sub
     Private Sub FillBundles()
         FillDataset()
 
         If dt.Rows.Count <> 0 Then
-            Dim Items As New List(Of String)()
-            Items.Add(" ")
+            'Dim Items As New List(Of String)()
+            Bundles.Items.Add(New DictionaryEntry(" ", 0))
 
             For Each Row In dt.Rows
                 If Row(6) = True Then
-                    Items.Add(Row(2).ToString + "Mb - " + Row(3).ToString + "MB - " + Row(5).ToString + " $")
+                    Bundles.Items.Add(New DictionaryEntry(Row(2).ToString + "Mb - " + Row(3).ToString + "GB - " + Row(5).ToString + " $", CInt(Row(0))))
                 End If
             Next
-
-            Bundles.Items.AddRange(Items.ToArray)
         End If
     End Sub
     Private Sub FillDataset()
         Dim con As New OleDb.OleDbConnection(My.Settings.BundlesConnectionString)
-        Dim Sql As String = "SELECT * FROM [Bundles]"
+        Dim Sql As String = String.Format("SELECT * FROM [Bundles] WHERE [Active] = {0}", True)
         Dim MyAdapter As New OleDb.OleDbDataAdapter(Sql, con)
         Try
             If con.State = ConnectionState.Closed Then
@@ -68,9 +68,6 @@
         Me.Close()
     End Sub
 
-    Private Sub InternetSales_FormClosed(sender As Object, e As FormClosedEventArgs) Handles MyBase.FormClosed
-        Me.DialogResult = Windows.Forms.DialogResult.Cancel
-    End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         If input.Text = String.Empty Or input.Text = " " Or input.Text = "0" Then

@@ -44,9 +44,6 @@ Public Class security
             End If
 
         End If
-
-
-       
     End Sub
     Public Function GetSerial() As Long
         Dim mc As New ManagementClass("Win32_NetworkAdapterConfiguration")

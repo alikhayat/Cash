@@ -92,7 +92,7 @@ Public Class currency
         Form1.lbtotal.Text = Decimal.Round(Form1.sum, 2, MidpointRounding.AwayFromZero).ToString + " $"
         Form1.chk(Form1.count) = False
         Form1.chkus(Form1.count) = False
-        Form1.lblval(Form1.count) = Val(sum.Text)
+        Form1.lblval(Form1.count, 0) = Val(sum.Text)
         fill()
 
         Form1.updlist()
@@ -208,7 +208,7 @@ Public Class currency
 
         Form1.chk(Form1.count) = False
         Form1.chkus(Form1.count) = False
-        Form1.lblval(Form1.count) = -Val(sum.Text)
+        Form1.lblval(Form1.count, 0) = -Val(sum.Text)
         fills()
 
         Form1.updlist()

@@ -117,6 +117,7 @@ Partial Class InternetSales
         Me.Bundles.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Bundles.DisplayMember = "Key"
         Me.Bundles.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.Bundles.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Bundles.FormattingEnabled = True
@@ -125,6 +126,7 @@ Partial Class InternetSales
         Me.Bundles.Name = "Bundles"
         Me.Bundles.Size = New System.Drawing.Size(143, 21)
         Me.Bundles.TabIndex = 3
+        Me.Bundles.ValueMember = "Value"
         '
         'Button1
         '
@@ -137,6 +139,7 @@ Partial Class InternetSales
         '
         'Button2
         '
+        Me.Button2.DialogResult = System.Windows.Forms.DialogResult.Cancel
         Me.Button2.Location = New System.Drawing.Point(10, 221)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(75, 23)
@@ -146,10 +149,12 @@ Partial Class InternetSales
         '
         'InternetSales
         '
+        Me.AcceptButton = Me.Button1
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.AutoSize = True
         Me.BackColor = System.Drawing.SystemColors.Control
+        Me.CancelButton = Me.Button2
         Me.ClientSize = New System.Drawing.Size(275, 256)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)

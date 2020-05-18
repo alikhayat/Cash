@@ -7,11 +7,7 @@ Public Class del
     Public dte = dt.ToString("dd-MM-yyyy", CultureInfo.InvariantCulture)
     Public filename As String = Application.StartupPath() & "\reports\" & dte & ".txt"
     Dim clicked As Boolean = False
-
-
     Private Sub del_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        
-
         Label1.Text = DateString
         If File.Exists(filename) Then
             MsgBox("you already created a new day")
@@ -20,17 +16,7 @@ Public Class del
 
         End If
     End Sub
-
-
-
-    Private Sub TextBox1_TextChanged(sender As Object, e As EventArgs) Handles TextBox1.TextChanged
-
-    End Sub
-
     Private Sub Button1_Click_1(sender As Object, e As EventArgs) Handles Button1.Click
-
-
-
         If TextBox1.Text = Label1.Text Then
             My.Settings.total = 0
             Form1.sum = 0
@@ -66,16 +52,10 @@ Public Class del
             check.ShowDialog()
             Form1.updlist()
             Me.Close()
-
         Else
             MsgBox("invalid date entry")
             Me.Close()
-
         End If
-
-
-
-
     End Sub
     Private Sub statdel()
         
@@ -94,6 +74,8 @@ Public Class del
         Form1.profit = 0
         Form1.omtt = 0
         Form1.omtc = 0
+        Form1.InternetSales = 0
+        Form1.InternetSalesCount = 0
         My.Settings.sent = 0
         My.Settings.sentc = 0
         My.Settings.paid = 0
@@ -109,6 +91,8 @@ Public Class del
         My.Settings.profit = 0
         My.Settings.omtt = 0
         My.Settings.omtc = 0
+        My.Settings.InternetSales = 0
+        My.Settings.InternetSalesCount = 0
     End Sub
     Public Sub checkdel()
         My.Settings.hun = ""
@@ -127,5 +111,4 @@ Public Class del
         My.Settings.lch = ""
         My.Settings.depo = False
     End Sub
-   
 End Class
