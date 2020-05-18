@@ -58,6 +58,21 @@ C:\Users\ali\Documents\Visual Studio 2013\Projects\Cash\Cash\obj\Release\Cash.pd
 C:\Users\ali\Documents\Visual Studio 2013\Projects\Cash\Cash\obj\Release\Cash.Inventory.resources
 C:\Users\ali\Documents\Visual Studio 2013\Projects\Cash\Cash\bin\Release\Database2.mdb
 C:\Users\ali\Documents\Visual Studio 2013\Projects\Cash\Cash\obj\Release\Cash.InventorySelection.resources
+D:\VB Projects\Cash\Cash\bin\Release\Bundles.mdb
+D:\VB Projects\Cash\Cash\bin\Release\Database2.mdb
+D:\VB Projects\Cash\Cash\bin\Release\debit.mdb
+D:\VB Projects\Cash\Cash\bin\Release\idss.mdb
+D:\VB Projects\Cash\Cash\bin\Release\Cash.exe.config
+D:\VB Projects\Cash\Cash\bin\Release\Cash.exe
+D:\VB Projects\Cash\Cash\bin\Release\Cash.pdb
+D:\VB Projects\Cash\Cash\bin\Release\Cash.xml
+D:\VB Projects\Cash\Cash\bin\Release\Newtonsoft.Json.dll
+D:\VB Projects\Cash\Cash\bin\Release\twainlib.dll
+D:\VB Projects\Cash\Cash\bin\Release\Newtonsoft.Json.xml
+D:\VB Projects\Cash\Cash\bin\Release\twainlib.pdb
+D:\VB Projects\Cash\Cash\bin\Release\twainlib.xml
+D:\VB Projects\Cash\Cash\obj\Release\Cash.vbprojResolveAssemblyReference.cache
+D:\VB Projects\Cash\Cash\obj\Release\Cash.Authenticate.resources
 D:\VB Projects\Cash\Cash\obj\Release\Cash.check.resources
 D:\VB Projects\Cash\Cash\obj\Release\Cash.currency.resources
 D:\VB Projects\Cash\Cash\obj\Release\Cash.debitform.resources
@@ -67,6 +82,8 @@ D:\VB Projects\Cash\Cash\obj\Release\Cash.del.resources
 D:\VB Projects\Cash\Cash\obj\Release\Cash.Form1.resources
 D:\VB Projects\Cash\Cash\obj\Release\Cash.idshow.resources
 D:\VB Projects\Cash\Cash\obj\Release\Cash.idss.resources
+D:\VB Projects\Cash\Cash\obj\Release\Cash.InternetSales.resources
+D:\VB Projects\Cash\Cash\obj\Release\Cash.InternetSettings.resources
 D:\VB Projects\Cash\Cash\obj\Release\Cash.InventorySelection.resources
 D:\VB Projects\Cash\Cash\obj\Release\Cash.Resources.resources
 D:\VB Projects\Cash\Cash\obj\Release\Cash.security.resources
@@ -74,23 +91,6 @@ D:\VB Projects\Cash\Cash\obj\Release\Cash.Inventory.resources
 D:\VB Projects\Cash\Cash\obj\Release\Cash.sure.resources
 D:\VB Projects\Cash\Cash\obj\Release\Cash.textbox.resources
 D:\VB Projects\Cash\Cash\obj\Release\Cash.vbproj.GenerateResource.Cache
-D:\VB Projects\Cash\Cash\bin\Release\Cash.exe.config
-D:\VB Projects\Cash\Cash\bin\Release\Database2.mdb
-D:\VB Projects\Cash\Cash\bin\Release\debit.mdb
-D:\VB Projects\Cash\Cash\bin\Release\idss.mdb
-D:\VB Projects\Cash\Cash\bin\Release\Cash.exe
-D:\VB Projects\Cash\Cash\bin\Release\Cash.pdb
-D:\VB Projects\Cash\Cash\bin\Release\Cash.xml
-D:\VB Projects\Cash\Cash\bin\Release\Newtonsoft.Json.dll
-D:\VB Projects\Cash\Cash\bin\Release\twainlib.dll
-D:\VB Projects\Cash\Cash\bin\Release\Newtonsoft.Json.xml
-D:\VB Projects\Cash\Cash\bin\Release\twainlib.pdb
-D:\VB Projects\Cash\Cash\bin\Release\twainlib.xml
 D:\VB Projects\Cash\Cash\obj\Release\Cash.exe
 D:\VB Projects\Cash\Cash\obj\Release\Cash.xml
 D:\VB Projects\Cash\Cash\obj\Release\Cash.pdb
-D:\VB Projects\Cash\Cash\obj\Release\Cash.vbprojResolveAssemblyReference.cache
-D:\VB Projects\Cash\Cash\obj\Release\Cash.Authenticate.resources
-D:\VB Projects\Cash\Cash\obj\Release\Cash.InternetSales.resources
-D:\VB Projects\Cash\Cash\obj\Release\Cash.InternetSettings.resources
-D:\VB Projects\Cash\Cash\bin\Release\Bundles.mdb

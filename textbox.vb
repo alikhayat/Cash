@@ -4,6 +4,7 @@ Public Class textbox
     Public numb As String
     Public valu As Decimal
     Public clicked As Boolean
+    Dim OG As Decimal = Nothing
 
     Private Sub textbox_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         input.ResetText()
@@ -71,18 +72,19 @@ Public Class textbox
 
     End Sub
 
-
-
     Private Sub CheckBox3_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBox3.CheckedChanged
         Try
+
             If input.Text <> "" Then
                 If CheckBox3.Checked = True Then
                     Dim a As Decimal = Convert.ToDecimal(input.Text / Form1.ratee)
+                    Og = a
                     a = Decimal.Round(a, 2, MidpointRounding.AwayFromZero)
                     input.Text = a.ToString
                 Else
-                    Dim a As Decimal = Convert.ToDecimal(input.Text * Form1.ratee)
+                    Dim a As Decimal = Convert.ToDecimal(Og * Form1.ratee)
 
+                    a = Decimal.Round(a, 2, MidpointRounding.AwayFromZero)
                     input.Text = a.ToString
                 End If
             End If

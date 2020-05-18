@@ -251,7 +251,7 @@ Public Class Form1
         textbox.Label3.Text = "deposit reason"
 
         textbox.Label3.Font = New Font("Microsoft Sans Serif", 10, FontStyle.Regular)
-        textbox.TextBox1.Location = New Point(120, 179)
+        ''textbox.TextBox1.Location = New Point(120, 179)
         textbox.Label3.Visible = True
         textbox.TextBox1.Visible = True
         textbox.CheckBox1.Visible = False
@@ -265,7 +265,7 @@ Public Class Form1
         textbox.Label2.Text = "$"
         textbox.clicked = False
         textbox.ShowDialog()
-       
+
         textbox.input.Focus()
         If textbox.clicked = True Then
             count -= 1
@@ -366,7 +366,7 @@ Public Class Form1
         textbox.Label2.Text = "$"
         textbox.clicked = False
         textbox.ShowDialog()
-       
+
         textbox.input.Focus()
 
 
@@ -451,7 +451,7 @@ Public Class Form1
     Private Sub westp()
         textbox.Label3.Text = "MTCN"
         textbox.Label3.Font = New Font("Microsoft Sans Serif", 14, FontStyle.Regular)
-        textbox.TextBox1.Location = New Point(114, 179)
+        ''textbox.TextBox1.Location = New Point(114, 179)
         textbox.Label3.Visible = True
         textbox.CheckBox1.Visible = True
         textbox.CheckBox2.Visible = True
@@ -507,7 +507,7 @@ Public Class Form1
             lbl.BackColor = Color.Yellow
 
             lbtotal.Text = Decimal.Round(sum, 2, MidpointRounding.AwayFromZero).ToString + " $"
-           
+
             sentc += 1
 
             updlist()
@@ -519,7 +519,7 @@ Public Class Form1
     Private Sub wmin()
         textbox.Label3.Text = "MTCN"
         textbox.Label3.Font = New Font("Microsoft Sans Serif", 14, FontStyle.Regular)
-        textbox.TextBox1.Location = New Point(114, 179)
+        ''textbox.TextBox1.Location = New Point(114, 179)
         textbox.Label3.Visible = True
         textbox.TextBox1.Visible = True
         textbox.CheckBox1.Visible = True
@@ -573,7 +573,7 @@ Public Class Form1
             lbl.BackColor = Color.Orange
 
             lbtotal.Text = Decimal.Round(sum, 2, MidpointRounding.AwayFromZero).ToString + " $"
-           
+
             paidc += 1
 
             updlist()
@@ -609,7 +609,7 @@ Public Class Form1
     Private Sub mtc()
         textbox.Label3.Text = "MTCN"
         textbox.Label3.Font = New Font("Microsoft Sans Serif", 14, FontStyle.Regular)
-        textbox.TextBox1.Location = New Point(114, 179)
+        ''textbox.TextBox1.Location = New Point(114, 179)
         textbox.Label3.Visible = False
         textbox.TextBox1.Visible = False
         textbox.CheckBox1.Visible = False
@@ -666,7 +666,7 @@ Public Class Form1
     Public Sub alfa()
         textbox.Label3.Text = "ALFAN"
         textbox.Label3.Font = New Font("Microsoft Sans Serif", 14, FontStyle.Regular)
-        textbox.TextBox1.Location = New Point(114, 179)
+        ''textbox.TextBox1.Location = New Point(114, 179)
         textbox.Label3.Visible = False
         textbox.TextBox1.Visible = False
         textbox.CheckBox1.Visible = False
@@ -1545,7 +1545,7 @@ Public Class Form1
 
                         textbox.Label3.Text = "MTCN"
                         textbox.Label3.Font = New Font("Microsoft Sans Serif", 14, FontStyle.Regular)
-                        textbox.TextBox1.Location = New Point(114, 179)
+                        ''textbox.TextBox1.Location = New Point(114, 179)
                         textbox.Label3.Visible = True
                         textbox.TextBox1.Visible = True
                         textbox.CheckBox1.Visible = True
@@ -1616,7 +1616,7 @@ Public Class Form1
 
                         textbox.Label3.Text = "MTCN"
                         textbox.Label3.Font = New Font("Microsoft Sans Serif", 14, FontStyle.Regular)
-                        textbox.TextBox1.Location = New Point(114, 179)
+                        ''textbox.TextBox1.Location = New Point(114, 179)
                         textbox.Label3.Visible = True
                         textbox.CheckBox1.Visible = True
                         textbox.Label2.Text = ""
@@ -1687,7 +1687,7 @@ Public Class Form1
 
                         textbox.Label3.Text = "deposit reason"
                         textbox.Label3.Font = New Font("Microsoft Sans Serif", 10, FontStyle.Regular)
-                        textbox.TextBox1.Location = New Point(120, 173)
+                        ''textbox.TextBox1.Location = New Point(120, 173)
                         textbox.Label3.Visible = True
                         textbox.CheckBox1.Visible = False
                         textbox.CheckBox2.Visible = False
@@ -1824,7 +1824,7 @@ Public Class Form1
 
                         textbox.Label3.Text = "withdraw reason"
                         textbox.Label3.Font = New Font("Microsoft Sans Serif", 10, FontStyle.Regular)
-                        textbox.TextBox1.Location = New Point(120, 120)
+                        ''textbox.TextBox1.Location = New Point(120, 120)
                         textbox.Label3.Visible = True
                         textbox.CheckBox1.Visible = False
                         textbox.CheckBox2.Visible = False
@@ -2046,7 +2046,7 @@ Public Class Form1
                 ElseIf clickedlbl.BackColor = Color.Gold Then
                     textbox.Label3.Text = "Service"
                     textbox.Label3.Font = New Font("Microsoft Sans Serif", 14, FontStyle.Regular)
-                    textbox.TextBox1.Location = New Point(114, 179)
+                    ''textbox.TextBox1.Location = New Point(114, 179)
                     textbox.Label3.Visible = True
                     textbox.CheckBox1.Visible = True
                     textbox.CheckBox2.Visible = True
@@ -2121,8 +2121,8 @@ Public Class Form1
                 MsgBox("nothing selected")
                 Exit Sub
             End If
-                closingg()
-            End If
+            closingg()
+        End If
     End Sub
 
     Private Sub Button12_Click(sender As Object, e As EventArgs) Handles Button12.Click
@@ -2158,7 +2158,7 @@ Public Class Form1
     Private Sub omt()
         textbox.Label3.Text = "Service"
         textbox.Label3.Font = New Font("Microsoft Sans Serif", 14, FontStyle.Regular)
-        textbox.TextBox1.Location = New Point(114, 179)
+        ''textbox.TextBox1.Location = New Point(114, 179)
         textbox.Label3.Visible = True
         textbox.CheckBox1.Visible = True
         textbox.CheckBox2.Visible = True

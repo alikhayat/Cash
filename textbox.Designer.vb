@@ -42,7 +42,7 @@ Partial Class textbox
         'input
         '
         Me.input.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.input.Location = New System.Drawing.Point(111, 34)
+        Me.input.Location = New System.Drawing.Point(126, 28)
         Me.input.Multiline = True
         Me.input.Name = "input"
         Me.input.Size = New System.Drawing.Size(119, 30)
@@ -51,7 +51,7 @@ Partial Class textbox
         'TextBox1
         '
         Me.TextBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox1.Location = New System.Drawing.Point(114, 179)
+        Me.TextBox1.Location = New System.Drawing.Point(129, 173)
         Me.TextBox1.Multiline = True
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(208, 40)
@@ -61,7 +61,7 @@ Partial Class textbox
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.5!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(0, 45)
+        Me.Label1.Location = New System.Drawing.Point(15, 39)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(110, 17)
         Me.Label1.TabIndex = 2
@@ -71,7 +71,7 @@ Partial Class textbox
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(236, 40)
+        Me.Label2.Location = New System.Drawing.Point(251, 34)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(20, 24)
         Me.Label2.TabIndex = 3
@@ -81,7 +81,7 @@ Partial Class textbox
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(-1, 179)
+        Me.Label3.Location = New System.Drawing.Point(14, 173)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(65, 24)
         Me.Label3.TabIndex = 4
@@ -89,7 +89,7 @@ Partial Class textbox
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(204, 225)
+        Me.Button1.Location = New System.Drawing.Point(262, 219)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(75, 23)
         Me.Button1.TabIndex = 5
@@ -99,7 +99,7 @@ Partial Class textbox
         'Button2
         '
         Me.Button2.DialogResult = System.Windows.Forms.DialogResult.Cancel
-        Me.Button2.Location = New System.Drawing.Point(111, 225)
+        Me.Button2.Location = New System.Drawing.Point(18, 219)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(75, 23)
         Me.Button2.TabIndex = 6
@@ -111,7 +111,7 @@ Partial Class textbox
         Me.CheckBox1.Appearance = System.Windows.Forms.Appearance.Button
         Me.CheckBox1.BackgroundImage = Global.Cash.My.Resources.Resources._1000
         Me.CheckBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.CheckBox1.Location = New System.Drawing.Point(12, 67)
+        Me.CheckBox1.Location = New System.Drawing.Point(27, 61)
         Me.CheckBox1.Name = "CheckBox1"
         Me.CheckBox1.Size = New System.Drawing.Size(89, 47)
         Me.CheckBox1.TabIndex = 7
@@ -122,7 +122,7 @@ Partial Class textbox
         Me.CheckBox2.Appearance = System.Windows.Forms.Appearance.Button
         Me.CheckBox2.BackgroundImage = Global.Cash.My.Resources.Resources._1
         Me.CheckBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.CheckBox2.Location = New System.Drawing.Point(12, 120)
+        Me.CheckBox2.Location = New System.Drawing.Point(27, 114)
         Me.CheckBox2.Name = "CheckBox2"
         Me.CheckBox2.Size = New System.Drawing.Size(89, 53)
         Me.CheckBox2.TabIndex = 8
@@ -131,7 +131,7 @@ Partial Class textbox
         'CheckBox4
         '
         Me.CheckBox4.AutoSize = True
-        Me.CheckBox4.Location = New System.Drawing.Point(240, 71)
+        Me.CheckBox4.Location = New System.Drawing.Point(255, 65)
         Me.CheckBox4.Name = "CheckBox4"
         Me.CheckBox4.Size = New System.Drawing.Size(82, 17)
         Me.CheckBox4.TabIndex = 11
@@ -141,7 +141,7 @@ Partial Class textbox
         'TextBox2
         '
         Me.TextBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox2.Location = New System.Drawing.Point(236, 94)
+        Me.TextBox2.Location = New System.Drawing.Point(251, 88)
         Me.TextBox2.Multiline = True
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.Size = New System.Drawing.Size(82, 24)
@@ -152,7 +152,7 @@ Partial Class textbox
         '
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(182, 94)
+        Me.Label5.Location = New System.Drawing.Point(197, 88)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(50, 24)
         Me.Label5.TabIndex = 13
@@ -161,7 +161,7 @@ Partial Class textbox
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(108, 18)
+        Me.Label4.Location = New System.Drawing.Point(123, 12)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(131, 13)
         Me.Label4.TabIndex = 14
@@ -170,7 +170,7 @@ Partial Class textbox
         'CheckBox3
         '
         Me.CheckBox3.AutoSize = True
-        Me.CheckBox3.Location = New System.Drawing.Point(240, 18)
+        Me.CheckBox3.Location = New System.Drawing.Point(255, 12)
         Me.CheckBox3.Name = "CheckBox3"
         Me.CheckBox3.Size = New System.Drawing.Size(15, 14)
         Me.CheckBox3.TabIndex = 15
@@ -182,7 +182,7 @@ Partial Class textbox
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.CancelButton = Me.Button2
-        Me.ClientSize = New System.Drawing.Size(335, 252)
+        Me.ClientSize = New System.Drawing.Size(356, 252)
         Me.Controls.Add(Me.CheckBox3)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Label5)
