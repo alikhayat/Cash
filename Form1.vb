@@ -1235,7 +1235,7 @@ Public Class Form1
         My.Settings.omtc = omtc
         My.Settings.InternetSales = InternetSales
         My.Settings.InternetSalesCount = InternetSalesCount
-
+        My.Settings.InternetSalesCost = InternetSalesCost
         For i As Integer = 0 To count
 
 
