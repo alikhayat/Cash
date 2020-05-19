@@ -76,6 +76,7 @@ Public Class del
         Form1.omtc = 0
         Form1.InternetSales = 0
         Form1.InternetSalesCount = 0
+        Form1.InternetSalesCost = 0
         My.Settings.sent = 0
         My.Settings.sentc = 0
         My.Settings.paid = 0
@@ -93,6 +94,7 @@ Public Class del
         My.Settings.omtc = 0
         My.Settings.InternetSales = 0
         My.Settings.InternetSalesCount = 0
+        My.Settings.InternetSalesCost = 0
     End Sub
     Public Sub checkdel()
         My.Settings.hun = ""

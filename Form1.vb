@@ -48,6 +48,7 @@ Public Class Form1
     Public omtc As Integer
     Public InternetAcc As Decimal
     Public InternetSales As Decimal
+    Public InternetSalesCost As Decimal
     Public InternetSalesCount As Integer
     Private streamToPrint As StreamReader
 
@@ -77,6 +78,7 @@ Public Class Form1
         omtc = My.Settings.omtc
         InternetSales = My.Settings.InternetSales
         InternetSalesCount = My.Settings.InternetSalesCount
+        InternetSalesCost = My.Settings.InternetSalesCost
         InternetAcc = Get_InternetAccount()
 
         retc()
@@ -169,6 +171,7 @@ Public Class Form1
         Dim con As New OleDb.OleDbConnection(My.Settings.BundlesConnectionString)
         Try
             Dim NewVal As Decimal = InternetAcc - Val
+            NewVal = Decimal.Round(NewVal, 2, MidpointRounding.AwayFromZero)
             If NewVal > 0 Then
                 Dim sql As OleDb.OleDbCommand = New OleDb.OleDbCommand(String.Format("UPDATE InternetSettings SET [Account Balance] = {0}", NewVal), con)
                 If con.State = ConnectionState.Closed Then
@@ -826,7 +829,7 @@ Public Class Form1
                     ElseIf last = "_" Then
                         labelarray(i).Text = lines(i).Trim.Remove(lines(i).Length - 1)
 
-                        labelarray(i).BackColor = Color.Violet
+                        labelarray(i).BackColor = color.violet
                     ElseIf last = "+" Then
                         labelarray(i).Text = lines(i).Trim.Remove(lines(i).Length - 1)
 
@@ -836,7 +839,7 @@ Public Class Form1
                         labelarray(i).BackColor = Color.Gold
                     ElseIf last = "`" Then
                         labelarray(i).Text = lines(i).Trim.Remove(lines(i).Length - 1)
-                        labelarray(i).BackColor = Color.Violet
+                        labelarray(i).BackColor = Color.LightBlue
                     ElseIf last <> "!" And last <> "@" And last <> "#" And last <> "$" And last <> "%" And last <> "^" And last <> "&" And last <> "*" And last <> "(" And last <> ")" And last <> "_" And last <> "+" And last <> "|" And last <> "`" Then
                         Exit Sub
                     End If
@@ -897,7 +900,7 @@ Public Class Form1
                     ElseIf last = "_" Then
                         labelarray(i).Text = lines(i).Trim.Remove(lines(i).Length - 1)
 
-                        labelarray(i).BackColor = Color.Violet
+                        labelarray(i).BackColor = color.violet
                     ElseIf last = "+" Then
                         labelarray(i).Text = lines(i).Trim.Remove(lines(i).Length - 1)
 
@@ -907,7 +910,7 @@ Public Class Form1
                         labelarray(i).BackColor = Color.Gold
                     ElseIf last = "`" Then
                         labelarray(i).Text = lines(i).Trim.Remove(lines(i).Length - 1)
-                        labelarray(i).BackColor = Color.Violet
+                        labelarray(i).BackColor = Color.LightBlue
                     End If
 
                 Next
@@ -1004,6 +1007,7 @@ Public Class Form1
         ListBox1.Items.Add("OGERO:  " & ogc.ToString)
         ListBox1.Items.Add("OMT Services :   " & omtc.ToString)
         ListBox1.Items.Add("Internet Services :   " & InternetSalesCount.ToString)
+        ListBox1.Items.Add("Internet Net Cost :   " & InternetSalesCount.ToString)
         ListBox1.Items.Add("PROFIT (store items):  ")
         ListBox1.Items.Add("Debt:   ")
         ListBox1.Items.Add("---------------------")
@@ -1019,7 +1023,7 @@ Public Class Form1
         ListBox1.Items.Add("KWD (Kuwaiti dinar)")
         ListBox1.Items.Add("BHD (Bahraini dinar)")
         ListBox1.Items.Add("OMR (OMANI Riyal)")
-        ListBox1.Items.Add("JOD (Jordanian Dinnar)")
+        'ListBox1.Items.Add("JOD (Jordanian Dinnar)")
         'ListBox1.Items.Add("CHF (SWISS FRANK)")
 
         ListBox2.Items.Add(Decimal.Round(paid, 2).ToString & " $")
@@ -1037,6 +1041,7 @@ Public Class Form1
         ListBox2.Items.Add(Decimal.Round(og, 2).ToString & " $")
         ListBox2.Items.Add(Decimal.Round(omtt, 2).ToString & " $")
         ListBox2.Items.Add(Decimal.Round(InternetSales, 2).ToString & " $")
+        ListBox2.Items.Add(Decimal.Round(InternetSalesCost, 2).ToString & " $")
         ListBox2.Items.Add(profit.ToString & " $")
         ListBox2.Items.Add(My.Settings.debit.ToString + " $")
         ListBox2.Items.Add("-------------")
@@ -1052,7 +1057,7 @@ Public Class Form1
         ListBox2.Items.Add(My.Settings.kwd)
         ListBox2.Items.Add(My.Settings.bhd)
         ListBox2.Items.Add(My.Settings.omr)
-        ListBox2.Items.Add(My.Settings.jod)
+        'ListBox2.Items.Add(My.Settings.jod)
         'ListBox2.Items.Add(My.Settings.chf)
     End Sub
 
@@ -1254,13 +1259,13 @@ Public Class Form1
                 txt += labelarray(i).Text.TrimEnd + "(" + vbCrLf
             ElseIf labelarray(i).BackColor = Color.Wheat Then
                 txt += labelarray(i).Text.TrimEnd + ")" + vbCrLf
-            ElseIf labelarray(i).BackColor = Color.Violet Then
+            ElseIf labelarray(i).BackColor = color.violet Then
                 txt += labelarray(i).Text.TrimEnd + "_" + vbCrLf
             ElseIf labelarray(i).BackColor = Color.GhostWhite Then
                 txt += labelarray(i).Text.TrimEnd + "+" + vbCrLf
             ElseIf labelarray(i).BackColor = Color.Gold Then
                 txt += labelarray(i).Text.TrimEnd + "|" + vbCrLf
-            ElseIf labelarray(i).BackColor = Color.Purple Then
+            ElseIf labelarray(i).BackColor = color.LightBlue Then
                 txt += labelarray(i).Text.TrimEnd + "~" + vbCrLf
             End If
         Next
@@ -1349,7 +1354,7 @@ Public Class Form1
                 s = InputBox(prompt, prompt)
 
                 If s = "d" Or s = "D" Or s = "delete" Or s = "DELETE" Then
-                    If clickedlbl.BackColor = Color.White Or clickedlbl.BackColor = Color.Yellow Or clickedlbl.BackColor = Color.Red Or clickedlbl.BackColor = Color.Green Or clickedlbl.BackColor = Color.Aqua Or clickedlbl.BackColor = Color.Violet Or clickedlbl.BackColor = Color.Gold Or clickedlbl.BackColor = Color.Purple Then
+                    If clickedlbl.BackColor = Color.White Or clickedlbl.BackColor = Color.Yellow Or clickedlbl.BackColor = Color.Red Or clickedlbl.BackColor = Color.Green Or clickedlbl.BackColor = Color.Aqua Or clickedlbl.BackColor = color.violet Or clickedlbl.BackColor = Color.Gold Or clickedlbl.BackColor = color.LightBlue Then
 
                         clickedlbl.Text = clickedlbl.TabIndex + 1 & " )  " & String.Format("{0,-55}", "--DELETED--") & "  " & TimeOfDay
 
@@ -1406,8 +1411,9 @@ Public Class Form1
 
 
                             clickedlbl.BackColor = Color.MintCream
-                        ElseIf clickedlbl.BackColor = Color.Purple Then
+                        ElseIf clickedlbl.BackColor = color.LightBlue Then
                             InternetSales -= lblval(clickedlbl.TabIndex + 1, 0)
+                            InternetSalesCost -= lblval(clickedlbl.TabIndex + 1, 1)
                             InternetSalesCount -= 1
                             sum = sum - lblval(clickedlbl.TabIndex + 1, 0)
                             AdjustInternetAfterDelete(lblval(clickedlbl.TabIndex + 1, 1))
@@ -1415,8 +1421,6 @@ Public Class Form1
                         ElseIf clickedlbl.BackColor = Color.White Then
                             clickedlbl.BackColor = Color.MintCream
                             sum = sum - lblval(clickedlbl.TabIndex + 1, 0)
-
-
 
                             If chk(clickedlbl.TabIndex + 1) = True Then
                                 LBP += lblval(clickedlbl.TabIndex + 1, 0) * ratee
@@ -1426,7 +1430,7 @@ Public Class Form1
                             ElseIf chkp(clickedlbl.TabIndex + 1) = True Then
                                 profit -= profitt(clickedlbl.TabIndex + 1)
                             End If
-                        ElseIf clickedlbl.BackColor = Color.Violet Then
+                        ElseIf clickedlbl.BackColor = color.violet Then
                             clickedlbl.BackColor = Color.MintCream
                             sum = sum - lblval(clickedlbl.TabIndex + 1, 0)
 
@@ -2042,86 +2046,85 @@ Public Class Form1
                             updlist()
                             FlowLayoutPanel1.ScrollControlIntoView(lbl)
                         End If
-                    End If
-                ElseIf clickedlbl.BackColor = Color.Gold Then
-                    textbox.Label3.Text = "Service"
-                    textbox.Label3.Font = New Font("Microsoft Sans Serif", 14, FontStyle.Regular)
-                    ''textbox.TextBox1.Location = New Point(114, 179)
-                    textbox.Label3.Visible = True
-                    textbox.CheckBox1.Visible = True
-                    textbox.CheckBox2.Visible = True
-                    textbox.CheckBox1.Checked = False
-                    textbox.CheckBox2.Checked = False
-                    textbox.TextBox1.Visible = True
-                    textbox.CheckBox4.Visible = False
-                    textbox.CheckBox4.Checked = False
-                    textbox.CheckBox3.Visible = False
-                    textbox.Label4.Visible = False
-                    textbox.Label2.Text = ""
-                    If chk(clickedlbl.TabIndex + 1) = True Then
-                        textbox.CheckBox1.Checked = True
-                        textbox.CheckBox2.Checked = False
-                    ElseIf chkus(clickedlbl.TabIndex + 1) = True Then
-                        textbox.CheckBox2.Checked = True
+                    ElseIf clickedlbl.BackColor = Color.Gold Then
+                        textbox.Label3.Text = "Service"
+                        textbox.Label3.Font = New Font("Microsoft Sans Serif", 14, FontStyle.Regular)
+                        ''textbox.TextBox1.Location = New Point(114, 179)
+                        textbox.Label3.Visible = True
+                        textbox.CheckBox1.Visible = True
+                        textbox.CheckBox2.Visible = True
                         textbox.CheckBox1.Checked = False
-                    End If
-                    textbox.clicked = False
-                    textbox.ShowDialog()
-                    textbox.input.Focus()
-                    If textbox.clicked = True Then
-                        Exit Sub
-                    ElseIf ((textbox.valu = 0) Or (textbox.valu.ToString = "") Or (textbox.numb.Length = 0) Or (textbox.numb.Length > 12)) Then
-                        MsgBox("invalid data")
-                        Exit Sub
-                    ElseIf textbox.CheckBox1.Checked = False And textbox.CheckBox2.Checked = False Then
-                        MsgBox("please choose balance")
-                        Exit Sub
-                    Else
-
-                        omtt -= lblval(clickedlbl.TabIndex + 1, 0)
-                        sum = sum - lblval(clickedlbl.TabIndex + 1, 0)
+                        textbox.CheckBox2.Checked = False
+                        textbox.TextBox1.Visible = True
+                        textbox.CheckBox4.Visible = False
+                        textbox.CheckBox4.Checked = False
+                        textbox.CheckBox3.Visible = False
+                        textbox.Label4.Visible = False
+                        textbox.Label2.Text = ""
                         If chk(clickedlbl.TabIndex + 1) = True Then
-                            LBP += lblval(clickedlbl.TabIndex + 1, 0) * ratee
-
+                            textbox.CheckBox1.Checked = True
+                            textbox.CheckBox2.Checked = False
                         ElseIf chkus(clickedlbl.TabIndex + 1) = True Then
-                            usd += lblval(clickedlbl.TabIndex + 1, 0)
-
+                            textbox.CheckBox2.Checked = True
+                            textbox.CheckBox1.Checked = False
                         End If
-                        If textbox.CheckBox1.Checked = True Then
-                            Dim a As Decimal = textbox.valu
+                        textbox.clicked = False
+                        textbox.ShowDialog()
+                        textbox.input.Focus()
+                        If textbox.clicked = True Then
+                            Exit Sub
+                        ElseIf ((textbox.valu = 0) Or (textbox.valu.ToString = "") Or (textbox.numb.Length = 0) Or (textbox.numb.Length > 12)) Then
+                            MsgBox("invalid data")
+                            Exit Sub
+                        ElseIf textbox.CheckBox1.Checked = False And textbox.CheckBox2.Checked = False Then
+                            MsgBox("please choose balance")
+                            Exit Sub
+                        Else
 
-                            clickedlbl.Text = clickedlbl.TabIndex + 1 & " )  " & String.Format("{0,-20}{1,-20}{2,-15}", Decimal.Round(textbox.valu / ratee, 2, MidpointRounding.AwayFromZero) & " $", a.ToString & " L.L", "(" & textbox.numb & ")") & "  " & TimeOfDay
-                            LBP -= a
-                            chk(clickedlbl.TabIndex + 1) = True
-                            chkus(clickedlbl.TabIndex + 1) = False
-                            sum = sum + textbox.valu / ratee
-                            lblval(clickedlbl.TabIndex + 1, 0) = textbox.valu / ratee
-                            omtt += Decimal.Round(textbox.valu / ratee, 2, MidpointRounding.AwayFromZero)
-                        ElseIf textbox.CheckBox2.Checked = True Then
-                            clickedlbl.Text = clickedlbl.TabIndex + 1 & " )  " & String.Format("{0,-40}{1,-15}", textbox.valu & " $", "(" & textbox.numb & ")") & "  " & TimeOfDay
-                            usd -= textbox.valu
-                            chkus(clickedlbl.TabIndex + 1) = True
-                            chk(clickedlbl.TabIndex + 1) = False
-                            sum = sum + textbox.valu
-                            lblval(clickedlbl.TabIndex + 1, 0) = textbox.valu
-                            omtt += textbox.valu
+                            omtt -= lblval(clickedlbl.TabIndex + 1, 0)
+                            sum = sum - lblval(clickedlbl.TabIndex + 1, 0)
+                            If chk(clickedlbl.TabIndex + 1) = True Then
+                                LBP += lblval(clickedlbl.TabIndex + 1, 0) * ratee
+
+                            ElseIf chkus(clickedlbl.TabIndex + 1) = True Then
+                                usd += lblval(clickedlbl.TabIndex + 1, 0)
+
+                            End If
+                            If textbox.CheckBox1.Checked = True Then
+                                Dim a As Decimal = textbox.valu
+
+                                clickedlbl.Text = clickedlbl.TabIndex + 1 & " )  " & String.Format("{0,-20}{1,-20}{2,-15}", Decimal.Round(textbox.valu / ratee, 2, MidpointRounding.AwayFromZero) & " $", a.ToString & " L.L", "(" & textbox.numb & ")") & "  " & TimeOfDay
+                                LBP -= a
+                                chk(clickedlbl.TabIndex + 1) = True
+                                chkus(clickedlbl.TabIndex + 1) = False
+                                sum = sum + textbox.valu / ratee
+                                lblval(clickedlbl.TabIndex + 1, 0) = textbox.valu / ratee
+                                omtt += Decimal.Round(textbox.valu / ratee, 2, MidpointRounding.AwayFromZero)
+                            ElseIf textbox.CheckBox2.Checked = True Then
+                                clickedlbl.Text = clickedlbl.TabIndex + 1 & " )  " & String.Format("{0,-40}{1,-15}", textbox.valu & " $", "(" & textbox.numb & ")") & "  " & TimeOfDay
+                                usd -= textbox.valu
+                                chkus(clickedlbl.TabIndex + 1) = True
+                                chk(clickedlbl.TabIndex + 1) = False
+                                sum = sum + textbox.valu
+                                lblval(clickedlbl.TabIndex + 1, 0) = textbox.valu
+                                omtt += textbox.valu
+                            End If
+
+
+                            clickedlbl.BackColor = Color.Gold
+
+                            lbtotal.Text = Decimal.Round(sum, 2, MidpointRounding.AwayFromZero).ToString + " $"
+
+                            updlist()
+                            FlowLayoutPanel1.ScrollControlIntoView(lbl)
                         End If
-
-
-                        clickedlbl.BackColor = Color.Gold
-
-                        lbtotal.Text = Decimal.Round(sum, 2, MidpointRounding.AwayFromZero).ToString + " $"
-
-                        updlist()
-                        FlowLayoutPanel1.ScrollControlIntoView(lbl)
                     End If
+                Else
+                    MsgBox("nothing selected")
+                    Exit Sub
                 End If
-
-            Else
-                MsgBox("nothing selected")
-                Exit Sub
+                closingg()
             End If
-            closingg()
         End If
     End Sub
 
@@ -2269,7 +2272,8 @@ Public Class Form1
             sum += Val
             InternetSales += Val
             InternetSalesCount += 1
-            lbl.BackColor = Color.Purple
+            InternetSalesCost += BundleCost
+            lbl.BackColor = Color.LightBlue
             lbtotal.Text = Decimal.Round(sum, 2, MidpointRounding.AwayFromZero).ToString + " $"
             updlist()
             FlowLayoutPanel1.ScrollControlIntoView(lbl)

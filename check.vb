@@ -69,8 +69,6 @@
         Form1.deposit()
         My.Settings.depo = True
         Me.Visible = False
-
-
     End Sub
     Private Sub chk()
         If Form1.count = 0 Then

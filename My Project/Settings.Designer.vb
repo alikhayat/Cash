@@ -941,6 +941,18 @@ Namespace My
                 Me("InternetSalesCount") = value
             End Set
         End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("0")>  _
+        Public Property InternetSalesCost() As Decimal
+            Get
+                Return CType(Me("InternetSalesCost"),Decimal)
+            End Get
+            Set
+                Me("InternetSalesCost") = value
+            End Set
+        End Property
     End Class
 End Namespace
 
