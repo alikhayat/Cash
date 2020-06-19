@@ -227,6 +227,38 @@ Public Class Form1
         Finally
             If con.State = ConnectionState.Open Then
                 con.Close()
+                con.Dispose()
+            End If
+        End Try
+    End Function
+    Private Function Get_BundleDesc(ByVal ID As Integer) As String
+        If ID < 0 Then
+            Return Nothing
+        End If
+        Dim con As New OleDb.OleDbConnection(My.Settings.BundlesConnectionString)
+        Try
+            If Not con.State = ConnectionState.Open Then
+                con.Open()
+            End If
+            Dim Query As String = String.Format("SELECT [Description] FROM [Bundles] WHERE [ID] = {0}", ID)
+            Dim myadapter As New OleDb.OleDbDataAdapter(Query, con)
+            Dim ds As New DataSet
+            myadapter.Fill(ds, "Bundles")
+            If ds.Tables("Bundles").Rows.Count <> 0 Then
+                If ds.Tables("Bundles").Rows(0)(0) <> Nothing Then
+                    Return ds.Tables("Bundles").Rows(0)(0)
+                Else
+                    Return Nothing
+                End If
+            Else
+                Return Nothing
+            End If
+        Catch ex As Exception
+            Return Nothing
+        Finally
+            If con.State = ConnectionState.Open Then
+                con.Close()
+                con.Dispose()
             End If
         End Try
     End Function
@@ -837,10 +869,10 @@ Public Class Form1
                     ElseIf last = "|" Then
                         labelarray(i).Text = lines(i).Trim.Remove(lines(i).Length - 1)
                         labelarray(i).BackColor = Color.Gold
-                    ElseIf last = "`" Then
+                    ElseIf last = "~" Then
                         labelarray(i).Text = lines(i).Trim.Remove(lines(i).Length - 1)
                         labelarray(i).BackColor = Color.LightBlue
-                    ElseIf last <> "!" And last <> "@" And last <> "#" And last <> "$" And last <> "%" And last <> "^" And last <> "&" And last <> "*" And last <> "(" And last <> ")" And last <> "_" And last <> "+" And last <> "|" And last <> "`" Then
+                    ElseIf last <> "!" And last <> "@" And last <> "#" And last <> "$" And last <> "%" And last <> "^" And last <> "&" And last <> "*" And last <> "(" And last <> ")" And last <> "_" And last <> "+" And last <> "|" And last <> "~" Then
                         Exit Sub
                     End If
                 Next
@@ -908,7 +940,7 @@ Public Class Form1
                     ElseIf last = "|" Then
                         labelarray(i).Text = lines(i).Trim.Remove(lines(i).Length - 1)
                         labelarray(i).BackColor = Color.Gold
-                    ElseIf last = "`" Then
+                    ElseIf last = "~" Then
                         labelarray(i).Text = lines(i).Trim.Remove(lines(i).Length - 1)
                         labelarray(i).BackColor = Color.LightBlue
                     End If
@@ -1236,9 +1268,8 @@ Public Class Form1
         My.Settings.InternetSales = InternetSales
         My.Settings.InternetSalesCount = InternetSalesCount
         My.Settings.InternetSalesCost = InternetSalesCost
+
         For i As Integer = 0 To count
-
-
             If labelarray(i).BackColor = Color.White Then
                 txt += labelarray(i).Text.TrimEnd + "!" + vbCrLf
             ElseIf labelarray(i).BackColor = Color.Silver Then
@@ -2262,9 +2293,13 @@ Public Class Form1
                 End If
             End If
             Dim Cus As String = InternetSale.TextBox1.Text
-            Dim Bundle As String = InternetSale.Bundles.SelectedItem.key
-            Bundle = Bundle.Substring(0, Bundle.LastIndexOf("-"))
-            lbl.Text = count & " )   " & String.Format("{0,-40}{1,-15}", Val.ToString & " $", "(" & Cus & ")( " & Bundle & " )") & "  " & TimeOfDay
+            Dim Bundle As String = Get_BundleDesc(InternetSale.Bundles.SelectedItem.value)
+            'Bundle = Bundle.Substring(0, Bundle.LastIndexOf("-"))
+            If Bundle <> Nothing Then
+                lbl.Text = count & " )   " & String.Format("{0,-40}{1,-15}", Val.ToString & " $", "(" & Cus & ")( " & Bundle & " )") & "  " & TimeOfDay
+            Else
+                lbl.Text = count & " )   " & String.Format("{0,-40}{1,-15}", Val.ToString & " $", "(" & Cus & ")") & "  " & TimeOfDay
+            End If
             lblval(count, 0) = Val
             lblval(count, 1) = BundleCost
             chkus(count) = False

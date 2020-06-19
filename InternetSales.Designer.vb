@@ -56,6 +56,7 @@ Partial Class InternetSales
         '
         'input
         '
+        Me.input.Enabled = False
         Me.input.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.input.Location = New System.Drawing.Point(118, 22)
         Me.input.Multiline = True

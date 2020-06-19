@@ -77,6 +77,7 @@
         Finally
             If con.State = ConnectionState.Open Then
                 con.Close()
+                con.Dispose()
             End If
         End Try
     End Sub

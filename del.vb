@@ -57,8 +57,7 @@ Public Class del
             Me.Close()
         End If
     End Sub
-    Private Sub statdel()
-        
+    Private Sub statdel()    
         Form1.sent = 0
         Form1.sentc = 0
         Form1.paid = 0
