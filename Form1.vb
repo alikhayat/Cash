@@ -887,8 +887,6 @@ Public Class Form1
 
                     Dim last As Char = lines(i).Last
 
-
-
                     If last = "!" Then
                         labelarray(i).Text = lines(i).Trim.Remove(lines(i).Length - 1)
 
@@ -960,7 +958,6 @@ Public Class Form1
             Exit Sub
         End If
     End Sub
-
     Private Sub Button9_Click(sender As Object, e As EventArgs) Handles Button9.Click
         del.ShowDialog()
     End Sub
@@ -1102,7 +1099,6 @@ Public Class Form1
             lbl = labelarray(count - 1)
         Else
             lbl = labelarray(count - 1)
-
         End If
         Dim res As Integer = Convert.ToInt32(check.res)
         lbl.Text = count & " ) " & String.Format("{0,-40}{1,-15}", check.summ.Text & " $", "from :" & Decimal.Round(sum, 2, MidpointRounding.AwayFromZero).ToString & " $" & "  " & TimeOfDay)
@@ -1118,7 +1114,7 @@ Public Class Form1
         Dim report As String
         report = vbCrLf + "------------------------------------------------------------------" + vbCrLf + "PAID:  " + "  " + paidc.ToString + " = " + Decimal.Round(paid, 2, MidpointRounding.AwayFromZero).ToString _
        + " $" + vbCrLf + "SENT:  " & "  " & sentc.ToString + " = " + Decimal.Round(sent, 2, MidpointRounding.AwayFromZero).ToString + " $" + vbCrLf + "BALANCE IN USD:  " + usd.ToString("N1", CultureInfo.InvariantCulture) + " $" + vbCrLf + _
-        "BALANCE IN LBP:  " + LBP.ToString("N1", CultureInfo.InvariantCulture) + " L.L" + vbCrLf + "your cash balance:  " + Decimal.Round(sum, 2, MidpointRounding.AwayFromZero).ToString + "$" + vbCrLf + "ALFA:  " & alfac.ToString + " = " + alf.ToString + " $" + vbCrLf + "MTC:  " & mtco.ToString + " = " + mt.ToString + " $" + vbCrLf + "OGERO:  " & ogc.ToString + " = " + Decimal.Round(og, 2, MidpointRounding.AwayFromZero).ToString _
+        "BALANCE IN LBP:  " + LBP.ToString("N1", CultureInfo.InvariantCulture) + " L.L" + vbCrLf + "your cash balance:  " + Decimal.Round(sum, 2, MidpointRounding.AwayFromZero).ToString + "$" + vbCrLf + "ALFA:  " & alfac.ToString + " = " + Decimal.Round(alf, 2, MidpointRounding.AwayFromZero).ToString + " $" + vbCrLf + "MTC:  " & mtco.ToString + " = " + Decimal.Round(mt, 2, MidpointRounding.AwayFromZero).ToString + " $" + vbCrLf + "OGERO:  " & ogc.ToString + " = " + Decimal.Round(og, 2, MidpointRounding.AwayFromZero).ToString _
    + " $" + vbCrLf + "OMT services:    " + omtc.ToString + " = " + Decimal.Round(omtt, 2, MidpointRounding.AwayFromZero).ToString + " $" + vbCrLf + "PROFIT (store items):  " & profit.ToString + " $" + vbCrLf + "Debt:  " + My.Settings.debit.ToString + " $" + vbCrLf + "------------------------------------------------------------------" + vbCrLf + "EUR (EURO):  " + My.Settings.eur.ToString + vbCrLf _
         + "CAD (Canadian dollar):  " + My.Settings.cad.ToString + vbCrLf + "GBP (British pound):  " + My.Settings.gbp.ToString + vbCrLf + "JPY (Japanese yen):  " + My.Settings.jpy.ToString + vbCrLf _
         + "SAR (Saudi riyal):  " + My.Settings.sar.ToString + vbCrLf + "AUD (Australian dollar):  " + My.Settings.aud.ToString + vbCrLf _
@@ -1134,8 +1130,14 @@ Public Class Form1
     Private Sub arrayint()
 
         Dim s As String = ""
+        Dim Relay As Boolean = True
         For Each ss As Decimal In lblval
-            s &= ss.ToString() & " "
+            If Relay = True Then
+                s &= ss.ToString() & " "
+                Relay = False
+            Else
+                Relay = True
+            End If
         Next
         s = s.TrimEnd()
         Dim d As String = ""

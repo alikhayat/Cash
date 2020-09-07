@@ -3,6 +3,8 @@
     Private Sub InternetSales_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Me.Bundles.DisplayMember = "Key"
         Me.Bundles.ValueMember = "Value"
+        'Bundles.DrawMode = DrawMode.OwnerDrawFixed
+        'Bundles.Height = 18
         FillBundles()
     End Sub
     Private Sub FillBundles()
@@ -14,11 +16,12 @@
 
             For Each Row In dt.Rows
                 If Row(6) = True Then
-                    Bundles.Items.Add(New DictionaryEntry(Row(2).ToString + "Mb - " + Row(3).ToString + "GB - " + Row(5).ToString + " $", CInt(Row(0))))
+                    Bundles.Items.Add(New DictionaryEntry(Row(1).ToString + vbCrLf + Row(2).ToString + "Mb - " + Row(3).ToString + "GB - " + Row(5).ToString + " $", CInt(Row(0))))
                 End If
             Next
         End If
     End Sub
+    
     Private Sub FillDataset()
         Dim con As New OleDb.OleDbConnection(My.Settings.BundlesConnectionString)
         Dim Sql As String = String.Format("SELECT * FROM [Bundles] WHERE [Active] = {0}", True)

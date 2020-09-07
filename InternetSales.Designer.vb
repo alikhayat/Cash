@@ -13,6 +13,25 @@ Partial Class InternetSales
             MyBase.Dispose(disposing)
         End Try
     End Sub
+    Private Sub myComboBox_DrawItem(ByVal sender As Object, ByVal e As DrawItemEventArgs)
+        Dim box As ComboBox = TryCast(sender, ComboBox)
+        If Object.ReferenceEquals(Nothing, box) Then Return
+        e.DrawBackground()
+
+        If e.Index >= 0 Then
+            Dim g As Graphics = e.Graphics
+
+            Using brush As Brush = If(((e.State And DrawItemState.Selected) = DrawItemState.Selected), New SolidBrush(SystemColors.Highlight), New SolidBrush(e.BackColor))
+
+                Using textBrush As Brush = New SolidBrush(e.ForeColor)
+                    g.FillRectangle(brush, e.Bounds)
+                    g.DrawString(box.Items(e.Index).ToString(), e.Font, textBrush, e.Bounds, StringFormat.GenericDefault)
+                End Using
+            End Using
+        End If
+
+        e.DrawFocusRectangle()
+    End Sub
 
     'Required by the Windows Form Designer
     Private components As System.ComponentModel.IContainer
@@ -108,6 +127,7 @@ Partial Class InternetSales
         Me.Bundles.Size = New System.Drawing.Size(143, 21)
         Me.Bundles.TabIndex = 3
         Me.Bundles.ValueMember = "Value"
+
         '
         'Button1
         '
