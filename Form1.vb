@@ -202,6 +202,7 @@ Public Class Form1
                 con.Open()
             End If
             Dim Query As String = String.Format("SELECT [Cost] FROM [Bundles] WHERE [ID] = {0}", ID)
+
             Dim myadapter As New OleDb.OleDbDataAdapter(Query, con)
             Dim ds As New DataSet
             myadapter.Fill(ds, "Bundles")
@@ -1389,7 +1390,7 @@ Public Class Form1
                 If s = "d" Or s = "D" Or s = "delete" Or s = "DELETE" Then
                     If clickedlbl.BackColor = Color.White Or clickedlbl.BackColor = Color.Yellow Or clickedlbl.BackColor = Color.Red Or clickedlbl.BackColor = Color.Green Or clickedlbl.BackColor = Color.Aqua Or clickedlbl.BackColor = color.violet Or clickedlbl.BackColor = Color.Gold Or clickedlbl.BackColor = color.LightBlue Then
 
-                        clickedlbl.Text = clickedlbl.TabIndex + 1 & " )  " & String.Format("{0,-55}", "--DELETED--") & "  " & TimeOfDay
+
 
                         lbtotal.Text = Decimal.Round(sum, 2, MidpointRounding.AwayFromZero).ToString + " $"
                         If clickedlbl.BackColor = Color.Yellow Then
@@ -1445,11 +1446,18 @@ Public Class Form1
 
                             clickedlbl.BackColor = Color.MintCream
                         ElseIf clickedlbl.BackColor = color.LightBlue Then
+                            Dim FirstSy, SecondSy As Integer
+                            Dim BundleID As String = 0
+                            Dim BundleCost As Decimal = 0
+                            FirstSy = InStr(clickedlbl.Text, "[")
+                            SecondSy = InStr(clickedlbl.Text, "]")
+                            BundleID = clickedlbl.Text.Substring(FirstSy, SecondSy - FirstSy - 1)
+                            BundleCost = Get_BundleCost(Convert.ToInt32(BundleID))
                             InternetSales -= lblval(clickedlbl.TabIndex + 1, 0)
-                            InternetSalesCost -= lblval(clickedlbl.TabIndex + 1, 1)
+                            InternetSalesCost -= BundleCost
                             InternetSalesCount -= 1
                             sum = sum - lblval(clickedlbl.TabIndex + 1, 0)
-                            AdjustInternetAfterDelete(lblval(clickedlbl.TabIndex + 1, 1))
+                            AdjustInternetAfterDelete(BundleCost)
                             clickedlbl.BackColor = Color.MintCream
                         ElseIf clickedlbl.BackColor = Color.White Then
                             clickedlbl.BackColor = Color.MintCream
@@ -1472,10 +1480,8 @@ Public Class Form1
                         clickedlbl.BackColor = Color.MintCream
                         updlist()
                         FlowLayoutPanel1.ScrollControlIntoView(lbl)
-
-                    Else
                         clickedlbl.Text = clickedlbl.TabIndex + 1 & " )  " & String.Format("{0,-55}", "--DELETED--") & "  " & TimeOfDay
-
+                    Else
 
                         lbtotal.Text = Decimal.Round(sum, 2, MidpointRounding.AwayFromZero).ToString + " $"
                         If clickedlbl.BackColor = Color.Orange Then
@@ -1575,7 +1581,7 @@ Public Class Form1
                         My.Settings.Save()
                         FlowLayoutPanel1.ScrollControlIntoView(lbl)
                     End If
-
+                    clickedlbl.Text = clickedlbl.TabIndex + 1 & " )  " & String.Format("{0,-55}", "--DELETED--") & "  " & TimeOfDay
                 ElseIf s = "e" Or s = "E" Or s = "edit" Or s = "EDIT" Then
 
                     If clickedlbl.BackColor = Color.Yellow Then
@@ -1768,12 +1774,12 @@ Public Class Form1
 
 
 
-                            If chk(clickedlbl.TabIndex + 1) = True Then
-                                LBP += lblval(clickedlbl.TabIndex + 1, 0) * ratee
+                            'If chk(clickedlbl.TabIndex + 1) = True Then
+                            'LBP += lblval(clickedlbl.TabIndex + 1, 0) * ratee
 
-                            ElseIf chkus(clickedlbl.TabIndex + 1) = True Then
-                                usd += lblval(clickedlbl.TabIndex + 1, 0)
-                            ElseIf chkp(clickedlbl.TabIndex + 1) = True Then
+                            'ElseIf chkus(clickedlbl.TabIndex + 1) = True Then
+                            'usd += lblval(clickedlbl.TabIndex + 1, 0)
+                            If chkp(clickedlbl.TabIndex + 1) = True Then
                                 profit -= profitt(clickedlbl.TabIndex + 1)
 
                             End If
@@ -1786,18 +1792,18 @@ Public Class Form1
                             lbtotal.Text = Decimal.Round(sum, 2, MidpointRounding.AwayFromZero).ToString + " $"
                             edited(clickedlbl.TabIndex) = True
                             lblval(clickedlbl.TabIndex + 1, 0) = textbox.valu
-                            If textbox.CheckBox1.Checked = True Then
-                                clickedlbl.Text = clickedlbl.TabIndex + 1 & " )  " & String.Format("{0,-20}{1,-20}{2,-15}", textbox.valu & " $", textbox.valu * ratee & " L.L", textbox.numb) & "  " & TimeOfDay
+                            'If textbox.CheckBox1.Checked = True Then
+                            'clickedlbl.Text = clickedlbl.TabIndex + 1 & " )  " & String.Format("{0,-20}{1,-20}{2,-15}", textbox.valu & " $", textbox.valu * ratee & " L.L", textbox.numb) & "  " & TimeOfDay
 
-                                LBP -= textbox.valu * ratee
-                                chk(clickedlbl.TabIndex + 1) = True
-                                chkus(clickedlbl.TabIndex + 1) = False
-                            ElseIf textbox.CheckBox2.Checked = True Then
+                            'LBP -= textbox.valu * ratee
+                            'chk(clickedlbl.TabIndex + 1) = True
+                            'chkus(clickedlbl.TabIndex + 1) = False
+                            'ElseIf textbox.CheckBox2.Checked = True Then
 
-                                usd -= textbox.valu
-                                chkus(clickedlbl.TabIndex + 1) = True
-                                chk(clickedlbl.TabIndex + 1) = False
-                            ElseIf textbox.CheckBox4.Checked = True Then
+                            'usd -= textbox.valu
+                            'chkus(clickedlbl.TabIndex + 1) = True
+                            'chk(clickedlbl.TabIndex + 1) = False
+                            If textbox.CheckBox4.Checked = True Then
                                 Try
                                     profit += Convert.ToDecimal(textbox.TextBox2.Text)
                                     profitt(clickedlbl.TabIndex + 1) = Convert.ToDecimal(textbox.TextBox2.Text)
@@ -1814,12 +1820,12 @@ Public Class Form1
                         Else
 
 
-                            If chk(clickedlbl.TabIndex + 1) = True Then
-                                LBP += lblval(clickedlbl.TabIndex + 1, 0) * ratee
+                            'If chk(clickedlbl.TabIndex + 1) = True Then
+                            '    LBP += lblval(clickedlbl.TabIndex + 1, 0) * ratee
 
-                            ElseIf chkus(clickedlbl.TabIndex + 1) = True Then
-                                usd += lblval(clickedlbl.TabIndex + 1, 0)
-                            ElseIf chkp(clickedlbl.TabIndex + 1) Then
+                            'ElseIf chkus(clickedlbl.TabIndex + 1) = True Then
+                            '    usd += lblval(clickedlbl.TabIndex + 1, 0)
+                            If chkp(clickedlbl.TabIndex + 1) Then
                                 profit -= profitt(clickedlbl.TabIndex + 1)
                             End If
 
@@ -1831,18 +1837,18 @@ Public Class Form1
                             lbtotal.Text = Decimal.Round(sum, 2, MidpointRounding.AwayFromZero).ToString + " $"
                             edited(clickedlbl.TabIndex) = True
                             lblval(clickedlbl.TabIndex + 1, 0) = textbox.valu
-                            If textbox.CheckBox1.Checked = True Then
-                                clickedlbl.Text = clickedlbl.TabIndex + 1 & " )  " & String.Format("{0,-20}{1,-20}{2,-15}", textbox.valu & " $", Decimal.Round(textbox.valu * ratee, 0, MidpointRounding.AwayFromZero) & " L.L", textbox.numb) & "  " & TimeOfDay
+                            'If textbox.CheckBox1.Checked = True Then
+                            '    clickedlbl.Text = clickedlbl.TabIndex + 1 & " )  " & String.Format("{0,-20}{1,-20}{2,-15}", textbox.valu & " $", Decimal.Round(textbox.valu * ratee, 0, MidpointRounding.AwayFromZero) & " L.L", textbox.numb) & "  " & TimeOfDay
 
-                                LBP -= textbox.valu * ratee
-                                chk(clickedlbl.TabIndex + 1) = True
-                                chkus(clickedlbl.TabIndex + 1) = False
-                            ElseIf textbox.CheckBox2.Checked = True Then
+                            '    LBP -= textbox.valu * ratee
+                            '    chk(clickedlbl.TabIndex + 1) = True
+                            '    chkus(clickedlbl.TabIndex + 1) = False
+                            'ElseIf textbox.CheckBox2.Checked = True Then
 
-                                usd -= textbox.valu
-                                chkus(clickedlbl.TabIndex + 1) = True
-                                chk(clickedlbl.TabIndex + 1) = False
-                            ElseIf textbox.CheckBox4.Checked = True Then
+                            '    usd -= textbox.valu
+                            '    chkus(clickedlbl.TabIndex + 1) = True
+                            '    chk(clickedlbl.TabIndex + 1) = False
+                            If textbox.CheckBox4.Checked = True Then
                                 Try
                                     profit += Convert.ToDecimal(textbox.TextBox2.Text)
                                     profitt(clickedlbl.TabIndex + 1) = Convert.ToDecimal(textbox.TextBox2.Text)
@@ -1878,11 +1884,11 @@ Public Class Form1
                             textbox.CheckBox1.Checked = False
                         ElseIf chk(clickedlbl.TabIndex + 1) = False And chkus(clickedlbl.TabIndex + 1) = False Then
                             textbox.CheckBox1.Checked = False
-                            textbox.CheckBox2.Checked = False
+                                textbox.CheckBox2.Checked = False
 
-                            textbox.CheckBox4.Checked = False
-                        End If
-                        textbox.TextBox1.Visible = True
+                                textbox.CheckBox4.Checked = False
+                            End If
+                            textbox.TextBox1.Visible = True
                         textbox.clicked = False
                         textbox.ShowDialog()
 
@@ -1896,13 +1902,13 @@ Public Class Form1
 
 
                             sum = sum + lblval(clickedlbl.TabIndex + 1, 0)
-                            If chk(clickedlbl.TabIndex + 1) = True Then
-                                LBP -= lblval(clickedlbl.TabIndex + 1, 0) * ratee
+                            'If chk(clickedlbl.TabIndex + 1) = True Then
+                            '    LBP -= lblval(clickedlbl.TabIndex + 1, 0) * ratee
 
-                            ElseIf chkus(clickedlbl.TabIndex + 1) = True Then
-                                usd -= lblval(clickedlbl.TabIndex + 1, 0)
+                            'ElseIf chkus(clickedlbl.TabIndex + 1) = True Then
+                            '    usd -= lblval(clickedlbl.TabIndex + 1, 0)
 
-                            End If
+                            'End If
 
                             clickedlbl.Text = clickedlbl.TabIndex + 1 & " ) --" & String.Format("{0,-40}{1,-15}", textbox.valu & " $", textbox.numb) & "  " & TimeOfDay
                             clickedlbl.BackColor = Color.Silver
@@ -1910,31 +1916,31 @@ Public Class Form1
                             lbtotal.Text = Decimal.Round(sum, 2, MidpointRounding.AwayFromZero).ToString + " $"
 
                             lblval(clickedlbl.TabIndex + 1, 0) = textbox.valu
-                            If textbox.CheckBox1.Checked = True Then
-                                clickedlbl.Text = clickedlbl.TabIndex + 1 & " ) --" & String.Format("{0,-20}{1,-20}{2,-15}", textbox.valu & " $", Decimal.Round(textbox.valu * ratee, 0, MidpointRounding.AwayFromZero) & " L.L", textbox.numb) & "  " & TimeOfDay
+                            'If textbox.CheckBox1.Checked = True Then
+                            '    clickedlbl.Text = clickedlbl.TabIndex + 1 & " ) --" & String.Format("{0,-20}{1,-20}{2,-15}", textbox.valu & " $", Decimal.Round(textbox.valu * ratee, 0, MidpointRounding.AwayFromZero) & " L.L", textbox.numb) & "  " & TimeOfDay
 
-                                LBP += textbox.valu * ratee
-                                chk(clickedlbl.TabIndex + 1) = True
-                                chkus(clickedlbl.TabIndex + 1) = False
-                            ElseIf textbox.CheckBox2.Checked = True Then
+                            '    LBP += textbox.valu * ratee
+                            '    chk(clickedlbl.TabIndex + 1) = True
+                            '    chkus(clickedlbl.TabIndex + 1) = False
+                            'ElseIf textbox.CheckBox2.Checked = True Then
 
-                                usd += textbox.valu
-                                chkus(clickedlbl.TabIndex + 1) = True
-                                chk(clickedlbl.TabIndex + 1) = False
-                            End If
+                            '    usd += textbox.valu
+                            '    chkus(clickedlbl.TabIndex + 1) = True
+                            '    chk(clickedlbl.TabIndex + 1) = False
+                            'End If
                             updlist()
                             FlowLayoutPanel1.ScrollControlIntoView(lbl)
                         Else
 
 
                             sum = sum + lblval(clickedlbl.TabIndex + 1, 0)
-                            If chk(clickedlbl.TabIndex + 1) = True Then
-                                LBP -= lblval(clickedlbl.TabIndex + 1, 0) * ratee
+                            'If chk(clickedlbl.TabIndex + 1) = True Then
+                            '    LBP -= lblval(clickedlbl.TabIndex + 1, 0) * ratee
 
-                            ElseIf chkus(clickedlbl.TabIndex + 1) = True Then
-                                usd -= lblval(clickedlbl.TabIndex + 1, 0)
+                            'ElseIf chkus(clickedlbl.TabIndex + 1) = True Then
+                            '    usd -= lblval(clickedlbl.TabIndex + 1, 0)
 
-                            End If
+                            'End If
 
 
 
@@ -1945,18 +1951,18 @@ Public Class Form1
                             lbtotal.Text = Decimal.Round(sum, 2, MidpointRounding.AwayFromZero).ToString + " $"
 
                             lblval(clickedlbl.TabIndex + 1, 0) = textbox.valu
-                            If textbox.CheckBox1.Checked = True Then
-                                clickedlbl.Text = clickedlbl.TabIndex + 1 & " ) --" & String.Format("{0,-20}{1,-20}{2,-15}", textbox.valu & " $", textbox.valu * ratee & " L.L", textbox.numb) & "  " & TimeOfDay
+                            'If textbox.CheckBox1.Checked = True Then
+                            '    clickedlbl.Text = clickedlbl.TabIndex + 1 & " ) --" & String.Format("{0,-20}{1,-20}{2,-15}", textbox.valu & " $", textbox.valu * ratee & " L.L", textbox.numb) & "  " & TimeOfDay
 
-                                LBP += textbox.valu * ratee
-                                chk(clickedlbl.TabIndex + 1) = True
-                                chkus(clickedlbl.TabIndex + 1) = False
-                            ElseIf textbox.CheckBox2.Checked = True Then
+                            '    LBP += textbox.valu * ratee
+                            '    chk(clickedlbl.TabIndex + 1) = True
+                            '    chkus(clickedlbl.TabIndex + 1) = False
+                            'ElseIf textbox.CheckBox2.Checked = True Then
 
-                                usd += textbox.valu
-                                chkus(clickedlbl.TabIndex + 1) = True
-                                chk(clickedlbl.TabIndex + 1) = False
-                            End If
+                            '    usd += textbox.valu
+                            '    chkus(clickedlbl.TabIndex + 1) = True
+                            '    chk(clickedlbl.TabIndex + 1) = False
+                            'End If
                             updlist()
                             FlowLayoutPanel1.ScrollControlIntoView(lbl)
                         End If
@@ -2298,7 +2304,7 @@ Public Class Form1
             Dim Bundle As String = Get_BundleDesc(InternetSale.Bundles.SelectedItem.value)
             'Bundle = Bundle.Substring(0, Bundle.LastIndexOf("-"))
             If Bundle <> Nothing Then
-                lbl.Text = count & " )   " & String.Format("{0,-40}{1,-15}", Val.ToString & " $", "(" & Cus & ")( " & Bundle & " )") & "  " & TimeOfDay
+                lbl.Text = count & " )   " & String.Format("{0,-40}{1,-15}", Val.ToString & " $", "(" & Cus & ")( " & Bundle & " )[" & InternetSale.Bundles.SelectedItem.value.ToString & "]") & "  " & TimeOfDay
             Else
                 lbl.Text = count & " )   " & String.Format("{0,-40}{1,-15}", Val.ToString & " $", "(" & Cus & ")") & "  " & TimeOfDay
             End If
@@ -2371,5 +2377,6 @@ Public Class Form1
             MsgBox("Wrong Password")
         End If
     End Sub
+
 End Class
 

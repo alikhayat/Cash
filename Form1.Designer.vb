@@ -2487,7 +2487,7 @@ Partial Class Form1
         '
         'Button5
         '
-        Me.Button5.BackColor = System.Drawing.color.violet
+        Me.Button5.BackColor = System.Drawing.Color.Violet
         Me.Button5.BackgroundImage = Global.Cash.My.Resources.Resources.touch
         resources.ApplyResources(Me.Button5, "Button5")
         Me.Button5.Name = "Button5"
@@ -2525,6 +2525,7 @@ Partial Class Form1
         Me.Controls.Add(Me.lbtotal)
         Me.Controls.Add(Me.FlowLayoutPanel1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
+        Me.MaximizeBox = False
         Me.Name = "Form1"
         Me.FlowLayoutPanel1.ResumeLayout(False)
         Me.ResumeLayout(False)

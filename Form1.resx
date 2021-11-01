@@ -136,10 +136,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 1</value>
+    <value>5, 1</value>
+  </data>
+  <data name="Label1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label1.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -163,10 +166,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 24</value>
+    <value>5, 31</value>
+  </data>
+  <data name="Label2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label2.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -190,10 +196,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 47</value>
+    <value>5, 61</value>
+  </data>
+  <data name="Label3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label3.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -217,10 +226,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 70</value>
+    <value>5, 91</value>
+  </data>
+  <data name="Label4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label4.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -244,10 +256,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 93</value>
+    <value>5, 121</value>
+  </data>
+  <data name="Label5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label5.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -271,10 +286,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 116</value>
+    <value>5, 151</value>
+  </data>
+  <data name="Label6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label6.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -298,10 +316,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 139</value>
+    <value>5, 181</value>
+  </data>
+  <data name="Label7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label7.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -325,10 +346,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 162</value>
+    <value>5, 211</value>
+  </data>
+  <data name="Label8.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label8.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -352,10 +376,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 185</value>
+    <value>5, 241</value>
+  </data>
+  <data name="Label9.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label9.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label9.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -379,10 +406,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label10.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 208</value>
+    <value>5, 271</value>
+  </data>
+  <data name="Label10.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label10.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label10.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
@@ -406,10 +436,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label11.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 231</value>
+    <value>5, 301</value>
+  </data>
+  <data name="Label11.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label11.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label11.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
@@ -433,10 +466,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label12.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 254</value>
+    <value>5, 331</value>
+  </data>
+  <data name="Label12.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label12.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label12.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
@@ -460,10 +496,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label13.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 277</value>
+    <value>5, 361</value>
+  </data>
+  <data name="Label13.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label13.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label13.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
@@ -487,10 +526,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label14.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 300</value>
+    <value>5, 391</value>
+  </data>
+  <data name="Label14.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label14.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label14.TabIndex" type="System.Int32, mscorlib">
     <value>13</value>
@@ -514,10 +556,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label15.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 323</value>
+    <value>5, 421</value>
+  </data>
+  <data name="Label15.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label15.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label15.TabIndex" type="System.Int32, mscorlib">
     <value>14</value>
@@ -541,10 +586,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label16.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 346</value>
+    <value>5, 451</value>
+  </data>
+  <data name="Label16.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label16.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label16.TabIndex" type="System.Int32, mscorlib">
     <value>15</value>
@@ -568,10 +616,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label17.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 369</value>
+    <value>5, 481</value>
+  </data>
+  <data name="Label17.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label17.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label17.TabIndex" type="System.Int32, mscorlib">
     <value>16</value>
@@ -595,10 +646,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label18.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 392</value>
+    <value>5, 511</value>
+  </data>
+  <data name="Label18.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label18.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label18.TabIndex" type="System.Int32, mscorlib">
     <value>17</value>
@@ -622,10 +676,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label19.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 415</value>
+    <value>5, 541</value>
+  </data>
+  <data name="Label19.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label19.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label19.TabIndex" type="System.Int32, mscorlib">
     <value>18</value>
@@ -649,10 +706,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label20.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 438</value>
+    <value>5, 571</value>
+  </data>
+  <data name="Label20.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label20.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label20.TabIndex" type="System.Int32, mscorlib">
     <value>19</value>
@@ -676,10 +736,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label21.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 461</value>
+    <value>5, 601</value>
+  </data>
+  <data name="Label21.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label21.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label21.TabIndex" type="System.Int32, mscorlib">
     <value>20</value>
@@ -703,10 +766,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label22.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 484</value>
+    <value>5, 631</value>
+  </data>
+  <data name="Label22.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label22.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label22.TabIndex" type="System.Int32, mscorlib">
     <value>21</value>
@@ -730,10 +796,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label23.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 507</value>
+    <value>5, 661</value>
+  </data>
+  <data name="Label23.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label23.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label23.TabIndex" type="System.Int32, mscorlib">
     <value>22</value>
@@ -757,10 +826,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label24.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 530</value>
+    <value>5, 691</value>
+  </data>
+  <data name="Label24.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label24.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label24.TabIndex" type="System.Int32, mscorlib">
     <value>23</value>
@@ -784,10 +856,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label25.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 553</value>
+    <value>5, 721</value>
+  </data>
+  <data name="Label25.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label25.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label25.TabIndex" type="System.Int32, mscorlib">
     <value>24</value>
@@ -811,10 +886,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label26.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 576</value>
+    <value>5, 751</value>
+  </data>
+  <data name="Label26.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label26.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label26.TabIndex" type="System.Int32, mscorlib">
     <value>25</value>
@@ -838,10 +916,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label27.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 599</value>
+    <value>5, 781</value>
+  </data>
+  <data name="Label27.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label27.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label27.TabIndex" type="System.Int32, mscorlib">
     <value>26</value>
@@ -865,10 +946,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label28.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 622</value>
+    <value>5, 811</value>
+  </data>
+  <data name="Label28.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label28.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label28.TabIndex" type="System.Int32, mscorlib">
     <value>27</value>
@@ -892,10 +976,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label29.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 645</value>
+    <value>5, 841</value>
+  </data>
+  <data name="Label29.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label29.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label29.TabIndex" type="System.Int32, mscorlib">
     <value>28</value>
@@ -919,10 +1006,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label30.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 668</value>
+    <value>5, 871</value>
+  </data>
+  <data name="Label30.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label30.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label30.TabIndex" type="System.Int32, mscorlib">
     <value>29</value>
@@ -946,10 +1036,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label31.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 691</value>
+    <value>5, 901</value>
+  </data>
+  <data name="Label31.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label31.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label31.TabIndex" type="System.Int32, mscorlib">
     <value>30</value>
@@ -973,10 +1066,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label32.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 714</value>
+    <value>5, 931</value>
+  </data>
+  <data name="Label32.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label32.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label32.TabIndex" type="System.Int32, mscorlib">
     <value>31</value>
@@ -1000,10 +1096,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label33.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 737</value>
+    <value>5, 961</value>
+  </data>
+  <data name="Label33.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label33.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label33.TabIndex" type="System.Int32, mscorlib">
     <value>32</value>
@@ -1027,10 +1126,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label34.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 760</value>
+    <value>5, 991</value>
+  </data>
+  <data name="Label34.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label34.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label34.TabIndex" type="System.Int32, mscorlib">
     <value>33</value>
@@ -1054,10 +1156,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label35.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 783</value>
+    <value>5, 1021</value>
+  </data>
+  <data name="Label35.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label35.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label35.TabIndex" type="System.Int32, mscorlib">
     <value>34</value>
@@ -1081,10 +1186,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label36.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 806</value>
+    <value>5, 1051</value>
+  </data>
+  <data name="Label36.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label36.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label36.TabIndex" type="System.Int32, mscorlib">
     <value>35</value>
@@ -1108,10 +1216,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label37.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 829</value>
+    <value>5, 1081</value>
+  </data>
+  <data name="Label37.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label37.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label37.TabIndex" type="System.Int32, mscorlib">
     <value>36</value>
@@ -1135,10 +1246,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label38.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 852</value>
+    <value>5, 1111</value>
+  </data>
+  <data name="Label38.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label38.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label38.TabIndex" type="System.Int32, mscorlib">
     <value>37</value>
@@ -1162,10 +1276,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label39.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 875</value>
+    <value>5, 1141</value>
+  </data>
+  <data name="Label39.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label39.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label39.TabIndex" type="System.Int32, mscorlib">
     <value>38</value>
@@ -1189,10 +1306,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label40.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 898</value>
+    <value>5, 1171</value>
+  </data>
+  <data name="Label40.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label40.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label40.TabIndex" type="System.Int32, mscorlib">
     <value>39</value>
@@ -1216,10 +1336,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label41.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 921</value>
+    <value>5, 1201</value>
+  </data>
+  <data name="Label41.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label41.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label41.TabIndex" type="System.Int32, mscorlib">
     <value>40</value>
@@ -1243,10 +1366,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label42.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 944</value>
+    <value>5, 1231</value>
+  </data>
+  <data name="Label42.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label42.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label42.TabIndex" type="System.Int32, mscorlib">
     <value>41</value>
@@ -1270,10 +1396,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label43.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 967</value>
+    <value>5, 1261</value>
+  </data>
+  <data name="Label43.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label43.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label43.TabIndex" type="System.Int32, mscorlib">
     <value>42</value>
@@ -1297,10 +1426,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label44.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 990</value>
+    <value>5, 1291</value>
+  </data>
+  <data name="Label44.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label44.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label44.TabIndex" type="System.Int32, mscorlib">
     <value>43</value>
@@ -1324,10 +1456,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label45.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 1013</value>
+    <value>5, 1321</value>
+  </data>
+  <data name="Label45.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label45.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label45.TabIndex" type="System.Int32, mscorlib">
     <value>44</value>
@@ -1351,10 +1486,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label46.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 1036</value>
+    <value>5, 1351</value>
+  </data>
+  <data name="Label46.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label46.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label46.TabIndex" type="System.Int32, mscorlib">
     <value>45</value>
@@ -1378,10 +1516,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label47.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 1059</value>
+    <value>5, 1381</value>
+  </data>
+  <data name="Label47.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label47.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label47.TabIndex" type="System.Int32, mscorlib">
     <value>46</value>
@@ -1405,10 +1546,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label48.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 1082</value>
+    <value>5, 1411</value>
+  </data>
+  <data name="Label48.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label48.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label48.TabIndex" type="System.Int32, mscorlib">
     <value>47</value>
@@ -1432,10 +1576,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label49.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 1105</value>
+    <value>5, 1441</value>
+  </data>
+  <data name="Label49.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label49.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label49.TabIndex" type="System.Int32, mscorlib">
     <value>48</value>
@@ -1459,10 +1606,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label50.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 1128</value>
+    <value>5, 1471</value>
+  </data>
+  <data name="Label50.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label50.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label50.TabIndex" type="System.Int32, mscorlib">
     <value>49</value>
@@ -1486,10 +1636,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label51.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 1151</value>
+    <value>5, 1501</value>
+  </data>
+  <data name="Label51.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label51.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label51.TabIndex" type="System.Int32, mscorlib">
     <value>50</value>
@@ -1513,10 +1666,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label52.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 1174</value>
+    <value>5, 1531</value>
+  </data>
+  <data name="Label52.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label52.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label52.TabIndex" type="System.Int32, mscorlib">
     <value>51</value>
@@ -1540,10 +1696,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label53.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 1197</value>
+    <value>5, 1561</value>
+  </data>
+  <data name="Label53.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label53.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label53.TabIndex" type="System.Int32, mscorlib">
     <value>52</value>
@@ -1567,10 +1726,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label54.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 1220</value>
+    <value>5, 1591</value>
+  </data>
+  <data name="Label54.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label54.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label54.TabIndex" type="System.Int32, mscorlib">
     <value>53</value>
@@ -1594,10 +1756,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label55.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 1243</value>
+    <value>5, 1621</value>
+  </data>
+  <data name="Label55.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label55.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label55.TabIndex" type="System.Int32, mscorlib">
     <value>54</value>
@@ -1621,10 +1786,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label56.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 1266</value>
+    <value>5, 1651</value>
+  </data>
+  <data name="Label56.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label56.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label56.TabIndex" type="System.Int32, mscorlib">
     <value>55</value>
@@ -1648,10 +1816,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label57.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 1289</value>
+    <value>5, 1681</value>
+  </data>
+  <data name="Label57.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label57.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label57.TabIndex" type="System.Int32, mscorlib">
     <value>56</value>
@@ -1675,10 +1846,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label58.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 1312</value>
+    <value>5, 1711</value>
+  </data>
+  <data name="Label58.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label58.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label58.TabIndex" type="System.Int32, mscorlib">
     <value>57</value>
@@ -1702,10 +1876,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label59.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 1335</value>
+    <value>5, 1741</value>
+  </data>
+  <data name="Label59.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label59.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label59.TabIndex" type="System.Int32, mscorlib">
     <value>58</value>
@@ -1729,10 +1906,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label60.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 1358</value>
+    <value>5, 1771</value>
+  </data>
+  <data name="Label60.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label60.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label60.TabIndex" type="System.Int32, mscorlib">
     <value>59</value>
@@ -1756,10 +1936,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label61.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 1381</value>
+    <value>5, 1801</value>
+  </data>
+  <data name="Label61.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label61.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label61.TabIndex" type="System.Int32, mscorlib">
     <value>60</value>
@@ -1783,10 +1966,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label62.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 1404</value>
+    <value>5, 1831</value>
+  </data>
+  <data name="Label62.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label62.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label62.TabIndex" type="System.Int32, mscorlib">
     <value>61</value>
@@ -1810,10 +1996,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label63.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 1427</value>
+    <value>5, 1861</value>
+  </data>
+  <data name="Label63.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label63.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label63.TabIndex" type="System.Int32, mscorlib">
     <value>62</value>
@@ -1837,10 +2026,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label64.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 1450</value>
+    <value>5, 1891</value>
+  </data>
+  <data name="Label64.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label64.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label64.TabIndex" type="System.Int32, mscorlib">
     <value>63</value>
@@ -1864,10 +2056,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label65.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 1473</value>
+    <value>5, 1921</value>
+  </data>
+  <data name="Label65.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label65.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label65.TabIndex" type="System.Int32, mscorlib">
     <value>64</value>
@@ -1891,10 +2086,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label66.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 1496</value>
+    <value>5, 1951</value>
+  </data>
+  <data name="Label66.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label66.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label66.TabIndex" type="System.Int32, mscorlib">
     <value>65</value>
@@ -1918,10 +2116,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label67.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 1519</value>
+    <value>5, 1981</value>
+  </data>
+  <data name="Label67.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label67.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label67.TabIndex" type="System.Int32, mscorlib">
     <value>66</value>
@@ -1945,10 +2146,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label68.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 1542</value>
+    <value>5, 2011</value>
+  </data>
+  <data name="Label68.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label68.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label68.TabIndex" type="System.Int32, mscorlib">
     <value>67</value>
@@ -1972,10 +2176,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label69.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 1565</value>
+    <value>5, 2041</value>
+  </data>
+  <data name="Label69.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label69.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label69.TabIndex" type="System.Int32, mscorlib">
     <value>68</value>
@@ -1999,10 +2206,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label70.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 1588</value>
+    <value>5, 2071</value>
+  </data>
+  <data name="Label70.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label70.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label70.TabIndex" type="System.Int32, mscorlib">
     <value>69</value>
@@ -2026,10 +2236,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label71.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 1611</value>
+    <value>5, 2101</value>
+  </data>
+  <data name="Label71.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label71.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label71.TabIndex" type="System.Int32, mscorlib">
     <value>70</value>
@@ -2053,10 +2266,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label72.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 1634</value>
+    <value>5, 2131</value>
+  </data>
+  <data name="Label72.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label72.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label72.TabIndex" type="System.Int32, mscorlib">
     <value>71</value>
@@ -2080,10 +2296,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label73.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 1657</value>
+    <value>5, 2161</value>
+  </data>
+  <data name="Label73.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label73.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label73.TabIndex" type="System.Int32, mscorlib">
     <value>72</value>
@@ -2107,10 +2326,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label74.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 1680</value>
+    <value>5, 2191</value>
+  </data>
+  <data name="Label74.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label74.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label74.TabIndex" type="System.Int32, mscorlib">
     <value>73</value>
@@ -2134,10 +2356,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label75.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 1703</value>
+    <value>5, 2221</value>
+  </data>
+  <data name="Label75.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label75.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label75.TabIndex" type="System.Int32, mscorlib">
     <value>74</value>
@@ -2161,10 +2386,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label76.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 1726</value>
+    <value>5, 2251</value>
+  </data>
+  <data name="Label76.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label76.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label76.TabIndex" type="System.Int32, mscorlib">
     <value>75</value>
@@ -2188,10 +2416,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label77.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 1749</value>
+    <value>5, 2281</value>
+  </data>
+  <data name="Label77.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label77.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label77.TabIndex" type="System.Int32, mscorlib">
     <value>76</value>
@@ -2215,10 +2446,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label78.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 1772</value>
+    <value>5, 2311</value>
+  </data>
+  <data name="Label78.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label78.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label78.TabIndex" type="System.Int32, mscorlib">
     <value>77</value>
@@ -2242,10 +2476,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label79.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 1795</value>
+    <value>5, 2341</value>
+  </data>
+  <data name="Label79.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label79.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label79.TabIndex" type="System.Int32, mscorlib">
     <value>78</value>
@@ -2269,10 +2506,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label80.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 1818</value>
+    <value>5, 2371</value>
+  </data>
+  <data name="Label80.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label80.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label80.TabIndex" type="System.Int32, mscorlib">
     <value>79</value>
@@ -2296,10 +2536,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label81.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 1841</value>
+    <value>5, 2401</value>
+  </data>
+  <data name="Label81.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label81.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label81.TabIndex" type="System.Int32, mscorlib">
     <value>80</value>
@@ -2323,10 +2566,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label82.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 1864</value>
+    <value>5, 2431</value>
+  </data>
+  <data name="Label82.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label82.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label82.TabIndex" type="System.Int32, mscorlib">
     <value>81</value>
@@ -2350,10 +2596,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label83.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 1887</value>
+    <value>5, 2461</value>
+  </data>
+  <data name="Label83.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label83.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label83.TabIndex" type="System.Int32, mscorlib">
     <value>82</value>
@@ -2377,10 +2626,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label84.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 1910</value>
+    <value>5, 2491</value>
+  </data>
+  <data name="Label84.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label84.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label84.TabIndex" type="System.Int32, mscorlib">
     <value>83</value>
@@ -2404,10 +2656,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label85.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 1933</value>
+    <value>5, 2521</value>
+  </data>
+  <data name="Label85.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label85.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label85.TabIndex" type="System.Int32, mscorlib">
     <value>84</value>
@@ -2431,10 +2686,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label86.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 1956</value>
+    <value>5, 2551</value>
+  </data>
+  <data name="Label86.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label86.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label86.TabIndex" type="System.Int32, mscorlib">
     <value>85</value>
@@ -2458,10 +2716,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label87.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 1979</value>
+    <value>5, 2581</value>
+  </data>
+  <data name="Label87.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label87.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label87.TabIndex" type="System.Int32, mscorlib">
     <value>86</value>
@@ -2485,10 +2746,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label88.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 2002</value>
+    <value>5, 2611</value>
+  </data>
+  <data name="Label88.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label88.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label88.TabIndex" type="System.Int32, mscorlib">
     <value>87</value>
@@ -2512,10 +2776,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label89.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 2025</value>
+    <value>5, 2641</value>
+  </data>
+  <data name="Label89.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label89.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label89.TabIndex" type="System.Int32, mscorlib">
     <value>88</value>
@@ -2539,10 +2806,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label90.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 2048</value>
+    <value>5, 2671</value>
+  </data>
+  <data name="Label90.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label90.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label90.TabIndex" type="System.Int32, mscorlib">
     <value>89</value>
@@ -2566,10 +2836,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label91.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 2071</value>
+    <value>5, 2701</value>
+  </data>
+  <data name="Label91.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label91.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label91.TabIndex" type="System.Int32, mscorlib">
     <value>90</value>
@@ -2593,10 +2866,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label92.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 2094</value>
+    <value>5, 2731</value>
+  </data>
+  <data name="Label92.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label92.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label92.TabIndex" type="System.Int32, mscorlib">
     <value>91</value>
@@ -2620,10 +2896,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label93.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 2117</value>
+    <value>5, 2761</value>
+  </data>
+  <data name="Label93.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label93.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label93.TabIndex" type="System.Int32, mscorlib">
     <value>92</value>
@@ -2647,10 +2926,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label94.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 2140</value>
+    <value>5, 2791</value>
+  </data>
+  <data name="Label94.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label94.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label94.TabIndex" type="System.Int32, mscorlib">
     <value>93</value>
@@ -2674,10 +2956,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label95.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 2163</value>
+    <value>5, 2821</value>
+  </data>
+  <data name="Label95.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label95.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label95.TabIndex" type="System.Int32, mscorlib">
     <value>94</value>
@@ -2701,10 +2986,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label96.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 2186</value>
+    <value>5, 2851</value>
+  </data>
+  <data name="Label96.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label96.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label96.TabIndex" type="System.Int32, mscorlib">
     <value>95</value>
@@ -2728,10 +3016,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label97.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 2209</value>
+    <value>5, 2881</value>
+  </data>
+  <data name="Label97.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label97.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label97.TabIndex" type="System.Int32, mscorlib">
     <value>96</value>
@@ -2755,10 +3046,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label98.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 2232</value>
+    <value>5, 2911</value>
+  </data>
+  <data name="Label98.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label98.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label98.TabIndex" type="System.Int32, mscorlib">
     <value>97</value>
@@ -2782,10 +3076,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label99.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 2255</value>
+    <value>5, 2941</value>
+  </data>
+  <data name="Label99.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label99.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label99.TabIndex" type="System.Int32, mscorlib">
     <value>98</value>
@@ -2809,10 +3106,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label100.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 2278</value>
+    <value>5, 2971</value>
+  </data>
+  <data name="Label100.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label100.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label100.TabIndex" type="System.Int32, mscorlib">
     <value>99</value>
@@ -2836,10 +3136,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label101.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 2301</value>
+    <value>5, 3001</value>
+  </data>
+  <data name="Label101.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label101.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label101.TabIndex" type="System.Int32, mscorlib">
     <value>100</value>
@@ -2863,10 +3166,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label102.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 2324</value>
+    <value>5, 3031</value>
+  </data>
+  <data name="Label102.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label102.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label102.TabIndex" type="System.Int32, mscorlib">
     <value>101</value>
@@ -2890,10 +3196,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label103.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 2347</value>
+    <value>5, 3061</value>
+  </data>
+  <data name="Label103.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label103.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label103.TabIndex" type="System.Int32, mscorlib">
     <value>102</value>
@@ -2917,10 +3226,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label104.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 2370</value>
+    <value>5, 3091</value>
+  </data>
+  <data name="Label104.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label104.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label104.TabIndex" type="System.Int32, mscorlib">
     <value>103</value>
@@ -2944,10 +3256,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label105.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 2393</value>
+    <value>5, 3121</value>
+  </data>
+  <data name="Label105.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label105.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label105.TabIndex" type="System.Int32, mscorlib">
     <value>104</value>
@@ -2971,10 +3286,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label106.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 2416</value>
+    <value>5, 3151</value>
+  </data>
+  <data name="Label106.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label106.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label106.TabIndex" type="System.Int32, mscorlib">
     <value>105</value>
@@ -2998,10 +3316,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label107.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 2439</value>
+    <value>5, 3181</value>
+  </data>
+  <data name="Label107.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label107.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label107.TabIndex" type="System.Int32, mscorlib">
     <value>106</value>
@@ -3025,10 +3346,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label108.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 2462</value>
+    <value>5, 3211</value>
+  </data>
+  <data name="Label108.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label108.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label108.TabIndex" type="System.Int32, mscorlib">
     <value>107</value>
@@ -3052,10 +3376,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label109.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 2485</value>
+    <value>5, 3241</value>
+  </data>
+  <data name="Label109.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label109.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label109.TabIndex" type="System.Int32, mscorlib">
     <value>108</value>
@@ -3079,10 +3406,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label110.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 2508</value>
+    <value>5, 3271</value>
+  </data>
+  <data name="Label110.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label110.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label110.TabIndex" type="System.Int32, mscorlib">
     <value>109</value>
@@ -3106,10 +3436,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label111.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 2531</value>
+    <value>5, 3301</value>
+  </data>
+  <data name="Label111.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label111.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label111.TabIndex" type="System.Int32, mscorlib">
     <value>110</value>
@@ -3133,10 +3466,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label112.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 2554</value>
+    <value>5, 3331</value>
+  </data>
+  <data name="Label112.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label112.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label112.TabIndex" type="System.Int32, mscorlib">
     <value>111</value>
@@ -3160,10 +3496,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label113.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 2577</value>
+    <value>5, 3361</value>
+  </data>
+  <data name="Label113.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label113.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label113.TabIndex" type="System.Int32, mscorlib">
     <value>112</value>
@@ -3187,10 +3526,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label114.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 2600</value>
+    <value>5, 3391</value>
+  </data>
+  <data name="Label114.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label114.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label114.TabIndex" type="System.Int32, mscorlib">
     <value>113</value>
@@ -3214,10 +3556,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label115.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 2623</value>
+    <value>5, 3421</value>
+  </data>
+  <data name="Label115.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label115.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label115.TabIndex" type="System.Int32, mscorlib">
     <value>114</value>
@@ -3241,10 +3586,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label116.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 2646</value>
+    <value>5, 3451</value>
+  </data>
+  <data name="Label116.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label116.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label116.TabIndex" type="System.Int32, mscorlib">
     <value>115</value>
@@ -3268,10 +3616,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label117.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 2669</value>
+    <value>5, 3481</value>
+  </data>
+  <data name="Label117.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label117.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label117.TabIndex" type="System.Int32, mscorlib">
     <value>116</value>
@@ -3295,10 +3646,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label118.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 2692</value>
+    <value>5, 3511</value>
+  </data>
+  <data name="Label118.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label118.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label118.TabIndex" type="System.Int32, mscorlib">
     <value>117</value>
@@ -3322,10 +3676,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label119.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 2715</value>
+    <value>5, 3541</value>
+  </data>
+  <data name="Label119.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label119.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label119.TabIndex" type="System.Int32, mscorlib">
     <value>118</value>
@@ -3349,10 +3706,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label120.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 2738</value>
+    <value>5, 3571</value>
+  </data>
+  <data name="Label120.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label120.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label120.TabIndex" type="System.Int32, mscorlib">
     <value>119</value>
@@ -3376,10 +3736,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label121.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 2761</value>
+    <value>5, 3601</value>
+  </data>
+  <data name="Label121.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label121.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label121.TabIndex" type="System.Int32, mscorlib">
     <value>120</value>
@@ -3403,10 +3766,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label122.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 2784</value>
+    <value>5, 3631</value>
+  </data>
+  <data name="Label122.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label122.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label122.TabIndex" type="System.Int32, mscorlib">
     <value>121</value>
@@ -3430,10 +3796,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label123.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 2807</value>
+    <value>5, 3661</value>
+  </data>
+  <data name="Label123.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label123.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label123.TabIndex" type="System.Int32, mscorlib">
     <value>122</value>
@@ -3457,10 +3826,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label124.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 2830</value>
+    <value>5, 3691</value>
+  </data>
+  <data name="Label124.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label124.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label124.TabIndex" type="System.Int32, mscorlib">
     <value>123</value>
@@ -3484,10 +3856,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label125.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 2853</value>
+    <value>5, 3721</value>
+  </data>
+  <data name="Label125.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label125.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label125.TabIndex" type="System.Int32, mscorlib">
     <value>124</value>
@@ -3511,10 +3886,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label126.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 2876</value>
+    <value>5, 3751</value>
+  </data>
+  <data name="Label126.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label126.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label126.TabIndex" type="System.Int32, mscorlib">
     <value>125</value>
@@ -3538,10 +3916,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label127.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 2899</value>
+    <value>5, 3781</value>
+  </data>
+  <data name="Label127.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label127.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label127.TabIndex" type="System.Int32, mscorlib">
     <value>126</value>
@@ -3565,10 +3946,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label128.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 2922</value>
+    <value>5, 3811</value>
+  </data>
+  <data name="Label128.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label128.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label128.TabIndex" type="System.Int32, mscorlib">
     <value>127</value>
@@ -3592,10 +3976,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label129.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 2945</value>
+    <value>5, 3841</value>
+  </data>
+  <data name="Label129.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label129.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label129.TabIndex" type="System.Int32, mscorlib">
     <value>128</value>
@@ -3619,10 +4006,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label130.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 2968</value>
+    <value>5, 3871</value>
+  </data>
+  <data name="Label130.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label130.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label130.TabIndex" type="System.Int32, mscorlib">
     <value>129</value>
@@ -3646,10 +4036,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label131.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 2991</value>
+    <value>5, 3901</value>
+  </data>
+  <data name="Label131.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label131.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label131.TabIndex" type="System.Int32, mscorlib">
     <value>130</value>
@@ -3673,10 +4066,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label132.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 3014</value>
+    <value>5, 3931</value>
+  </data>
+  <data name="Label132.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label132.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label132.TabIndex" type="System.Int32, mscorlib">
     <value>131</value>
@@ -3700,10 +4096,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label133.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 3037</value>
+    <value>5, 3961</value>
+  </data>
+  <data name="Label133.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label133.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label133.TabIndex" type="System.Int32, mscorlib">
     <value>132</value>
@@ -3727,10 +4126,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label134.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 3060</value>
+    <value>5, 3991</value>
+  </data>
+  <data name="Label134.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label134.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label134.TabIndex" type="System.Int32, mscorlib">
     <value>133</value>
@@ -3754,10 +4156,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label135.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 3083</value>
+    <value>5, 4021</value>
+  </data>
+  <data name="Label135.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label135.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label135.TabIndex" type="System.Int32, mscorlib">
     <value>134</value>
@@ -3781,10 +4186,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label136.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 3106</value>
+    <value>5, 4051</value>
+  </data>
+  <data name="Label136.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label136.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label136.TabIndex" type="System.Int32, mscorlib">
     <value>135</value>
@@ -3808,10 +4216,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label137.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 3129</value>
+    <value>5, 4081</value>
+  </data>
+  <data name="Label137.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label137.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label137.TabIndex" type="System.Int32, mscorlib">
     <value>136</value>
@@ -3835,10 +4246,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label138.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 3152</value>
+    <value>5, 4111</value>
+  </data>
+  <data name="Label138.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label138.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label138.TabIndex" type="System.Int32, mscorlib">
     <value>137</value>
@@ -3862,10 +4276,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label139.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 3175</value>
+    <value>5, 4141</value>
+  </data>
+  <data name="Label139.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label139.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label139.TabIndex" type="System.Int32, mscorlib">
     <value>138</value>
@@ -3889,10 +4306,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label140.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 3198</value>
+    <value>5, 4171</value>
+  </data>
+  <data name="Label140.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label140.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label140.TabIndex" type="System.Int32, mscorlib">
     <value>139</value>
@@ -3916,10 +4336,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label141.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 3221</value>
+    <value>5, 4201</value>
+  </data>
+  <data name="Label141.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label141.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label141.TabIndex" type="System.Int32, mscorlib">
     <value>140</value>
@@ -3943,10 +4366,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label142.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 3244</value>
+    <value>5, 4231</value>
+  </data>
+  <data name="Label142.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label142.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label142.TabIndex" type="System.Int32, mscorlib">
     <value>141</value>
@@ -3970,10 +4396,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label143.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 3267</value>
+    <value>5, 4261</value>
+  </data>
+  <data name="Label143.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label143.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label143.TabIndex" type="System.Int32, mscorlib">
     <value>142</value>
@@ -3997,10 +4426,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label144.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 3290</value>
+    <value>5, 4291</value>
+  </data>
+  <data name="Label144.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label144.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label144.TabIndex" type="System.Int32, mscorlib">
     <value>143</value>
@@ -4024,10 +4456,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label145.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 3313</value>
+    <value>5, 4321</value>
+  </data>
+  <data name="Label145.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label145.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label145.TabIndex" type="System.Int32, mscorlib">
     <value>144</value>
@@ -4051,10 +4486,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label146.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 3336</value>
+    <value>5, 4351</value>
+  </data>
+  <data name="Label146.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label146.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label146.TabIndex" type="System.Int32, mscorlib">
     <value>145</value>
@@ -4078,10 +4516,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label147.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 3359</value>
+    <value>5, 4381</value>
+  </data>
+  <data name="Label147.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label147.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label147.TabIndex" type="System.Int32, mscorlib">
     <value>146</value>
@@ -4105,10 +4546,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label148.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 3382</value>
+    <value>5, 4411</value>
+  </data>
+  <data name="Label148.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label148.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label148.TabIndex" type="System.Int32, mscorlib">
     <value>147</value>
@@ -4132,10 +4576,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label149.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 3405</value>
+    <value>5, 4441</value>
+  </data>
+  <data name="Label149.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label149.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label149.TabIndex" type="System.Int32, mscorlib">
     <value>148</value>
@@ -4159,10 +4606,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label150.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 3428</value>
+    <value>5, 4471</value>
+  </data>
+  <data name="Label150.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label150.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label150.TabIndex" type="System.Int32, mscorlib">
     <value>149</value>
@@ -4186,10 +4636,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label151.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 3451</value>
+    <value>5, 4501</value>
+  </data>
+  <data name="Label151.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label151.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label151.TabIndex" type="System.Int32, mscorlib">
     <value>150</value>
@@ -4213,10 +4666,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label152.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 3474</value>
+    <value>5, 4531</value>
+  </data>
+  <data name="Label152.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label152.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label152.TabIndex" type="System.Int32, mscorlib">
     <value>151</value>
@@ -4240,10 +4696,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label153.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 3497</value>
+    <value>5, 4561</value>
+  </data>
+  <data name="Label153.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label153.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label153.TabIndex" type="System.Int32, mscorlib">
     <value>152</value>
@@ -4267,10 +4726,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label154.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 3520</value>
+    <value>5, 4591</value>
+  </data>
+  <data name="Label154.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label154.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label154.TabIndex" type="System.Int32, mscorlib">
     <value>153</value>
@@ -4294,10 +4756,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label155.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 3543</value>
+    <value>5, 4621</value>
+  </data>
+  <data name="Label155.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label155.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label155.TabIndex" type="System.Int32, mscorlib">
     <value>154</value>
@@ -4321,10 +4786,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label156.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 3566</value>
+    <value>5, 4651</value>
+  </data>
+  <data name="Label156.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label156.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label156.TabIndex" type="System.Int32, mscorlib">
     <value>155</value>
@@ -4348,10 +4816,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label157.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 3589</value>
+    <value>5, 4681</value>
+  </data>
+  <data name="Label157.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label157.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label157.TabIndex" type="System.Int32, mscorlib">
     <value>156</value>
@@ -4375,10 +4846,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label158.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 3612</value>
+    <value>5, 4711</value>
+  </data>
+  <data name="Label158.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label158.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label158.TabIndex" type="System.Int32, mscorlib">
     <value>157</value>
@@ -4402,10 +4876,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label159.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 3635</value>
+    <value>5, 4741</value>
+  </data>
+  <data name="Label159.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label159.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label159.TabIndex" type="System.Int32, mscorlib">
     <value>158</value>
@@ -4429,10 +4906,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label160.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 3658</value>
+    <value>5, 4771</value>
+  </data>
+  <data name="Label160.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label160.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label160.TabIndex" type="System.Int32, mscorlib">
     <value>159</value>
@@ -4456,10 +4936,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label161.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 3681</value>
+    <value>5, 4801</value>
+  </data>
+  <data name="Label161.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label161.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label161.TabIndex" type="System.Int32, mscorlib">
     <value>160</value>
@@ -4483,10 +4966,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label162.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 3704</value>
+    <value>5, 4831</value>
+  </data>
+  <data name="Label162.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label162.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label162.TabIndex" type="System.Int32, mscorlib">
     <value>161</value>
@@ -4510,10 +4996,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label163.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 3727</value>
+    <value>5, 4861</value>
+  </data>
+  <data name="Label163.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label163.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label163.TabIndex" type="System.Int32, mscorlib">
     <value>162</value>
@@ -4537,10 +5026,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label164.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 3750</value>
+    <value>5, 4891</value>
+  </data>
+  <data name="Label164.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label164.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label164.TabIndex" type="System.Int32, mscorlib">
     <value>163</value>
@@ -4564,10 +5056,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label165.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 3773</value>
+    <value>5, 4921</value>
+  </data>
+  <data name="Label165.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label165.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label165.TabIndex" type="System.Int32, mscorlib">
     <value>164</value>
@@ -4591,10 +5086,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label166.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 3796</value>
+    <value>5, 4951</value>
+  </data>
+  <data name="Label166.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label166.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label166.TabIndex" type="System.Int32, mscorlib">
     <value>165</value>
@@ -4618,10 +5116,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label167.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 3819</value>
+    <value>5, 4981</value>
+  </data>
+  <data name="Label167.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label167.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label167.TabIndex" type="System.Int32, mscorlib">
     <value>166</value>
@@ -4645,10 +5146,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label168.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 3842</value>
+    <value>5, 5011</value>
+  </data>
+  <data name="Label168.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label168.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label168.TabIndex" type="System.Int32, mscorlib">
     <value>167</value>
@@ -4672,10 +5176,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label169.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 3865</value>
+    <value>5, 5041</value>
+  </data>
+  <data name="Label169.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label169.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label169.TabIndex" type="System.Int32, mscorlib">
     <value>168</value>
@@ -4699,10 +5206,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label170.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 3888</value>
+    <value>5, 5071</value>
+  </data>
+  <data name="Label170.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label170.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label170.TabIndex" type="System.Int32, mscorlib">
     <value>169</value>
@@ -4726,10 +5236,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label171.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 3911</value>
+    <value>5, 5101</value>
+  </data>
+  <data name="Label171.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label171.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label171.TabIndex" type="System.Int32, mscorlib">
     <value>170</value>
@@ -4753,10 +5266,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label172.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 3934</value>
+    <value>5, 5131</value>
+  </data>
+  <data name="Label172.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label172.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label172.TabIndex" type="System.Int32, mscorlib">
     <value>171</value>
@@ -4780,10 +5296,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label173.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 3957</value>
+    <value>5, 5161</value>
+  </data>
+  <data name="Label173.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label173.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label173.TabIndex" type="System.Int32, mscorlib">
     <value>172</value>
@@ -4807,10 +5326,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label174.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 3980</value>
+    <value>5, 5191</value>
+  </data>
+  <data name="Label174.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label174.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label174.TabIndex" type="System.Int32, mscorlib">
     <value>173</value>
@@ -4834,10 +5356,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label175.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 4003</value>
+    <value>5, 5221</value>
+  </data>
+  <data name="Label175.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label175.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label175.TabIndex" type="System.Int32, mscorlib">
     <value>174</value>
@@ -4861,10 +5386,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label176.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 4026</value>
+    <value>5, 5251</value>
+  </data>
+  <data name="Label176.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label176.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label176.TabIndex" type="System.Int32, mscorlib">
     <value>175</value>
@@ -4888,10 +5416,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label177.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 4049</value>
+    <value>5, 5281</value>
+  </data>
+  <data name="Label177.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label177.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label177.TabIndex" type="System.Int32, mscorlib">
     <value>176</value>
@@ -4915,10 +5446,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label178.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 4072</value>
+    <value>5, 5311</value>
+  </data>
+  <data name="Label178.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label178.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label178.TabIndex" type="System.Int32, mscorlib">
     <value>177</value>
@@ -4942,10 +5476,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label179.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 4095</value>
+    <value>5, 5341</value>
+  </data>
+  <data name="Label179.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label179.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label179.TabIndex" type="System.Int32, mscorlib">
     <value>178</value>
@@ -4969,10 +5506,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label180.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 4118</value>
+    <value>5, 5371</value>
+  </data>
+  <data name="Label180.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label180.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label180.TabIndex" type="System.Int32, mscorlib">
     <value>179</value>
@@ -4996,10 +5536,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label181.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 4141</value>
+    <value>5, 5401</value>
+  </data>
+  <data name="Label181.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label181.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label181.TabIndex" type="System.Int32, mscorlib">
     <value>180</value>
@@ -5023,10 +5566,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label182.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 4164</value>
+    <value>5, 5431</value>
+  </data>
+  <data name="Label182.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label182.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label182.TabIndex" type="System.Int32, mscorlib">
     <value>181</value>
@@ -5050,10 +5596,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label183.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 4187</value>
+    <value>5, 5461</value>
+  </data>
+  <data name="Label183.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label183.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label183.TabIndex" type="System.Int32, mscorlib">
     <value>182</value>
@@ -5077,10 +5626,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label184.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 4210</value>
+    <value>5, 5491</value>
+  </data>
+  <data name="Label184.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label184.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label184.TabIndex" type="System.Int32, mscorlib">
     <value>183</value>
@@ -5104,10 +5656,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label185.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 4233</value>
+    <value>5, 5521</value>
+  </data>
+  <data name="Label185.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label185.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label185.TabIndex" type="System.Int32, mscorlib">
     <value>184</value>
@@ -5131,10 +5686,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label186.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 4256</value>
+    <value>5, 5551</value>
+  </data>
+  <data name="Label186.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label186.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label186.TabIndex" type="System.Int32, mscorlib">
     <value>185</value>
@@ -5158,10 +5716,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label187.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 4279</value>
+    <value>5, 5581</value>
+  </data>
+  <data name="Label187.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label187.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label187.TabIndex" type="System.Int32, mscorlib">
     <value>186</value>
@@ -5185,10 +5746,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label188.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 4302</value>
+    <value>5, 5611</value>
+  </data>
+  <data name="Label188.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label188.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label188.TabIndex" type="System.Int32, mscorlib">
     <value>187</value>
@@ -5212,10 +5776,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label189.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 4325</value>
+    <value>5, 5641</value>
+  </data>
+  <data name="Label189.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label189.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label189.TabIndex" type="System.Int32, mscorlib">
     <value>188</value>
@@ -5239,10 +5806,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label190.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 4348</value>
+    <value>5, 5671</value>
+  </data>
+  <data name="Label190.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label190.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label190.TabIndex" type="System.Int32, mscorlib">
     <value>189</value>
@@ -5266,10 +5836,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label191.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 4371</value>
+    <value>5, 5701</value>
+  </data>
+  <data name="Label191.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label191.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label191.TabIndex" type="System.Int32, mscorlib">
     <value>190</value>
@@ -5293,10 +5866,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label192.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 4394</value>
+    <value>5, 5731</value>
+  </data>
+  <data name="Label192.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label192.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label192.TabIndex" type="System.Int32, mscorlib">
     <value>191</value>
@@ -5320,10 +5896,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label193.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 4417</value>
+    <value>5, 5761</value>
+  </data>
+  <data name="Label193.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label193.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label193.TabIndex" type="System.Int32, mscorlib">
     <value>192</value>
@@ -5347,10 +5926,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label194.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 4440</value>
+    <value>5, 5791</value>
+  </data>
+  <data name="Label194.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label194.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label194.TabIndex" type="System.Int32, mscorlib">
     <value>193</value>
@@ -5374,10 +5956,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label195.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 4463</value>
+    <value>5, 5821</value>
+  </data>
+  <data name="Label195.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label195.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label195.TabIndex" type="System.Int32, mscorlib">
     <value>194</value>
@@ -5401,10 +5986,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label196.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 4486</value>
+    <value>5, 5851</value>
+  </data>
+  <data name="Label196.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label196.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label196.TabIndex" type="System.Int32, mscorlib">
     <value>195</value>
@@ -5428,10 +6016,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label197.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 4509</value>
+    <value>5, 5881</value>
+  </data>
+  <data name="Label197.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label197.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label197.TabIndex" type="System.Int32, mscorlib">
     <value>196</value>
@@ -5455,10 +6046,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label198.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 4532</value>
+    <value>5, 5911</value>
+  </data>
+  <data name="Label198.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label198.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label198.TabIndex" type="System.Int32, mscorlib">
     <value>197</value>
@@ -5482,10 +6076,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label199.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 4555</value>
+    <value>5, 5941</value>
+  </data>
+  <data name="Label199.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label199.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label199.TabIndex" type="System.Int32, mscorlib">
     <value>198</value>
@@ -5509,10 +6106,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label200.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 4578</value>
+    <value>5, 5971</value>
+  </data>
+  <data name="Label200.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label200.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label200.TabIndex" type="System.Int32, mscorlib">
     <value>199</value>
@@ -5536,10 +6136,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label201.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 4601</value>
+    <value>5, 6001</value>
+  </data>
+  <data name="Label201.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label201.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label201.TabIndex" type="System.Int32, mscorlib">
     <value>200</value>
@@ -5563,10 +6166,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label202.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 4624</value>
+    <value>5, 6031</value>
+  </data>
+  <data name="Label202.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label202.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label202.TabIndex" type="System.Int32, mscorlib">
     <value>201</value>
@@ -5590,10 +6196,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label203.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 4647</value>
+    <value>5, 6061</value>
+  </data>
+  <data name="Label203.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label203.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label203.TabIndex" type="System.Int32, mscorlib">
     <value>202</value>
@@ -5617,10 +6226,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label204.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 4670</value>
+    <value>5, 6091</value>
+  </data>
+  <data name="Label204.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label204.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label204.TabIndex" type="System.Int32, mscorlib">
     <value>203</value>
@@ -5644,10 +6256,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label205.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 4693</value>
+    <value>5, 6121</value>
+  </data>
+  <data name="Label205.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label205.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label205.TabIndex" type="System.Int32, mscorlib">
     <value>204</value>
@@ -5671,10 +6286,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label206.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 4716</value>
+    <value>5, 6151</value>
+  </data>
+  <data name="Label206.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label206.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label206.TabIndex" type="System.Int32, mscorlib">
     <value>205</value>
@@ -5698,10 +6316,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label207.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 4739</value>
+    <value>5, 6181</value>
+  </data>
+  <data name="Label207.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label207.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label207.TabIndex" type="System.Int32, mscorlib">
     <value>206</value>
@@ -5725,10 +6346,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label208.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 4762</value>
+    <value>5, 6211</value>
+  </data>
+  <data name="Label208.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label208.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label208.TabIndex" type="System.Int32, mscorlib">
     <value>207</value>
@@ -5752,10 +6376,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label209.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 4785</value>
+    <value>5, 6241</value>
+  </data>
+  <data name="Label209.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label209.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label209.TabIndex" type="System.Int32, mscorlib">
     <value>208</value>
@@ -5779,10 +6406,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label210.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 4808</value>
+    <value>5, 6271</value>
+  </data>
+  <data name="Label210.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label210.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label210.TabIndex" type="System.Int32, mscorlib">
     <value>209</value>
@@ -5806,10 +6436,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label211.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 4831</value>
+    <value>5, 6301</value>
+  </data>
+  <data name="Label211.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label211.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label211.TabIndex" type="System.Int32, mscorlib">
     <value>210</value>
@@ -5833,10 +6466,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label212.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 4854</value>
+    <value>5, 6331</value>
+  </data>
+  <data name="Label212.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label212.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label212.TabIndex" type="System.Int32, mscorlib">
     <value>211</value>
@@ -5860,10 +6496,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label213.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 4877</value>
+    <value>5, 6361</value>
+  </data>
+  <data name="Label213.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label213.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label213.TabIndex" type="System.Int32, mscorlib">
     <value>212</value>
@@ -5887,10 +6526,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label214.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 4900</value>
+    <value>5, 6391</value>
+  </data>
+  <data name="Label214.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label214.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label214.TabIndex" type="System.Int32, mscorlib">
     <value>213</value>
@@ -5914,10 +6556,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label215.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 4923</value>
+    <value>5, 6421</value>
+  </data>
+  <data name="Label215.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label215.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label215.TabIndex" type="System.Int32, mscorlib">
     <value>214</value>
@@ -5941,10 +6586,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label216.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 4946</value>
+    <value>5, 6451</value>
+  </data>
+  <data name="Label216.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label216.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label216.TabIndex" type="System.Int32, mscorlib">
     <value>215</value>
@@ -5968,10 +6616,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label217.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 4969</value>
+    <value>5, 6481</value>
+  </data>
+  <data name="Label217.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label217.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label217.TabIndex" type="System.Int32, mscorlib">
     <value>216</value>
@@ -5995,10 +6646,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label218.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 4992</value>
+    <value>5, 6511</value>
+  </data>
+  <data name="Label218.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label218.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label218.TabIndex" type="System.Int32, mscorlib">
     <value>217</value>
@@ -6022,10 +6676,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label219.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 5015</value>
+    <value>5, 6541</value>
+  </data>
+  <data name="Label219.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label219.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label219.TabIndex" type="System.Int32, mscorlib">
     <value>218</value>
@@ -6049,10 +6706,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label220.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 5038</value>
+    <value>5, 6571</value>
+  </data>
+  <data name="Label220.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label220.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label220.TabIndex" type="System.Int32, mscorlib">
     <value>219</value>
@@ -6076,10 +6736,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label221.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 5061</value>
+    <value>5, 6601</value>
+  </data>
+  <data name="Label221.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label221.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label221.TabIndex" type="System.Int32, mscorlib">
     <value>220</value>
@@ -6103,10 +6766,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label222.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 5084</value>
+    <value>5, 6631</value>
+  </data>
+  <data name="Label222.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label222.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label222.TabIndex" type="System.Int32, mscorlib">
     <value>221</value>
@@ -6130,10 +6796,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label223.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 5107</value>
+    <value>5, 6661</value>
+  </data>
+  <data name="Label223.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label223.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label223.TabIndex" type="System.Int32, mscorlib">
     <value>222</value>
@@ -6157,10 +6826,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label224.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 5130</value>
+    <value>5, 6691</value>
+  </data>
+  <data name="Label224.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label224.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label224.TabIndex" type="System.Int32, mscorlib">
     <value>223</value>
@@ -6184,10 +6856,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label225.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 5153</value>
+    <value>5, 6721</value>
+  </data>
+  <data name="Label225.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label225.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label225.TabIndex" type="System.Int32, mscorlib">
     <value>224</value>
@@ -6211,10 +6886,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label226.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 5176</value>
+    <value>5, 6751</value>
+  </data>
+  <data name="Label226.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label226.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label226.TabIndex" type="System.Int32, mscorlib">
     <value>225</value>
@@ -6238,10 +6916,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label227.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 5199</value>
+    <value>5, 6781</value>
+  </data>
+  <data name="Label227.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label227.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label227.TabIndex" type="System.Int32, mscorlib">
     <value>226</value>
@@ -6265,10 +6946,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label228.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 5222</value>
+    <value>5, 6811</value>
+  </data>
+  <data name="Label228.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label228.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label228.TabIndex" type="System.Int32, mscorlib">
     <value>227</value>
@@ -6292,10 +6976,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label229.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 5245</value>
+    <value>5, 6841</value>
+  </data>
+  <data name="Label229.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label229.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label229.TabIndex" type="System.Int32, mscorlib">
     <value>228</value>
@@ -6319,10 +7006,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label230.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 5268</value>
+    <value>5, 6871</value>
+  </data>
+  <data name="Label230.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label230.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label230.TabIndex" type="System.Int32, mscorlib">
     <value>229</value>
@@ -6346,10 +7036,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label231.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 5291</value>
+    <value>5, 6901</value>
+  </data>
+  <data name="Label231.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label231.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label231.TabIndex" type="System.Int32, mscorlib">
     <value>230</value>
@@ -6373,10 +7066,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label232.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 5314</value>
+    <value>5, 6931</value>
+  </data>
+  <data name="Label232.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label232.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label232.TabIndex" type="System.Int32, mscorlib">
     <value>231</value>
@@ -6400,10 +7096,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label233.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 5337</value>
+    <value>5, 6961</value>
+  </data>
+  <data name="Label233.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label233.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label233.TabIndex" type="System.Int32, mscorlib">
     <value>232</value>
@@ -6427,10 +7126,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label234.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 5360</value>
+    <value>5, 6991</value>
+  </data>
+  <data name="Label234.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label234.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label234.TabIndex" type="System.Int32, mscorlib">
     <value>233</value>
@@ -6454,10 +7156,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label235.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 5383</value>
+    <value>5, 7021</value>
+  </data>
+  <data name="Label235.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label235.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label235.TabIndex" type="System.Int32, mscorlib">
     <value>234</value>
@@ -6481,10 +7186,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label236.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 5406</value>
+    <value>5, 7051</value>
+  </data>
+  <data name="Label236.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label236.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label236.TabIndex" type="System.Int32, mscorlib">
     <value>235</value>
@@ -6508,10 +7216,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label237.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 5429</value>
+    <value>5, 7081</value>
+  </data>
+  <data name="Label237.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label237.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label237.TabIndex" type="System.Int32, mscorlib">
     <value>236</value>
@@ -6535,10 +7246,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label238.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 5452</value>
+    <value>5, 7111</value>
+  </data>
+  <data name="Label238.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label238.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label238.TabIndex" type="System.Int32, mscorlib">
     <value>237</value>
@@ -6562,10 +7276,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label239.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 5475</value>
+    <value>5, 7141</value>
+  </data>
+  <data name="Label239.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label239.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label239.TabIndex" type="System.Int32, mscorlib">
     <value>238</value>
@@ -6589,10 +7306,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label240.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 5498</value>
+    <value>5, 7171</value>
+  </data>
+  <data name="Label240.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label240.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label240.TabIndex" type="System.Int32, mscorlib">
     <value>239</value>
@@ -6616,10 +7336,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label241.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 5521</value>
+    <value>5, 7201</value>
+  </data>
+  <data name="Label241.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label241.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label241.TabIndex" type="System.Int32, mscorlib">
     <value>240</value>
@@ -6643,10 +7366,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label242.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 5544</value>
+    <value>5, 7231</value>
+  </data>
+  <data name="Label242.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label242.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label242.TabIndex" type="System.Int32, mscorlib">
     <value>241</value>
@@ -6670,10 +7396,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label243.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 5567</value>
+    <value>5, 7261</value>
+  </data>
+  <data name="Label243.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label243.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label243.TabIndex" type="System.Int32, mscorlib">
     <value>242</value>
@@ -6697,10 +7426,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label244.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 5590</value>
+    <value>5, 7291</value>
+  </data>
+  <data name="Label244.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label244.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label244.TabIndex" type="System.Int32, mscorlib">
     <value>243</value>
@@ -6724,10 +7456,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label245.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 5613</value>
+    <value>5, 7321</value>
+  </data>
+  <data name="Label245.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label245.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label245.TabIndex" type="System.Int32, mscorlib">
     <value>244</value>
@@ -6751,10 +7486,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label246.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 5636</value>
+    <value>5, 7351</value>
+  </data>
+  <data name="Label246.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label246.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label246.TabIndex" type="System.Int32, mscorlib">
     <value>245</value>
@@ -6778,10 +7516,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label247.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 5659</value>
+    <value>5, 7381</value>
+  </data>
+  <data name="Label247.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label247.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label247.TabIndex" type="System.Int32, mscorlib">
     <value>246</value>
@@ -6805,10 +7546,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label248.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 5682</value>
+    <value>5, 7411</value>
+  </data>
+  <data name="Label248.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label248.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label248.TabIndex" type="System.Int32, mscorlib">
     <value>247</value>
@@ -6832,10 +7576,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label249.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 5705</value>
+    <value>5, 7441</value>
+  </data>
+  <data name="Label249.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label249.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label249.TabIndex" type="System.Int32, mscorlib">
     <value>248</value>
@@ -6859,10 +7606,13 @@
     <value>NoControl</value>
   </data>
   <data name="Label250.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 5728</value>
+    <value>5, 7471</value>
+  </data>
+  <data name="Label250.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Label250.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 23</value>
+    <value>643, 30</value>
   </data>
   <data name="Label250.TabIndex" type="System.Int32, mscorlib">
     <value>249</value>
@@ -6880,19 +7630,22 @@
     <value>249</value>
   </data>
   <data name="FlowLayoutPanel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>98, 2</value>
+    <value>126, 3</value>
+  </data>
+  <data name="FlowLayoutPanel1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="FlowLayoutPanel1.MaximumSize" type="System.Drawing.Size, System.Drawing">
-    <value>410, 661</value>
+    <value>527, 864</value>
   </data>
   <data name="FlowLayoutPanel1.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>410, 661</value>
+    <value>527, 864</value>
   </data>
   <data name="FlowLayoutPanel1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>1, 1, 1, 1</value>
   </data>
   <data name="FlowLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>410, 661</value>
+    <value>527, 864</value>
   </data>
   <data name="FlowLayoutPanel1.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -6916,10 +7669,13 @@
     <value>NoControl</value>
   </data>
   <data name="lbtotal.Location" type="System.Drawing.Point, System.Drawing">
-    <value>529, 290</value>
+    <value>680, 379</value>
+  </data>
+  <data name="lbtotal.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="lbtotal.Size" type="System.Drawing.Size, System.Drawing">
-    <value>260, 69</value>
+    <value>334, 90</value>
   </data>
   <data name="lbtotal.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -6946,10 +7702,13 @@
     <value>NoControl</value>
   </data>
   <data name="Button1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>543, 1</value>
+    <value>698, 1</value>
+  </data>
+  <data name="Button1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="Button1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>108, 46</value>
+    <value>139, 60</value>
   </data>
   <data name="Button1.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -6976,10 +7735,13 @@
     <value>NoControl</value>
   </data>
   <data name="Button2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>669, 1</value>
+    <value>860, 1</value>
+  </data>
+  <data name="Button2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="Button2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>108, 46</value>
+    <value>139, 60</value>
   </data>
   <data name="Button2.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -7006,10 +7768,13 @@
     <value>NoControl</value>
   </data>
   <data name="Button3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>543, 50</value>
+    <value>698, 65</value>
+  </data>
+  <data name="Button3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="Button3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>108, 58</value>
+    <value>139, 76</value>
   </data>
   <data name="Button3.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -7036,10 +7801,13 @@
     <value>NoControl</value>
   </data>
   <data name="Button4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>669, 50</value>
+    <value>860, 65</value>
+  </data>
+  <data name="Button4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="Button4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>108, 58</value>
+    <value>139, 76</value>
   </data>
   <data name="Button4.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -7069,10 +7837,13 @@
     <value>NoControl</value>
   </data>
   <data name="Button9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 14</value>
+    <value>4, 18</value>
+  </data>
+  <data name="Button9.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="Button9.Size" type="System.Drawing.Size, System.Drawing">
-    <value>87, 46</value>
+    <value>112, 60</value>
   </data>
   <data name="Button9.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
@@ -7102,10 +7873,13 @@
     <value>NoControl</value>
   </data>
   <data name="printButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 67</value>
+    <value>4, 88</value>
+  </data>
+  <data name="printButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="printButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>87, 49</value>
+    <value>112, 64</value>
   </data>
   <data name="printButton.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
@@ -7138,10 +7912,13 @@
     <value>NoControl</value>
   </data>
   <data name="ids.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 122</value>
+    <value>4, 160</value>
+  </data>
+  <data name="ids.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="ids.Size" type="System.Drawing.Size, System.Drawing">
-    <value>87, 48</value>
+    <value>112, 63</value>
   </data>
   <data name="ids.TabIndex" type="System.Int32, mscorlib">
     <value>13</value>
@@ -7164,11 +7941,17 @@
   <data name="ListBox1.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 8.25pt</value>
   </data>
+  <data name="ListBox1.ItemHeight" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
   <data name="ListBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>529, 361</value>
+    <value>680, 472</value>
+  </data>
+  <data name="ListBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="ListBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>122, 329</value>
+    <value>156, 429</value>
   </data>
   <data name="ListBox1.TabIndex" type="System.Int32, mscorlib">
     <value>14</value>
@@ -7185,11 +7968,17 @@
   <data name="&gt;&gt;ListBox1.ZOrder" xml:space="preserve">
     <value>12</value>
   </data>
+  <data name="ListBox2.ItemHeight" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
   <data name="ListBox2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>659, 361</value>
+    <value>847, 472</value>
+  </data>
+  <data name="ListBox2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="ListBox2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>131, 329</value>
+    <value>167, 429</value>
   </data>
   <data name="ListBox2.TabIndex" type="System.Int32, mscorlib">
     <value>15</value>
@@ -7213,10 +8002,13 @@
     <value>NoControl</value>
   </data>
   <data name="Button10.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 179</value>
+    <value>4, 234</value>
+  </data>
+  <data name="Button10.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="Button10.Size" type="System.Drawing.Size, System.Drawing">
-    <value>89, 53</value>
+    <value>114, 69</value>
   </data>
   <data name="Button10.TabIndex" type="System.Int32, mscorlib">
     <value>16</value>
@@ -7243,10 +8035,13 @@
     <value>NoControl</value>
   </data>
   <data name="note.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 671</value>
+    <value>0, 877</value>
+  </data>
+  <data name="note.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="note.Size" type="System.Drawing.Size, System.Drawing">
-    <value>454, 13</value>
+    <value>584, 17</value>
   </data>
   <data name="note.TabIndex" type="System.Int32, mscorlib">
     <value>17</value>
@@ -7267,10 +8062,13 @@
     <value>9</value>
   </data>
   <data name="rate.Location" type="System.Drawing.Point, System.Drawing">
-    <value>452, 669</value>
+    <value>581, 875</value>
+  </data>
+  <data name="rate.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="rate.Size" type="System.Drawing.Size, System.Drawing">
-    <value>56, 20</value>
+    <value>71, 23</value>
   </data>
   <data name="rate.TabIndex" type="System.Int32, mscorlib">
     <value>18</value>
@@ -7297,10 +8095,13 @@
     <value>NoControl</value>
   </data>
   <data name="Button11.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1, 538</value>
+    <value>1, 704</value>
+  </data>
+  <data name="Button11.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="Button11.Size" type="System.Drawing.Size, System.Drawing">
-    <value>89, 53</value>
+    <value>114, 69</value>
   </data>
   <data name="Button11.TabIndex" type="System.Int32, mscorlib">
     <value>19</value>
@@ -7327,10 +8128,13 @@
     <value>NoControl</value>
   </data>
   <data name="Button12.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1, 296</value>
+    <value>1, 387</value>
+  </data>
+  <data name="Button12.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="Button12.Size" type="System.Drawing.Size, System.Drawing">
-    <value>89, 53</value>
+    <value>114, 69</value>
   </data>
   <data name="Button12.TabIndex" type="System.Int32, mscorlib">
     <value>20</value>
@@ -7358,10 +8162,13 @@ Currencies</value>
     <value>NoControl</value>
   </data>
   <data name="Button14.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1, 355</value>
+    <value>1, 464</value>
+  </data>
+  <data name="Button14.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="Button14.Size" type="System.Drawing.Size, System.Drawing">
-    <value>89, 53</value>
+    <value>114, 69</value>
   </data>
   <data name="Button14.TabIndex" type="System.Int32, mscorlib">
     <value>22</value>
@@ -7388,10 +8195,13 @@ Currencies</value>
     <value>NoControl</value>
   </data>
   <data name="Button13.Location" type="System.Drawing.Point, System.Drawing">
-    <value>669, 235</value>
+    <value>860, 307</value>
+  </data>
+  <data name="Button13.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="Button13.Size" type="System.Drawing.Size, System.Drawing">
-    <value>108, 51</value>
+    <value>139, 67</value>
   </data>
   <data name="Button13.TabIndex" type="System.Int32, mscorlib">
     <value>21</value>
@@ -7421,10 +8231,13 @@ Currencies</value>
     <value>NoControl</value>
   </data>
   <data name="Button15.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1, 414</value>
+    <value>1, 541</value>
+  </data>
+  <data name="Button15.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="Button15.Size" type="System.Drawing.Size, System.Drawing">
-    <value>89, 53</value>
+    <value>114, 69</value>
   </data>
   <data name="Button15.TabIndex" type="System.Int32, mscorlib">
     <value>23</value>
@@ -7451,10 +8264,13 @@ Currencies</value>
     <value>NoControl</value>
   </data>
   <data name="Button16.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1, 476</value>
+    <value>1, 622</value>
+  </data>
+  <data name="Button16.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="Button16.Size" type="System.Drawing.Size, System.Drawing">
-    <value>89, 53</value>
+    <value>114, 69</value>
   </data>
   <data name="Button16.TabIndex" type="System.Int32, mscorlib">
     <value>24</value>
@@ -7481,10 +8297,13 @@ Currencies</value>
     <value>NoControl</value>
   </data>
   <data name="Button17.Location" type="System.Drawing.Point, System.Drawing">
-    <value>543, 235</value>
+    <value>698, 307</value>
+  </data>
+  <data name="Button17.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="Button17.Size" type="System.Drawing.Size, System.Drawing">
-    <value>108, 51</value>
+    <value>139, 67</value>
   </data>
   <data name="Button17.TabIndex" type="System.Int32, mscorlib">
     <value>25</value>
@@ -7511,10 +8330,13 @@ Currencies</value>
     <value>NoControl</value>
   </data>
   <data name="Button18.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1, 238</value>
+    <value>1, 311</value>
+  </data>
+  <data name="Button18.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="Button18.Size" type="System.Drawing.Size, System.Drawing">
-    <value>91, 53</value>
+    <value>117, 69</value>
   </data>
   <data name="Button18.TabIndex" type="System.Int32, mscorlib">
     <value>26</value>
@@ -7544,10 +8366,13 @@ Currencies</value>
     <value>NoControl</value>
   </data>
   <data name="Button8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>669, 176</value>
+    <value>860, 230</value>
+  </data>
+  <data name="Button8.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="Button8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>108, 58</value>
+    <value>139, 76</value>
   </data>
   <data name="Button8.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
@@ -7574,10 +8399,13 @@ Currencies</value>
     <value>NoControl</value>
   </data>
   <data name="Button7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>543, 176</value>
+    <value>698, 230</value>
+  </data>
+  <data name="Button7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="Button7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>108, 58</value>
+    <value>139, 76</value>
   </data>
   <data name="Button7.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -7604,10 +8432,13 @@ Currencies</value>
     <value>NoControl</value>
   </data>
   <data name="Button6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>669, 114</value>
+    <value>860, 149</value>
+  </data>
+  <data name="Button6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="Button6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>108, 58</value>
+    <value>139, 76</value>
   </data>
   <data name="Button6.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -7634,10 +8465,13 @@ Currencies</value>
     <value>NoControl</value>
   </data>
   <data name="Button5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>543, 114</value>
+    <value>698, 149</value>
+  </data>
+  <data name="Button5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="Button5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>108, 58</value>
+    <value>139, 76</value>
   </data>
   <data name="Button5.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -7661,13 +8495,13 @@ Currencies</value>
     <value>64</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>7, 13</value>
+    <value>9, 17</value>
   </data>
   <data name="$this.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>791, 685</value>
+    <value>1017, 896</value>
   </data>
   <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
@@ -11252,6 +12086,12 @@ Currencies</value>
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP//AAD/+QAA
         /gEAAOABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAADAAAAA4AAAAOAAAADwAQAA+4MAAP//AAA=
 </value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="$this.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>1035, 943</value>
   </data>
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
     <value>CenterScreen</value>

@@ -56,4 +56,10 @@ D:\VB Projects\Cash\Cash\obj\Debug\Cash.vbproj.GenerateResource.Cache
 D:\VB Projects\Cash\Cash\obj\Debug\Cash.exe
 D:\VB Projects\Cash\Cash\obj\Debug\Cash.xml
 D:\VB Projects\Cash\Cash\obj\Debug\Cash.pdb
-D:\VB Projects\Cash\Cash\obj\Debug\Cash.vbprojResolveAssemblyReference.cache
+D:\VB Projects\Cash\Cash\bin\Debug\Bundles.mdb
+D:\VB Projects\Cash\Cash\bin\Debug\twainlib.dll.config
+D:\VB Projects\Cash\Cash\obj\Debug\Cash.vbproj.AssemblyReference.cache
+D:\VB Projects\Cash\Cash\obj\Debug\Cash.InternetSales.resources
+D:\VB Projects\Cash\Cash\obj\Debug\Cash.InternetSettings.resources
+D:\VB Projects\Cash\Cash\obj\Debug\Cash.vbproj.CoreCompileInputs.cache
+D:\VB Projects\Cash\Cash\obj\Debug\Cash.vbproj.CopyComplete

@@ -22,7 +22,8 @@ Public Class del
             Form1.sum = 0
             Form1.lbtotal.Text = Form1.sum
             statdel()
-            File.Create(filename).Dispose()
+            File.Create(filename) _
+                .Dispose()
             For Each Label In Form1.FlowLayoutPanel1.Controls
                 Label.text = ""
                 Label.backcolor = Color.LightGray

@@ -71,7 +71,6 @@ D:\VB Projects\Cash\Cash\bin\Release\twainlib.dll
 D:\VB Projects\Cash\Cash\bin\Release\Newtonsoft.Json.xml
 D:\VB Projects\Cash\Cash\bin\Release\twainlib.pdb
 D:\VB Projects\Cash\Cash\bin\Release\twainlib.xml
-D:\VB Projects\Cash\Cash\obj\Release\Cash.vbprojResolveAssemblyReference.cache
 D:\VB Projects\Cash\Cash\obj\Release\Cash.Authenticate.resources
 D:\VB Projects\Cash\Cash\obj\Release\Cash.check.resources
 D:\VB Projects\Cash\Cash\obj\Release\Cash.currency.resources
@@ -94,3 +93,7 @@ D:\VB Projects\Cash\Cash\obj\Release\Cash.vbproj.GenerateResource.Cache
 D:\VB Projects\Cash\Cash\obj\Release\Cash.exe
 D:\VB Projects\Cash\Cash\obj\Release\Cash.xml
 D:\VB Projects\Cash\Cash\obj\Release\Cash.pdb
+D:\VB Projects\Cash\Cash\bin\Release\twainlib.dll.config
+D:\VB Projects\Cash\Cash\obj\Release\Cash.vbproj.AssemblyReference.cache
+D:\VB Projects\Cash\Cash\obj\Release\Cash.vbproj.CoreCompileInputs.cache
+D:\VB Projects\Cash\Cash\obj\Release\Cash.vbproj.CopyComplete
