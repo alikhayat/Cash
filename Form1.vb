@@ -873,7 +873,13 @@ Public Class Form1
                     ElseIf last = "~" Then
                         labelarray(i).Text = lines(i).Trim.Remove(lines(i).Length - 1)
                         labelarray(i).BackColor = Color.LightBlue
-                    ElseIf last <> "!" And last <> "@" And last <> "#" And last <> "$" And last <> "%" And last <> "^" And last <> "&" And last <> "*" And last <> "(" And last <> ")" And last <> "_" And last <> "+" And last <> "|" And last <> "~" Then
+                    ElseIf last = "{" Then
+                        labelarray(i).Text = lines(i).Trim.Remove(lines(i).Length - 1)
+                        labelarray(i).BackColor = Color.Brown
+                    ElseIf last = "}" Then
+                        labelarray(i).Text = lines(i).Trim.Remove(lines(i).Length - 1)
+                        labelarray(i).BackColor = Color.Lavender
+                    ElseIf last <> "!" And last <> "@" And last <> "#" And last <> "$" And last <> "%" And last <> "^" And last <> "&" And last <> "*" And last <> "(" And last <> ")" And last <> "_" And last <> "+" And last <> "|" And last <> "~" And last <> "{" And last <> "}" Then
                         Exit Sub
                     End If
                 Next
@@ -942,6 +948,12 @@ Public Class Form1
                     ElseIf last = "~" Then
                         labelarray(i).Text = lines(i).Trim.Remove(lines(i).Length - 1)
                         labelarray(i).BackColor = Color.LightBlue
+                    ElseIf last = "{" Then
+                        labelarray(i).Text = lines(i).Trim.Remove(lines(i).Length - 1)
+                        labelarray(i).BackColor = Color.Brown
+                    ElseIf last = "}" Then
+                        labelarray(i).Text = lines(i).Trim.Remove(lines(i).Length - 1)
+                        labelarray(i).BackColor = Color.Lavender
                     End If
 
                 Next
@@ -1301,6 +1313,10 @@ Public Class Form1
                 txt += labelarray(i).Text.TrimEnd + "|" + vbCrLf
             ElseIf labelarray(i).BackColor = color.LightBlue Then
                 txt += labelarray(i).Text.TrimEnd + "~" + vbCrLf
+            ElseIf labelarray(i).BackColor = color.Brown Then
+                txt += labelarray(i).Text.TrimEnd + "{" + vbCrLf
+            ElseIf labelarray(i).BackColor = color.Lavender Then
+                txt += labelarray(i).Text.TrimEnd + "}" + vbCrLf
             End If
         Next
         report()
@@ -1388,7 +1404,7 @@ Public Class Form1
                 s = InputBox(prompt, prompt)
 
                 If s = "d" Or s = "D" Or s = "delete" Or s = "DELETE" Then
-                    If clickedlbl.BackColor = Color.White Or clickedlbl.BackColor = Color.Yellow Or clickedlbl.BackColor = Color.Red Or clickedlbl.BackColor = Color.Green Or clickedlbl.BackColor = Color.Aqua Or clickedlbl.BackColor = color.violet Or clickedlbl.BackColor = Color.Gold Or clickedlbl.BackColor = color.LightBlue Then
+                    If clickedlbl.BackColor = Color.White Or clickedlbl.BackColor = Color.Yellow Or clickedlbl.BackColor = Color.Red Or clickedlbl.BackColor = Color.Green Or clickedlbl.BackColor = Color.Aqua Or clickedlbl.BackColor = Color.Violet Or clickedlbl.BackColor = Color.Gold Or clickedlbl.BackColor = Color.LightBlue Or clickedlbl.BackColor = Color.Brown Or clickedlbl.BackColor = Color.Lavender Then
 
 
 
@@ -1445,7 +1461,7 @@ Public Class Form1
 
 
                             clickedlbl.BackColor = Color.MintCream
-                        ElseIf clickedlbl.BackColor = color.LightBlue Then
+                        ElseIf clickedlbl.BackColor = Color.LightBlue Then
                             Dim FirstSy, SecondSy As Integer
                             Dim BundleID As String = 0
                             Dim BundleCost As Decimal = 0
@@ -1471,9 +1487,11 @@ Public Class Form1
                             ElseIf chkp(clickedlbl.TabIndex + 1) = True Then
                                 profit -= profitt(clickedlbl.TabIndex + 1)
                             End If
-                        ElseIf clickedlbl.BackColor = color.violet Then
+                        ElseIf clickedlbl.BackColor = Color.Violet Then
                             clickedlbl.BackColor = Color.MintCream
                             sum = sum - lblval(clickedlbl.TabIndex + 1, 0)
+                        ElseIf clickedlbl.BackColor = Color.Brown Or clickedlbl.BackColor = Color.Lavender Then
+                            Exit Sub
 
                         End If
                         lbtotal.Text = Decimal.Round(sum, 2, MidpointRounding.AwayFromZero).ToString + " $"

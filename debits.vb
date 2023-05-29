@@ -8,13 +8,14 @@ Public Class debits
     Dim countd As Integer
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         debitin.ShowDialog()
+
         If debitin.clicked = True Then
             Exit Sub
         ElseIf debitin.TextBox1.Text = "" Or debitin.TextBox2.Text = "" Or debitin.TextBox3.Text = "" Then
             MsgBox("invalid data")
         Else
             Dim objcmd As New System.Data.OleDb.OleDbCommand
-            Dim con As New OleDb.OleDbConnection("PROVIDER=Microsoft.ACE.OLEDB.12.0;DATA SOURCE=" & Application.StartupPath() & "\debit.mdb")
+            Dim con As New OleDb.OleDbConnection("PROVIDER=Microsoft.Jet.OLEDB.4.0;DATA SOURCE=" & Application.StartupPath() & "\debit.mdb")
             con.Open()
             countd += 1
             Dim a = Convert.ToInt32(debitin.amount)
@@ -29,8 +30,11 @@ Public Class debits
             Me.DebitTableAdapter.Fill(Me.DebitDataSet.debit)
             My.Settings.debit += debitin.amount
             Form1.sum -= debitin.amount
-
+            Form1.count += 1
+            Form1.lbl = Form1.labelarray(Form1.count - 1)
             Form1.lbtotal.Text = Decimal.Round(Form1.sum, 2, MidpointRounding.AwayFromZero).ToString + " $"
+            Form1.lbl.BackColor = Color.Brown
+            Form1.lbl.Text = Form1.count & " ) --" & String.Format("{0,-35}{1,-15}", Decimal.Round(debitin.amount, 2, MidpointRounding.AwayFromZero) & " $", "Debit to: " & debitin.namee & "   " & TimeOfDay)
             Label5.Text = My.Settings.debit.ToString
             Form1.updlist()
             Exit Sub
@@ -48,8 +52,8 @@ Public Class debits
 
     Private Sub TextBox1_TextChanged(sender As Object, e As EventArgs) Handles TextBox1.TextChanged
 
-        Dim con As New OleDb.OleDbConnection("PROVIDER=Microsoft.ACE.OLEDB.12.0;DATA SOURCE=" & Application.StartupPath() & "\debit.mdb")
-        Con.Open()
+        Dim con As New OleDb.OleDbConnection("PROVIDER=Microsoft.Jet.OLEDB.4.0;DATA SOURCE=" & Application.StartupPath() & "\debit.mdb")
+        con.Open()
         Dim myadapter As New OleDb.OleDbDataAdapter("select * from debit where Name like'" + TextBox1.Text + "%'", con)
         Dim ds As New DataSet
         myadapter.Fill(ds)
@@ -93,7 +97,7 @@ Public Class debits
         For Each row As DataGridViewRow In DataGridView1.SelectedRows
             DataGridView1.Rows.Remove(row)
         Next
-        Dim con As New OleDb.OleDbConnection("PROVIDER=Microsoft.ACE.OLEDB.12.0;DATA SOURCE=" & Application.StartupPath() & "\debit.mdb")
+        Dim con As New OleDb.OleDbConnection("PROVIDER=Microsoft.Jet.OLEDB.4.0;DATA SOURCE=" & Application.StartupPath() & "\debit.mdb")
         con.Open()
         Dim delcmd As New OleDbCommand("delete * from debit where ID=" & debitform.Label8.Text & " ", con)
         delcmd.ExecuteNonQuery()
@@ -105,7 +109,7 @@ Public Class debits
         Dim cmdText As String = "UPDATE [debit] SET [Amount]=? " +
                  "WHERE [ID]=?"
 
-        Using con = New OleDbConnection("PROVIDER=Microsoft.ACE.OLEDB.12.0;DATA SOURCE=" & Application.StartupPath() & "\debit.mdb")
+        Using con = New OleDbConnection("PROVIDER=Microsoft.Jet.OLEDB.4.0;DATA SOURCE=" & Application.StartupPath() & "\debit.mdb")
             Using cmd = New OleDbCommand(cmdText, con)
                 con.Open()
                 cmd.Parameters.AddWithValue("@p1", Convert.ToString(amount))
